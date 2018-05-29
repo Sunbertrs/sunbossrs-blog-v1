@@ -1,0 +1,75 @@
+# Site settings 配置站点
+title: 'A5耀日庄主的博客'
+description: '这里是耀日庄主的博客，欢迎参观!'
+keyword:'树莓派, 我的世界, 休闲'
+url: 'http://www.yaorizhuangzhu.com' # your host
+
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
+
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
+  contact: '/contact.html'
+  links: '/links.html'
+  about me: '/AboutMe.html'
+
+# Footer
+footer:
+  庄主一出手，就只有没有!
+
+# Author 配置博主信息
+author: '耀日庄主'
+nickname: 'A5耀日庄主'
+bio: 'mc玩家,特别爱树莓派和我的世界'
+avatar: '/assets/img/profile.png'
+
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# Comments 评论功能
+comments:
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+# MathJax 公式支持 by Ray-Eldath
+mathjax: true
+
+# Share
+social-share: true
+social-share-items: ['wechat', 'QQ', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 7
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# RSS
+RSS: false
+
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
