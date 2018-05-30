@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'A5耀日庄主的博客'
 description: '这里是耀日庄主的博客，欢迎参观!'
-keyword:'树莓派, 我的世界, 休闲'
+keyword: '树莓派, 我的世界, 休闲'
 url: 'http://www.yaorizhuangzhu.com' # your host
 
 # if you don't need baseurl, you should leave this value blank.
