@@ -15,9 +15,9 @@ cover: https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/cover
 sudo apt-get install apache2
 ````
 他会叫你是否确认安装，你就选yes。  
-![avatar](https://gitee.com/srsyrzz/repository/blob/master/blogfile/apache-ubt/tnmofapa.jpg)  
+![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/tnmofapa.jpg)  
   
-![avatar](https://gitee.com/srsyrzz/repository/blob/master/blogfile/apache-ubt/needledld.jpg)  
+![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/needledld.jpg)  
 安装完成后，你就可以使用以下命令调试apache。
 开启apache
 ````
@@ -67,4 +67,4 @@ sudo apache2ctl- k restart
 我们刚才看到的 It's works! 页面就是这个文件的内容，然后将我们的文件及文件夹放到Apache24\htdocs下面，就可以成为下载站了。  
 这时候，你看到的标题是```index of *你的文件夹路径*```了。  
   
-![avatar](https://gitee.com/srsyrzz/repository/blob/master/blogfile/apache-ubt/dldpageofapache.jpg)
+![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/dldpageofapache.jpg)
