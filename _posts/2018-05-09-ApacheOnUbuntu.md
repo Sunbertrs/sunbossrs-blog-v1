@@ -7,7 +7,7 @@ tags: 教程, linux
 keywords: 教程, linux
 date: 2018-05-09
 description: '这是一个web server'
-cover: https://gitee.com/srsyrzz/repository/blob/master/blogfile/apache-ubt/cover-apacheonubt.png
+cover: https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/cover-apacheonubt.png
 ---
 
 安装apache。
