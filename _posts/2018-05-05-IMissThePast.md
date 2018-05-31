@@ -32,7 +32,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/imissthepast/co
 现在都被人说成炸妈盒子了，我有点不好意哎。
 
 给你们看看我的帖子吧。挺多的。
-![avatar](https://gitee.com/srsyrzz/repository/blob/master/blogfile/imissthepast/my-tiezi-duowan-all-now.png)
+![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/imissthepast/my-tiezi-duowan-all-now.png)
 
 # 其实....我还有很多事情
 
