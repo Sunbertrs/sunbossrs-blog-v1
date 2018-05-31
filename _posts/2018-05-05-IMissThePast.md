@@ -6,7 +6,7 @@ tags: 思想
 category: miss
 date: 2018-05-05
 keyword: 想念, 回忆, miss
-cover: 'https://gitee.com/srsyrzz/repository/blob/master/blogfile/imissthepast/cover-thecast.oh.png'
+cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/imissthepast/cover-thecast.oh.png'
 ---
 
 # 写在前面的话
