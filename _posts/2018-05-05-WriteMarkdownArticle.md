@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: '正确的写一篇markdown博文'
 subtitle: '只要你努力，markdown就会学会。'
@@ -6,7 +6,7 @@ date: 2018-05-05
 tags: MarkDown
 category: tech
 cover: 'http://m.gitee.com/srsyrzz/repository/blob/master/New%20Projec.png'
-keywords: markdown, 教程
+keywords: markdown 教程
 ---
 
 大家好，这里是第一篇博文。今天我们来教大家如何写一篇博文。  

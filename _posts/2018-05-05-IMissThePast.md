@@ -1,11 +1,11 @@
----
+﻿---
 title: '想着过去的事情'
 subtitle: '那些时光多么好啊.........'
 description: '哎........'
 tags: 思想
 category: miss
 date: 2018-05-05
-keyword: 想念, 回忆, miss
+keyword: 想念-回忆
 cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/imissthepast/cover-thecast.oh.png'
 ---
 

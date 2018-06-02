@@ -1,10 +1,10 @@
----
+﻿---
 title: 'Ubuntu系统安装apache'
 subtitle: '又是下载站，也能网站制作'
 layout: post
 category: tech
 tags: 教程, linux
-keywords: 教程, linux
+keywords: 教程 linux
 date: 2018-05-09
 description: '这是一个web server'
 cover: https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/cover-apacheonubt.png
