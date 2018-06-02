@@ -15,111 +15,8 @@ h2o这个主题的核心是由`index.html`，及其代码组成的。（简单�
 选择github。因为github检测`index.html`可以支持`YAML`。  
 *（在开始前请务必确定你的jekyll博客是h2o模板！！）*  
 我们再来看看`index.html`的内容(虽然说我也有点不明白一些内容)
-```css
----
-layout: default
-home-title: h20主题
-header-img: http://on2171g4d.bkt.clouddn.com/jekyll-banner.png
-description: Maybe is the most beautiful of jekyll theme.
----
-{% include header.html %}
-
-<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
-    <h2>{{ page.home-title }}</h2>
-    <h3>{{ page.description }}</h3>
-    {% if page.header-img %}
-    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
-    {% endif %}
-</div>
-
-<main class="g-container home-content">
-    <div class="article-list">
-        {% for post in paginator.posts %}
-            <article class="article-item">
-                {% if post.cover %}
-                <div class="post-cover">
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}"></a>
-                    <img src="{{ post.cover }}" href="{{ post.url | prepend: site.baseurl }}" alt="">
-                </div>
-                {% endif %}
-                <section class="post-preview">
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}"></a>
-                    <h2 class="post-title">{{ post.title }}</h2>
-                    {% if post.subtitle %}
-                    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-                    {% endif %}
-                    {% if post.subtitle.size==0 or post.subtitle==nil %}
-                    <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 126}}</p>
-                    {% endif %}
-                </section>
-                <footer class="post-meta">
-                    <div class="post-tags">
-                        {% if post.tags.size > 0 %}
-                            {% for tag in post.tags  %}
-                            <a href={{ "tags.html#" | append: tag | pretend: site.baseurl}} class="post-tag">{{ tag }}</a>
-                            {% endfor %}
-                        {% endif %}
-                    </div>
-                    <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
-                </footer>
-            </article>
-        {% endfor %}
-
-        {% if paginator.total_pages > 1 %}
-            {% include pageNav.html %}
-        {% endif %}
-
-    </div>
-
-    <aside class="g-sidebar-wrapper">
-        <div class="g-sidebar">
-            <section class="author-card">
-                <div class="avatar">
-                    <img src="{{ site.avatar | prepend: site.baseurl }}" alt="">
-                </div>
-                <div class="author-name" rel="author">{{ site.author }}</div>
-                <div class="bio">
-                    <p>{{ site.bio }}</p>
-                </div>
-                {% if site.sns.size > 0 %}
-                <ul id="sns-links" class="sns-links">
-                    {% for s in site.sns %}
-                    <li>
-                        <a href="{{ s[1] }}" target="_blank">
-                            <i class="iconfont icon-{{ s[0] }}"></i>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-            </section>
-
-            {% if site.recommend-tags and site.tags.size>0 %}
-            <section class="tags-card">
-                {% for tag in site.tags %}
-                    {% if forloop.index > site.recommend-condition-size %}
-                        {% break %}
-                    {% endif %}
-                    <a href="{{ "tags.html#" | append: tag[0] | prepend: site.baseurl }}" class="tag">{{ tag[0]}}</a>
-                {% endfor %}
-            </section>
-            {% endif %}
-        </div>
-
-        {% if site.search %}
-        <div class="search-card">
-            <input id="search_input" type="text" placeholder="Search...">
-            <i class="iconfont icon-search"></i>
-            <div class="search_result"></div>
-        </div>
-        {% endif %}
-
-    </aside>
-
-</main>
-
-{% include footer.html %}
-```
+  
+[在线预览-耀日庄主的jekyll博客/index.html](https://raw.githubusercontent.com/SunbossRS/SunbossRS.github.io/master/index.html)
 来看上面，有个`YAML`头。  
 我们略过它，来看下面。  
 ```css
@@ -159,7 +56,6 @@ description: Maybe is the most beautiful of jekyll theme.
 ---
 空一格，然后输入你的`html代码`。  
 **还没结束呢！**输完之后，空两格，在`你的那一行，第一格`，**记住！必须要是第一格！**，输入`</main>`，这样，就完成了整行代码。  
-  
 俗话说，有始有终，你前面输入了`{% include header.html %}`，那，你还得在空两行，第二行里写道`{% include footer.html %}`就成功的完成了自定义“h2o模板页面”的布置。  
 ---
 提交到`https://github.com`就行了！
