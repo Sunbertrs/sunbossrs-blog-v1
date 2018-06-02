@@ -1,0 +1,29 @@
+---
+layout: default
+home-title: 耀日庄主的博客
+header-img: https://gitee.com/srsyrzz/repository/raw/master/New%20Projec.png
+description: Minecraft is my SOUL!!
+---
+{% include header.html %}
+
+<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
+    <h2>{{ page.home-title }}</h2>
+    <h3>{{ page.description }}</h3>
+    {% if page.header-img %}
+    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
+    {% endif %}
+</div>
+    </aside>
+
+   <h3> 关于我 </h3>
+   <p>我是耀日庄主，是一名程序猿/学生党/mc中触。</p>
+   <p>我在触手做视频。在这里发文章。</p>
+   <p>而且，我很喜欢交朋友。你想和我交朋友吗？想的话，你可以加入我的聊天群：<a href=https://jq.qq.com/?_wv=1027&k=5ICR1iH>652262902</a>
+   <p> 我很爱好linux，你呢？</p>
+   <p>我会 html json markdown ，你呢？</p>
+   <p>这些你可能不会，不用关系。只要你愿意成为我的朋友，我非常乐意！</p>
+   
+</main>
+
+{% include footer.html %}
+
