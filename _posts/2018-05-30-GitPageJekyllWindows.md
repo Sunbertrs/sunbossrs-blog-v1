@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: '使用GitPage搭建Jekyll'
+title: 'windows使用GitPage搭建Jekyll'
 subtitle: '采用git bash'
 keywords: github jekyll 教程 windows
 tags: 教程 ubuntu github
