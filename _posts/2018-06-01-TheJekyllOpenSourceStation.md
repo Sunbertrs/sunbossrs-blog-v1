@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 'jekyll=¿ªÔ´Õ¾£¿'
-subtitle: 'ÕâÊÇ³öÏÖÎÊÌâ»¹ÊÇ²»ÍêÈ«£¿'
-keywords: ubuntu jekyll ¿ªÔ´Õ¾
-tags: ubuntu jekyll ·´À¡
+title: 'jekyll=å¼€æºç«™ï¼Ÿ'
+subtitle: 'è¿™æ˜¯å‡ºç°é—®é¢˜è¿˜æ˜¯ä¸å®Œå…¨ï¼Ÿ'
+keywords: ubuntu jekyll å¼€æºç«™
+tags: ubuntu jekyll åé¦ˆ
 category: information
 cover: 'http://p1.so.qhimgs1.com/t01199d95a4f61247c1.png'
 ---
 
-1. ´ò¿ªÖÕ¶Ë£¬Ê¹ÓÃ`apt-get`ÃüÁîÏÂÔØÁËÒÔÏÂÄÚÈİ£º
+1. æ‰“å¼€ç»ˆç«¯ï¼Œä½¿ç”¨`apt-get`å‘½ä»¤ä¸‹è½½äº†ä»¥ä¸‹å†…å®¹ï¼š
 ```css
 ruby
 rubygems-intergration
@@ -17,13 +17,13 @@ ruby-dev
 nodejs
 python2.7
 ```
-2. ÈÕ³£ÔËĞĞ`sudo gem install jekyll`  
+2. æ—¥å¸¸è¿è¡Œ`sudo gem install jekyll`  
   
-3. Ìí¼Ó²©¿ÍÏîÄ¿`jekyll new srsyrzz`  
+3. æ·»åŠ åšå®¢é¡¹ç›®`jekyll new srsyrzz`  
   
-4. ÔËĞĞ`cd srsyrzz/`È»ºó`jekyll server`  
+4. è¿è¡Œ`cd srsyrzz/`ç„¶å`jekyll server`   
   
-5. **¿ÉÊÇ£¬µ±ÎÒ½øÈë127.0.0.1Ê±£¬½çÃæ¾¹²»ÊÇ²©¿Í½çÃæ£¬¶øÊÇ¿ªÔ´Õ¾£¡£¡£¡**  
+5. **å¯æ˜¯ï¼Œå½“æˆ‘è¿›å…¥127.0.0.1æ—¶ï¼Œç•Œé¢ç«Ÿä¸æ˜¯åšå®¢ç•Œé¢ï¼Œè€Œæ˜¯å¼€æºç«™ï¼ï¼ï¼**  
   
-6. ~~ÓĞÃ»ÓĞ¸ã´í£¬¾¹È»ÊÇ¿ªÔ´Õ¾£¿£¡~~Ì«ºÃÁË£¬Ãâ·Ñ»ñµÃÁËÒ»¸ö¿ªÔ´Õ¾ÄÇ£¡£¡
+6. ~~æœ‰æ²¡æœ‰æé”™ï¼Œç«Ÿç„¶æ˜¯å¼€æºç«™ï¼Ÿï¼~~å¤ªå¥½äº†ï¼Œå…è´¹è·å¾—äº†ä¸€ä¸ªå¼€æºç«™é‚£ï¼ï¼
 ![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/jekylloss%3F/achivement.getaoss.png)
