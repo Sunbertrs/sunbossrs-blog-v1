@@ -1,40 +1,20 @@
 <html>
 <head>
     <title>SunbossRS Links</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="robots" content="noindex" />
-    <style type="text/css">
-      body {
-        width:600px;
-        margin:50px auto;
-        font:14px/1.5 'Trebuchet MS', sans-serif;
-        text-align:left;
-        background-color:#fafafa;
-      }K
-      h1 {
-        margin:0;
-        color:#7D8B99;
-        font-size:180px;
-      }
-      h3{
-        color:#7D8B99;
-        font-size: 40px;
-      }
-      h2{
-          color:#7D8B99;
-          font-size: 30px;
-      }
-      a {
-        color:#EAC100;
-        text-decoration:none;
-      }
-
-      p {
-          color:#7D8B99;
-      }
-    </style>
-</head>
+    </head>
 <body>
+    
+{% include header.html %}
+
+<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
+    <h2>{{ page.home-title }}</h2>
+    <h3>{{ page.description }}</h3>
+    {% if page.header-img %}
+    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
+    {% endif %}
+</div>
+    </aside>
+
     <h2>Links</h2>
  
     <h2>SunbossRS --> Links</h2>
@@ -64,8 +44,6 @@
    
    <p><a href="http://uipack.techplayer.org/">UIpack</a></p>
 
-<h2><a href="http://yrzzblog.com">回主页</a> </h2>
-<h2><a href="http://yrzzblog.com/contact.html">联系方式</a> </h2>
-</html>
+</main>
 
-{% include live2d.html %}
+{% include footer.html %}
