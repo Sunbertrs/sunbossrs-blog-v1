@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'h2o_jekyll主题页头html'
+title: 'h2o的主题页头html'
 subtitle: '相信大家都看到了吧，我的links.html和AboutMe.html的页头是我博客的页头的。这是怎么做到的呢？来看一看吧。'
 tags: 教程 jekyll
 keywords: 教程 jekyll 
@@ -12,7 +12,7 @@ h2o这个主题的核心是由`index.html`，及其代码组成的。（简单�
 但是，如果你用浏览器直接打开`index.html`，不但不会成功，还会看到源代码。  
 因为有`YAML头`的缘故。  
   
-选择github。因为github检测`index.html`可以支持`YAML`。  
+github检测`index.html`可以支持`YAML`。  
 *（在开始前请务必确定你的jekyll博客是h2o模板！！）*  
 我们再来看看`index.html`的内容(虽然说我也有点不明白一些内容)
   
@@ -55,8 +55,16 @@ description: Maybe is the most beautiful of jekyll theme.
 打开这个`xxxxx.html`，然后吧上面的东西放到这里。  
 ---
 空一格，然后输入你的`html代码`。  
-**还没结束呢！**输完之后，空两格，在`你的那一行，第一格`，**记住！必须要是第一格！**，输入`</main>`，这样，就完成了整行代码。  
-俗话说，有始有终，你前面输入了`{% include header.html %}`，那，你还得在空两行，第二行里写道`{% include footer.html %}`就成功的完成了自定义“h2o模板页面”的布置。  
+**还没结束呢！**输完之后，空两格，在`你的那一行，第一格`，**记住！必须要是第一格！**输入
+
+```css
+
+</main>
+
+{% include footer.html %}
+
+```
+俗话说，有始有终，你前面输入了这些东西，那，你的`main`和` include header.html `就成功的完成了自定义“h2o模板页面”的`结尾`。  
 ---
 提交到`https://github.com`就行了！
 
