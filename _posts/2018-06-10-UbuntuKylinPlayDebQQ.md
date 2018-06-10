@@ -11,6 +11,7 @@ cover: 'http://www.ubuntukylin.com/public/images/s_ubuntukylin1804.jpg'
 今天，我们在ubuntukylin系统里面安装wineQQ（不要问我为什么又换了系统）  
 > ubuntukylin系统比任何系统都不一样，因为他用mate作为桌面环境,并对该环境做了一定的修改,成为ukui.所以我们现在在ubuntukylin里,用的都是mate配套的软件.  
 MATE可以运行wine,不过有点麻烦.  
+  
 ### 1.下载wine
 首先,我们运行命令:
 ```css
@@ -22,13 +23,13 @@ wine --version
 ### 2.准备你的deb包
 QQ有6.4版本和6.6版本的deb包，都有些缺陷，比如截不了图啊，键盘输不了密码之类的，可以用就拿去用吧.下面是下载：  
   
-[QQ6.4 32位下载(*.tar.gz)](http://pan.baidu.com/s/1eQgU5xS)
-[QQ6.4 64位下载(*.deb)](http://pan.baidu.com/s/1mggLMB2)
+[QQ6.4 32位下载<*.tar.gz>](http://pan.baidu.com/s/1eQgU5xS)
+[QQ6.4 64位下载<*.deb>](http://pan.baidu.com/s/1mggLMB2)
   
-[QQ6.6 32位下载(*.deb)](http://pan.baidu.com/s/1qWt4WUC)
-[QQ6.6 64位下载(*.deb)](http://pan.baidu.com/s/1sjnxtyl)
+[QQ6.6 32位下载<*.deb>](http://pan.baidu.com/s/1qWt4WUC)
+[QQ6.6 64位下载<*.deb>](http://pan.baidu.com/s/1sjnxtyl)
   
-[QQ7.8 Longene(*.deb)](http://www.longene.org/download/WineQQ7.8-20151109-Longene.deb)
+[QQ7.8 Longene<*.deb>](http://www.longene.org/download/WineQQ7.8-20151109-Longene.deb)
   
 ### 3.安装
 Wine的deb包不能直接安装,我们要用命令安装:
