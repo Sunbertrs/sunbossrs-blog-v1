@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: 'ubuntu使用GitPage搭建Jekyll'
-subtitle: '采用git bash'
+subtitle: '采用git '
 keywords: github jekyll 教程 ubuntu
 tags: 教程 ubuntu github
 category: tech
