@@ -34,25 +34,65 @@ winecfg
 *txplatform.exe
 ```
 然后把这三个函数弄成这样:  
+```css
+*ntoskrnl.exe          -->  停用
+*riched20              -->  原装(windows)
+*txplatform.exe        -->  停用
+```
 ![avatar](https://img.ithome.com/newsuploadfiles/2017/5/20170503_130210_364.jpg)  
-其中：停用ntoskrnl.exe是为了解决无法正常启动QQ的问题，使用原装的riched20是为了规避无法输入用户名的Bug，停用txplatform.exe是为了避免QQ无法完整退出而滞留整个Wine容器的问题。  
-  
+*(这是ubuntu,不是ubuntukylin.所以配置有所不同.)*
+其中：停用ntoskrnl.exe是为了解决无法正常启动QQ的问题，使用原装windows的riched20是为了规避无法输入用户名的Bug，停用txplatform.exe是为了避免QQ无法完整退出而滞留整个Wine容器的问题。  
 然后保存.
-### 4.安装
+### 4. 设置字体(修复中文乱码的bug)
+在桌面（或者哪里都行）创建一个名字叫做`zh.reg`的文件，该文件里输入以下内容：
+```css
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"Arial"="WenQuanYi Zenhei"
+"Arial CE,238"="WenQuanYi Zenhei"
+"Arial CYR,204"="WenQuanYi Zenhei"
+"Arial Greek,161"="WenQuanYi Zenhei"
+"Arial TUR,162"="WenQuanYi Zenhei"
+"Courier New"="WenQuanYi Zenhei"
+"Courier New CE,238"="WenQuanYi Zenhei"
+"Courier New CYR,204"="WenQuanYi Zenhei"
+"Courier New Greek,161"="WenQuanYi Zenhei"
+"Courier New TUR,162"="WenQuanYi Zenhei"
+"FixedSys"="WenQuanYi Zenhei"
+"Helv"="WenQuanYi Zenhei"
+"Helvetica"="WenQuanYi Zenhei"
+"MS Sans Serif"="WenQuanYi Zenhei"
+"MS Shell Dlg"="WenQuanYi Zenhei"
+"MS Shell Dlg 2"="WenQuanYi Zenhei"
+"System"="WenQuanYi Zenhei"
+"Tahoma"="WenQuanYi Zenhei"
+"Times"="WenQuanYi Zenhei"
+"Times New Roman CE,238"="WenQuanYi Zenhei"
+"Times New Roman CYR,204"="WenQuanYi Zenhei"
+"Times New Roman Greek,161"="WenQuanYi Zenhei"
+"Times New Roman TUR,162"="WenQuanYi Zenhei"
+"Tms Rmn"="WenQuanYi Zenhei"
+```
+保存．  
+然后在终端输入`wine regedit`  
+`注册表>导入注册表文件>zh.reg`  
+保存.
+
+### 5.安装
 ```css
 wine ~/下载/*文件名*.exe
 ```
 然后进入安装页面.
-### 5.进入
+### 6.进入
 这时安装好了,你的QQ应处于`~/.wine/drive_c/Program Files (x86)/Tencent/QQ/Bin`目录下.  
   
 使用
 ```css
-cd ~/.wine/drive_c/Program Files (x86)/Tencent/QQ/Bin
+cd .wine/drive_c/Program\ Files\ \(x86\)/Tencent/QQ/Bin
 wine QQ.exe
 ```
 来运行QQ.你喜欢,也可以试试
 ```css
-cp ~/.wine/drive_c/Program Files (x86)/Tencent/QQ/Bin/QQ.exe ~/桌面/
+cp cd .wine/drive_c/Program\ Files\ \(x86\)/Tencent/QQ/Bin/QQ.exe ~/桌面
 ```
 
