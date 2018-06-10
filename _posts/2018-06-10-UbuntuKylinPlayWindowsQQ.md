@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '在优麒麟系统里安装wineQQ'
+title: '在优麒麟系统里安装Windows QQ'
 description: '没想到吧。。。。'
 tags: linux ubuntu 教程
 keywords: linux ubuntukylin 教程 ubuntu
