@@ -14,6 +14,7 @@ MATE可以运行wine,不过有点麻烦.
 ### 1.下载wine
 首先,我们运行命令:
 ```css
+sudo dpkg --add-architecture i386
 sudo apt install wine1.6
 wine --version
 ```
