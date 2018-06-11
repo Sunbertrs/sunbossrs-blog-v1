@@ -32,17 +32,23 @@ winecfg
 *ntoskrnl.exe
 *riched20
 *txplatform.exe
+*msls31.dll
+*dwrite.dll
 ```
 然后把这三个函数弄成这样:  
 ```css
 *ntoskrnl.exe          -->  停用
 *riched20              -->  原装(windows)
 *txplatform.exe        -->  停用
+*msls31.dll            -->  原装(windows)
+*dwrite.dll            -->  原装(windows)
 ```
 ![avatar](https://img.ithome.com/newsuploadfiles/2017/5/20170503_130210_364.jpg)  
-*(这是ubuntu,不是ubuntukylin.所以配置有所不同.)*
-其中：停用ntoskrnl.exe是为了解决无法正常启动QQ的问题，使用原装windows的riched20是为了规避无法输入用户名的Bug，停用txplatform.exe是为了避免QQ无法完整退出而滞留整个Wine容器的问题。  
-然后保存.
+*(这是ubuntu,不是ubuntukylin.所以配置有所不同.)*  
+亲测：  
+停用`ntoskrnl.exe`是为了解决无法正常启动QQ的问题，使用原装windows的`riched20`是为了规避无法输入用户名的Bug，停用`txplatform.exe`是为了避免QQ无法完整退出而滞留整个Wine容器的问题，使用原装的`*msls31.dll`和`*dwrite.dll`是因为不要让这两个控件因为不受控制而让QQ突然崩溃。  
+然后保存.  
+![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ukqq/2018-06-11%2018-12-09shotscreen.png)
 ### 4. 设置字体(修复中文乱码的bug)
 在桌面（或者哪里都行）创建一个名字叫做`zh.reg`的文件，该文件里输入以下内容：
 ```css
@@ -76,8 +82,8 @@ REGEDIT4
 保存．  
 然后在终端输入`wine regedit`  
 `注册表>导入注册表文件>zh.reg`  
-保存.
-
+保存.  
+随后，你就可以删除这个`zh.reg`文件了。
 ### 5.安装
 ```css
 wine ~/下载/*文件名*.exe
@@ -88,11 +94,7 @@ wine ~/下载/*文件名*.exe
   
 使用
 ```css
-cd .wine/drive_c/Program\ Files\ \(x86\)/Tencent/QQ/Bin
-wine QQ.exe
+wine .wine/drive_c/Program\ Files\ \(x86\)/Tencent/QQ/Bin/QQ.exe
 ```
-来运行QQ.你喜欢,也可以试试
-```css
-cp cd .wine/drive_c/Program\ Files\ \(x86\)/Tencent/QQ/Bin/QQ.exe ~/桌面
-```
-
+来运行QQ.  
+以后，运行QQ就是用上面的那个命令。
