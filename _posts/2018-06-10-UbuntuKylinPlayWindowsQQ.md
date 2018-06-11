@@ -11,6 +11,7 @@ cover: 'http://www.ubuntukylin.com/public/images/s_ubuntukylin1804.jpg'
 今天，我们在ubuntukylin系统里面安装wineQQ（不要问我为什么又换了系统）  
 > ubuntukylin系统比任何系统都不一样，因为他用mate作为桌面环境,并对该环境做了一定的修改,成为ukui.所以我们现在在ubuntukylin里,用的都是mate配套的软件.  
 MATE可以运行wine,不过有点麻烦.
+  
 ### 1.下载wine
 首先,我们运行命令:
 ```css
