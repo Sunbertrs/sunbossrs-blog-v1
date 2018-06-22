@@ -45,7 +45,7 @@ winecfg
 *dwrite.dll            -->  原装(windows)
 ```
 ![avatar](https://img.ithome.com/newsuploadfiles/2017/5/20170503_130210_364.jpg)  
-(这是`&sqp'`简便`&sqp'`.)  
+(这是♂简便♂.)  
   
 亲测：  
 停用`ntoskrnl.exe`是为了解决无法正常启动QQ的问题，使用原装windows的`riched20`是为了规避无法输入用户名的Bug，停用`txplatform.exe`是为了避免QQ无法完整退出而滞留整个Wine容器的问题，使用原装的`*msls31.dll`和`*dwrite.dll`是因为不要让这两个控件因为不受控制而让QQ突然崩溃。  
