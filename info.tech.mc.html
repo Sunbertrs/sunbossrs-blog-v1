@@ -23,7 +23,7 @@
     e_minsold=(e_hrsold-hrsold)*60;
     minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
     seconds=setzero(Math.floor((e_minsold-minsold)*60));
-    span_dt_dt.innerHTML="WasRun"+daysold+"Day"+hrsold+"Hour"+minsold+"Minute"+seconds+"Second";
+    span_dt_dt.innerHTML=+daysold+" Day "+hrsold+" Hour "+minsold+" Minute "+seconds+" Second ";
     }
     function setzero(i){
     if (i<10)
