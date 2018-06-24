@@ -8,9 +8,11 @@ subtitle: '廖柯宇，有人把你的jekyll模板做成网站模板拉！！'
 category: information
 cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/jekyll-theme-h2o-postcover.jpg'
 ---
+
 我果然认为h2o最好。  
 这两次——`h2o分页`和`这次`，我都把廖柯宇的jekyll主题——h2o(for jekyll)玩坏了，哪有人这样的。。。。  
 好吧，这次我又乱玩，把内容都给改了！现在他很成功的用在了[pi-imagedownload.github.io](https://pi-imagedownload.github.io)里。
+
 ---
 ### 既来之，则安之
 好吧，说到pi-imagedownload.github.io这个网站，我就告诉你我最近在做树莓派镜像下载网。  
