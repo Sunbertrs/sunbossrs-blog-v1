@@ -24,7 +24,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/jekyll-the
 Here you are.
 <table>
   <tr>
-    <td><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">来吧～</a></td>
+    <td><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">点击来下载.</a></td>
   </tr>
 <table>
 
