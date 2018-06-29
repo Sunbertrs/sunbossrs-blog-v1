@@ -1,5 +1,5 @@
 ---
-layout: poat
+layout: post
 title: '网站的存在时间代码'
 description: 'Ohhhh。这是第几次写有关网站优化的博文了？'
 category: tech
