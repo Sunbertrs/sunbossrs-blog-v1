@@ -10,3 +10,35 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_201806
 
 看看效果图。  
 ![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_20180628_213338.png)
+我先来讲解一下。  
+![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_20180628_213559.png)
+  
+这次，你可以在页尾，也可以在一个html文件，或者其他。总之是一个html的文件。 
+看看代码:
+```css
+  <SPAN id="span_dt_dt"></SPAN>
+    <SCRIPT language=javascript>
+    function show_date_time(){
+    window.setTimeout("show_date_time()", 1000);
+    BirthDay=new Date("5/27/2018 18:27:01"); //注释:月-日-年  时-分-秒
+    today=new Date();
+    timeold=(today.getTime()-BirthDay.getTime());
+    sectimeold=timeold/1000
+    secondsold=Math.floor(sectimeold);
+    msPerDay=24*60*60*1000
+    e_daysold=timeold/msPerDay
+    daysold=Math.floor(e_daysold);
+    e_hrsold=(e_daysold-daysold)*24;
+    hrsold=setzero(Math.floor(e_hrsold));
+    e_minsold=(e_hrsold-hrsold)*60;
+    minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+    seconds=setzero(Math.floor((e_minsold-minsold)*60));
+    span_dt_dt.innerHTML=+daysold+"Day "+hrsold+"Hour "+minsold+"Minute "+seconds+"Second ";
+    }
+    function setzero(i){
+    if (i<10)
+    {i="0" + i};
+    return i;
+    }
+    show_date_time();
+    </SCRIPT>
