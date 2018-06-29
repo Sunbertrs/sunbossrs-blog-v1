@@ -21,11 +21,16 @@ footer:
 # Author 配置博主信息
 author: '耀日庄主'
 nickname: 'A5耀日庄主'
-bio: 'mc玩家,特别爱树莓派和我的世界'
+bio: 'mc玩家,我的世界万岁!!'
 avatar: '/assets/img/profile.png'
 
 # Search
 search: true
+
+# Reward 赞赏功能，我改成了投稿提示。。
+reward:
+  enable: true
+  reward_comment: '现在耀日庄主征求你的想法!'
 
 # Night mode
 nightMode: true
