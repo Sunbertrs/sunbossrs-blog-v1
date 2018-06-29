@@ -16,6 +16,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_201806
 这次，你可以在页尾，也可以在一个html文件，或者其他。总之是一个html的文件。 
 看看代码:
 ```css
+
   <SPAN id="span_dt_dt"></SPAN>
     <SCRIPT language=javascript>
     function show_date_time(){
@@ -33,7 +34,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_201806
     e_minsold=(e_hrsold-hrsold)*60;
     minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
     seconds=setzero(Math.floor((e_minsold-minsold)*60));
-    span_dt_dt.innerHTML=+daysold+"Day "+hrsold+"Hour "+minsold+"Minute "+seconds+"Second ";
+    span_dt_dt.innerHTML="已存在"+daysold+"天，"+hrsold+"小时，"+minsold+"分钟，"+seconds+"秒。";
     }
     function setzero(i){
     if (i<10)
@@ -42,3 +43,6 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_201806
     }
     show_date_time();
     </SCRIPT>
+```
+把这样代码的创始日期填上，我这里的`"已存在"`可以删除掉。  
+然后看看你的那个网页什么情况。
