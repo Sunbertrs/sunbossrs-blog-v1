@@ -11,7 +11,7 @@ refer to:
     width: 90%;
     text-align: center;
   }
-  .postcontentButton {
+  .rewardButton {
     background-color: #f44236;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -24,11 +24,63 @@ refer to:
     padding: 5px 25px;
     text-decoration: none;
   }
-  .postcontentButton:hover {
+  .rewardButton:hover {
     background-color: #F7877F;
+  }
+  .wechat:hover p {
+    animation: roll 0.1s infinite linear;
+    -webkit-animation: roll 0.1s infinite linear;
+    -moz-animation: roll 0.1s infinite linear;
+  }
+  .alipay:hover p {
+    animation: roll 0.1s infinite linear;
+    -webkit-animation: roll 0.1s infinite linear;
+    -moz-animation: roll 0.1s infinite linear;
+  }
+  .QR {
+    padding-top: 20px;
+  }
+  .QR a {
+    border: 0;
+  }
+  .QR img {
+    width: 180px;
+    max-width: 100%;
+    display: inline-block;
+    margin: 0.8em 2em 0 2em;
   }
 </style>
 
-<p>想要让耀日庄主收录你的想法吗?你想让耀日庄主顺你意吗？请发送你的想法到<strong>yaorizhuqngzhu@163.com</strong>，<strong>3127723014@qq.com</strong>或者是<strong>3060515359@qq.com</strong>。</p>
-<br>
-<p>感谢你的想法!可以告诉给我听!</p>
+<div class="reward">
+  <a class="rewardButton" title="请{{ site.author }}喝杯咖啡？">赞 赏</a>
+
+  <div class="QR" style="display: none;">
+    {% if site.reward.reward_comment %}
+    <div>
+      <span style="font-family: '微软雅黑'; font-size: 18px; ">{{ site.reward.reward_comment }}</span>
+    </div>
+    {% endif %}
+
+    {% if site.reward.wechatpay %}
+    <div class="wechat" style="display: inline-block">
+      <img class="wechat_qr" src="{{ site.reward.wechatpay }}" title="用微信请{{ site.author }}喝杯咖啡？" alt="用微信请{{ site.author }}喝杯咖啡？" />
+      <p>微信支付</p>
+    </div>
+    {% endif %}
+
+    {% if site.reward.alipay %}
+    <div class="alipay" style="display: inline-block">
+      <img class="alipay_qr" src="{{ site.reward.alipay }}" title="用支付宝请{{ site.author }}喝杯咖啡？" alt="用支付宝请{{ site.author }}喝杯咖啡？" />
+      <p>支付宝</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("a.rewardButton").click(function() {
+      $("div.QR").slideToggle()
+    });
+  });
+</script>
