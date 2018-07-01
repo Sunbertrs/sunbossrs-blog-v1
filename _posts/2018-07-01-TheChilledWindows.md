@@ -27,7 +27,7 @@ Belive everyone can see,this blog content's cover is show us three files.
 
 <table>
   <tr>
-	<td><a href "https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.mp4">This video ...</a></td>
+	<td><a href "https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.mp4">video</a></td>
   </tr>
 </table>
 	
