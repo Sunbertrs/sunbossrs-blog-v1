@@ -7,14 +7,14 @@ url: 'http://sunbossrs.github.io' # your host
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
 
-# Navigation links
+# Navigation links 导航
 nav:
   home: '/'
   tags: '/tags.html'
   links: '/links.html'
   about me: '/AboutMe.html'
 
-# Footer
+# Footer 底部信息
 footer:
   庄主一出手，就只有没有!
 
@@ -24,40 +24,35 @@ nickname: 'A5耀日庄主'
 bio: 'mc玩家,我的世界万岁!!'
 avatar: '/assets/img/profile.png'
 
-# Search
+# Search 搜索
 search: true
 
-# Reward 赞赏功能，我改成了投稿提示。。
-reward:
-  enable: true
-  reward_comment: '现在耀日庄主征求你的想法!'
-
-# Night mode
+# Night mode 夜间模式
 nightMode: true
 
 # Comments 评论功能
 comments:
-  disqus: false
+  disqus: true
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
 
-# Share
+# Share 分享功能
 social-share: true
 social-share-items: ['wechat', 'QQ', 'twitter']
 
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
 
-# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+# Post header background patterns 选择背景样板
 postPatterns: 'circuitBoard'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
-# Build settings
+# Build settings 建站设置
 paginate: 7
 paginate_path: 'page:num'
 exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
@@ -71,9 +66,9 @@ kramdown:
 # RSS
 RSS: false
 
-# Permalink
+# Permalink 
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
 permalink: /:year/:month/:day/:title.html
 
-# Plugins
+# Plugins 
 plugins: [jekyll-paginate]
