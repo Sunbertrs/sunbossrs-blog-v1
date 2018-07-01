@@ -40,10 +40,9 @@ mathjax: true
 
 # Share 分享功能
 social-share: true
-social-share-items: ['wechat', 'QQ', 'twitter']
 
 # theme color 主题皮肤
-theme-color: 'default'  # pink or default
+theme-color: 'pink'  # pink or default
 
 # Post header background patterns 选择背景样板
 postPatterns: 'circuitBoard'
@@ -66,7 +65,7 @@ kramdown:
 # RSS
 RSS: false
 
-# Permalink 
+# Permalink 文章网站
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
 permalink: /:year/:month/:day/:title.html
 
