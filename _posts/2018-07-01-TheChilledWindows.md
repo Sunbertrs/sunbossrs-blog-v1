@@ -16,11 +16,21 @@ Belive everyone can see,this blog content's cover is show us three files.
 <table>
   <tr>
     <td><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/ChilledWindows.exe">The "virus"</a></td>
-	<td><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.MP3">Would you want to get it like a ring?;D</a></td>
-	<td><a href "https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.mp4">This video ...</a></td>
   </tr>
 </table>
 
+<table>
+  <tr>
+	<td><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.MP3">Would you want to get it like a ring?;D</a></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+	<td><a href "https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.mp4">This video ...</a></td>
+  </tr>
+</table>
+	
 Enjoy it?
 
 *(Hah,I have a idea of 反迷你!)*
