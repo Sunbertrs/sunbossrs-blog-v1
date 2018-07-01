@@ -16,7 +16,7 @@ Belive everyone can see,this blog content's cover is show us three files.
   <tr>
     <td><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/ChilledWindows.exe">The "virus"</a></td>
 	<td><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.MP3">Would you want to get it like a ring?;D</a></td>
-	<td><a href"https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.mp4">Oh,XP/windows7 screen?</a></td>
+	<td><a href "https://gitee.com/srsyrzz/repository/raw/master/blogfile/chilledwindows/chilledwindows.mp4">Oh,XP/windows7 screen?</a></td>
   </tr>
 </table>
 Enjoy it?
