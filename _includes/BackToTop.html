@@ -1,6 +1,7 @@
-<!--------------------
+<!------
 Thanks Ray-Eldath.
---------------------->
+The file is will work when the page is look down
+------->
 <style media="screen">
   .scroll {
     z-index: 10000;
@@ -26,8 +27,8 @@ Thanks Ray-Eldath.
 <script src="/assets/js/util.js"></script>
 <script type="text/javascript">
   $(document).ready(function() {
-    if (utils.isMobile()) {
-      $('.scroll').hide();
+    if (utils.isMobile()) {  //检测是不是手机模式
+      $('.scroll').hide();   //如果是就隐藏bakt to top
       return;
     }
     $(window).scroll(function() {
