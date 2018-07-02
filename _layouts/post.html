@@ -214,12 +214,20 @@ Thanks Ray-Eldath for the button section.
   </script>
   {% endif %}
   
-    {% if site.livere %}
-    <section class="post-footer-item comment">
-      <div id="lv-container" data-id="city" data-uid="{{ site.livere_uid }}">
-    </section>
-    {% endif %}
-      
+  <div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'Your GitHub username',
+    repo: 'The repo to store comments',
+    oauth: {
+        client_id: 'Your client ID',
+        client_secret: 'Your client secret',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
   </section>
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
