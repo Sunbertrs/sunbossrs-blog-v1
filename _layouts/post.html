@@ -213,7 +213,14 @@ Thanks Ray-Eldath for the button section.
     })();
   </script>
   {% endif %}
-
+  
+    {% if site.livere %}
+    <section class="post-footer-item comment">
+      <div id="lv-container" data-id="city" data-uid="{{ site.livere_uid }}">
+    </section>
+    {% endif %}
+      
+  </section>
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
 </body>
