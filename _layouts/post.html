@@ -174,7 +174,9 @@ Thanks Ray-Eldath for the button section.
   </section>
   <hr>
   <p>评论区/comment</p>
-      {% if site.comments.gitalk %}
+	
+   {% if site.comments.gitalk %}
+	
     var gitalk = new Gitalk({
 		  clientID: '{{ site.comments.gitalk_clientID }}',
 		  clientSecret: '{{ site.comments.gitalk_Secret }}',
