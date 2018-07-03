@@ -171,12 +171,23 @@ Thanks Ray-Eldath for the button section.
           {% endif %}
       </div>
       {% endif %}
-    </section>
-    <section class="post-footer-item comment">
-      <div id="disqus_thread"></div>
-    </section>
   </section>
-
+  <hr>
+  <p>评论区/comment</p>
+  
+     {% if site.comments.gitalk %}
+    var gitalk = new Gitalk({
+		  clientID: '{{ site.comments.gitalk_clientID }}',
+		  clientSecret: '{{ site.comments.gitalk_Secret }}',
+		  repo: '{{ site.comments.gitalk_repo }}',
+		  owner: '{{ site.comments.gitalk_owner }}',
+		  admin: '{{ site.comments.gitalk_admin }}',
+		  id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+		  distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
+		})
+		gitalk.render('gitalk_container')
+    {% endif %}
+  
   {% include footer.html %}
 
   <script src="/assets/js/social-share.min.js"></script>
@@ -194,39 +205,6 @@ Thanks Ray-Eldath for the button section.
     });
   </script>
   <!-LOL!Disqus被封，我也只好用gitment了>
-  
-const myTheme = {
-  render(state, instance) {
-    const container = document.createElement('div')
-    container.lang = "en-US"
-    container.className = 'gitment-container gitment-root-container'
-    container.appendChild(instance.renderHeader(state, instance))
-    container.appendChild(instance.renderEditor(state, instance))
-    container.appendChild(instance.renderComments(state, instance))
-    container.appendChild(instance.renderFooter(state, instance))
-    return container
-  },
-}
-const gitment = new Gitment({
-  // ...
-  theme: myTheme,
-})
-gitment.render('container')
-  
-  <div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-    owner: 'SunbossRS',
-    repo: 'SunbossRS.github.io',
-    oauth: {
-        client_id: '800a929ad18c8e90fdbc',
-        client_secret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58',
-    },
-});
-gitment.render('gitmentContainer');
-</script>
   
   </section>
   <script src="/assets/js/prism.js"></script>
