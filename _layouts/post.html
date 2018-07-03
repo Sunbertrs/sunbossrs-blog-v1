@@ -174,17 +174,8 @@ Thanks Ray-Eldath for the button section.
   </section>
   <hr>
   <p>评论区/comment</p>
-  const gitalk = new Gitalk({
-  clientID: '800a929ad18c8e90fdbc',
-  clientSecret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58',
-  repo: 'SunbossRS.github.io',
-  owner: 'SunbossRS',
-  admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
-  id: location.pathname,      // Ensure uniqueness and length less than 50
-  distractionFreeMode: false  // Facebook-like distraction free mode
-})
-
-gitalk.render('gitalk-container')
+	
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 	
   {% include footer.html %}
 
