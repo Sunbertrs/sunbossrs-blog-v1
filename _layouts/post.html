@@ -194,6 +194,25 @@ Thanks Ray-Eldath for the button section.
     });
   </script>
   <!-LOL!Disqus被封，我也只好用gitment了>
+  
+const myTheme = {
+  render(state, instance) {
+    const container = document.createElement('div')
+    container.lang = "en-US"
+    container.className = 'gitment-container gitment-root-container'
+    container.appendChild(instance.renderHeader(state, instance))
+    container.appendChild(instance.renderEditor(state, instance))
+    container.appendChild(instance.renderComments(state, instance))
+    container.appendChild(instance.renderFooter(state, instance))
+    return container
+  },
+}
+const gitment = new Gitment({
+  // ...
+  theme: myTheme,
+})
+gitment.render('container')
+  
   <div id="gitmentContainer"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
