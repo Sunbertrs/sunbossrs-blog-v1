@@ -173,6 +173,20 @@ Thanks Ray-Eldath for the button section.
       {% endif %}
   </section>
   <hr>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  
+  var gitalk = new Gitalk({
+  clientID: 'GitHub Application Client ID',
+  clientSecret: 'GitHub Application Client Secret',
+  repo: 'GitHub repo',
+  owner: 'GitHub repo owner',
+  admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
+  id: location.pathname,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
  
   {% include footer.html %}
 
