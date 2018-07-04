@@ -31,21 +31,22 @@ search: true
 nightMode: true
 
 # Back to top 回到顶部by SunbossRS
+
 # Comments 评论功能
 comments:
-  disqus: false
+  disqus: true
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
- 
-  livere: false
 
-  gitalk: true 
+  # gitalk comments by tea9
+  # 相关配置请看 http://note.youdao.com/noteshare?id=6ea132ba501b49b2928125a694cc9ad9
+  gitalk: true
   gitalk_clientID: '800a929ad18c8e90fdbc'
   gitalk_Secret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58'
   gitalk_repo: 'SunbossRS.github.io'
   gitalk_owner: 'SunbossRS'
   gitalk_admin: 'SunbossRS'
-  distractionFreeMode: true  
-
+  distractionFreeMode: false
+  
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
 
