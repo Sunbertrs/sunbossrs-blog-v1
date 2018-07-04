@@ -92,10 +92,80 @@ x;
                     <i class="iconfont icon-{{ s[0] }}"></i>
                 </a>
         </li>
+	            <!Start 'TouGao' plugin.>
+      <style media="screen">
+    .reward {
+        padding: 5px 0;
+        margin: 20px auto;
+        width: 90%;
+        text-align: center;
+    }
+    .rewardButton {
+        background-color: #f44236;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: '微软雅黑';
+        font-size: 18px;
+        padding: 5px 25px;
+        text-decoration: none;
+    }
+    .rewardButton:hover {
+        background-color: #F7877F;
+    }
+    .wechat:hover p {
+        animation: roll 0.1s infinite linear;
+        -webkit-animation: roll 0.1s infinite linear;
+        -moz-animation: roll 0.1s infinite linear;
+    }
+    .alipay:hover p {
+        animation: roll 0.1s infinite linear;
+        -webkit-animation: roll 0.1s infinite linear;
+        -moz-animation: roll 0.1s infinite linear;
+    }
+    .QR {
+        padding-top: 20px;
+    }
+    .QR a {
+        border: 0;
+    }
+    .QR img {
+        width: 180px;
+        max-width: 100%;
+        display: inline-block;
+        margin: 0.8em 2em 0 2em;
+    }
+</style>
+
+<div class="reward">
+    <a class="rewardButton" title="请{{ site.author }}喝杯咖啡？">赞赏</a>
+
+    <div class="QR" style="display: none;">
+
+            <p>微信支付</p>
+            <p>比特币：13yiJdvBS3upRo4zAVCz4t98og2ob3ZxPr</p
+              
+            <p>支付宝</p>
+            <p>以太坊：0xb8A54bB2283A34cA8b53B1A425820A7775aff220</p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("a.rewardButton").click(function() {
+            $("div.QR").slideToggle()
+        });
+    });
+</script>
         {% endfor %}
       </ul>
       {% endif %}
     </section>
+	  
     <section class="post-footer-item read-next">
       {% if page.next.url %}
       <div class="read-next-item">
@@ -130,7 +200,6 @@ x;
       <div id="gitalk_container"></div>
     </section>
   </section>
-
   {% include footer.html %}
 
   <script src="/assets/js/social-share.min.js"></script>
