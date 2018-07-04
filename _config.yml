@@ -1,8 +1,8 @@
 # Site settings 配置站点
 title: 'A5耀日庄主的博客'
-description: '这里是耀日庄主的博客，欢迎参观!'
-keyword: '树莓派, 我的世界, 休闲'
-url: 'http://sunbossrs.github.io' # your host
+description: '耀日庄主的博客!'
+keyword: 'minecraft / 科技 / html / 尝试'
+url: 'sunbossrs.mc' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -21,7 +21,7 @@ footer:
 # Author 配置博主信息
 author: '耀日庄主'
 nickname: 'A5耀日庄主'
-bio: 'mc玩家,我的世界万岁!!'
+bio: '我的世界万岁!!'
 avatar: '/assets/img/profile.png'
 
 # Search 搜索
@@ -30,20 +30,21 @@ search: true
 # Night mode 夜间模式
 nightMode: true
 
+# Back to top 回到顶部by SunbossRS
 # Comments 评论功能
-disqus:
-  enable: false
-  
-livere: 
-  enable: false
+comments:
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+ 
+  livere: false
 
-gitalk: true
-gitalk_clientID: '800a929ad18c8e90fdbc'
-gitalk_Secret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58'
-gitalk_repo: 'SunbossRS.github.io'
-gitalk_owner: 'SunbossRS'
-gitalk_admin: 'SunbossRS'
-distractionFreeMode: true  
+  gitalk: true 
+  gitalk_clientID: '800a929ad18c8e90fdbc'
+  gitalk_Secret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58'
+  gitalk_repo: 'SunbossRS.github.io'
+  gitalk_owner: 'SunbossRS'
+  gitalk_admin: 'SunbossRS'
+  distractionFreeMode: true  
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
@@ -65,6 +66,13 @@ recommend-condition-size: 12 # a tag will be recommended if the size of it is mo
 paginate: 7
 paginate_path: 'page:num'
 exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# SNS settings 配置社交网站
+#支持这些: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  github: '//github.com/sunbossrs'
+  email: '//yaorizhuangzhu@163.com'
+  twitter: '//twitter.com/mcsunboss'
 
 # Markdown
 markdown: kramdown

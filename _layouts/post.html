@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <!--
 Author: SunbossRS
-The *TouGao* button in the content's end.
-Thanks Ray-Eldath for the button section.
+* Create "TouGao" button.
+* Thanks Ray-Eldath for the button section.
+* Thanks Tea9 for the post comment section.
 -->
 
 <html>
+<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+
 {% include post-head.html %}
 
 <body>
@@ -50,8 +53,8 @@ Thanks Ray-Eldath for the button section.
     </div>
     {% endif %}
   </div>
+
   
-<br>
   <section class="author-detail">
     <section class="post-footer-item author-card">
       <div class="avatar">
@@ -72,15 +75,15 @@ Thanks Ray-Eldath for the button section.
         {% endfor %}
       </ul>
       {% endif %}
-      <!Start 'TouGao' plugin.>
+	  	  
       <style media="screen">
-    .reward {
+    .post {
         padding: 5px 0;
         margin: 20px auto;
         width: 90%;
         text-align: center;
     }
-    .rewardButton {
+    .postButton {
         background-color: #f44236;
         -moz-border-radius: 8px;
         -webkit-border-radius: 8px;
@@ -93,26 +96,16 @@ Thanks Ray-Eldath for the button section.
         padding: 5px 25px;
         text-decoration: none;
     }
-    .rewardButton:hover {
+    .postButton:hover {
         background-color: #F7877F;
     }
-    .wechat:hover p {
-        animation: roll 0.1s infinite linear;
-        -webkit-animation: roll 0.1s infinite linear;
-        -moz-animation: roll 0.1s infinite linear;
-    }
-    .alipay:hover p {
-        animation: roll 0.1s infinite linear;
-        -webkit-animation: roll 0.1s infinite linear;
-        -moz-animation: roll 0.1s infinite linear;
-    }
-    .QR {
+    .postidea {
         padding-top: 20px;
     }
-    .QR a {
+    .postidea a {
         border: 0;
     }
-    .QR img {
+    .postidea img {
         width: 180px;
         max-width: 100%;
         display: inline-block;
@@ -120,16 +113,18 @@ Thanks Ray-Eldath for the button section.
     }
 </style>
 
-<div class="reward">
-    <a class="rewardButton" title="请{{ site.author }}喝杯咖啡？">赞赏</a>
+<div class="postidea">
+    <a class="postidea" title="请{{ site.author }}听取你的文章想法？">投稿文章</a>
 
-    <div class="QR" style="display: none;">
-
-            <p>微信支付</p>
-            <p>比特币：13yiJdvBS3upRo4zAVCz4t98og2ob3ZxPr</p
-              
-            <p>支付宝</p>
-            <p>以太坊：0xb8A54bB2283A34cA8b53B1A425820A7775aff220</p>
+    <div class="postidea" style="display: none;">
+	<p>想让耀日庄主收取你的意见发表文章吗？想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
+	<p>看到这里，你是不是有欲望了呢？你可以通过邮箱或者是QQ把你的文章发给我。</p>
+	<p>你放心。我会在开头标明是你的想法的。</p>
+	<br>
+	<p>邮箱发给我:yaorizhuangzhu@163.com</p>
+	<p>QQ发给我:3060515359/3127723014</p>
+	<br>
+	<p>赶快发表你的文章吧~</p>
         </div>
     </div>
 </div>
@@ -174,7 +169,9 @@ Thanks Ray-Eldath for the button section.
   </section>
   
   {% include footer.html %}
-
+  
+  {% include comment.html %}
+  
     <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
   
@@ -192,7 +189,6 @@ Thanks Ray-Eldath for the button section.
       wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
     });
   </script>
-  <!-LOL!Disqus被封，我也只好用gitment了>
   
   <script>
         {% if site.comments.gitalk %}
@@ -208,11 +204,12 @@ Thanks Ray-Eldath for the button section.
 		gitalk.render('gitalk_container')
     {% endif %}
   </script>
-  </section>
 
+   /* Javascript load area *\
+  
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  
 </body>
 
 </html>
