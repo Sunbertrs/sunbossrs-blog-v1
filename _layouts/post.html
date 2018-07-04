@@ -92,7 +92,11 @@ x;
                     <i class="iconfont icon-{{ s[0] }}"></i>
                 </a>
         </li>
-	            <!Start 'TouGao' plugin.>
+        {% endfor %}
+      </ul>
+      {% endif %}
+	  </section>
+<!Start 'TouGao' plugin.>
       <style media="screen">
     .reward {
         padding: 5px 0;
@@ -141,19 +145,21 @@ x;
 </style>
 
 <div class="reward">
-    <a class="rewardButton" title="请{{ site.author }}喝杯咖啡？">赞赏</a>
+    <a class="rewardButton" title="请{{ site.author }}发表你的文章主意？">投稿文章</a>
 
     <div class="QR" style="display: none;">
 
-            <p>微信支付</p>
-            <p>比特币：13yiJdvBS3upRo4zAVCz4t98og2ob3ZxPr</p
-              
-            <p>支付宝</p>
-            <p>以太坊：0xb8A54bB2283A34cA8b53B1A425820A7775aff220</p>
+        <p>想让耀日庄主收取你的意见发表文章吗？想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
+        <p>看到这里，你是不是有欲望了呢？你可以通过邮箱或者是QQ把你的文章发给我。</p>
+        <p>你放心。我会在开头标明是你的想法的。</p>
+        <br>
+        <p>邮箱发给我:yaorizhuangzhu@163.com</p>
+        <p>QQ发给我:3060515359/3127723014</p>
+        <br>
+        <p>赶快发表你的文章吧~</p>
         </div>
     </div>
 </div>
-
 <script type="text/javascript">
     $(document).ready(function() {
         $("a.rewardButton").click(function() {
@@ -161,11 +167,7 @@ x;
         });
     });
 </script>
-        {% endfor %}
-      </ul>
-      {% endif %}
-    </section>
-	  
+	
     <section class="post-footer-item read-next">
       {% if page.next.url %}
       <div class="read-next-item">
