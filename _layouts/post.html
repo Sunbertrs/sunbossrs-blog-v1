@@ -1,19 +1,34 @@
+x;
+        max-width: 100%;
+        display: inline-block;
+        margin: 0.8em 2em 0 2em;
+    }
+</style>
+
+<div class="postidea">
+    <a class="postidea" title="请{{ site.author }}听取你的文章想法？">投稿文章</a>
+
+    <div class="postidea" style="display: none;">
+	<p>想让耀日庄主收取你的意见发表文章吗？想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
+	<p>看到这里，你是不是有欲望了呢？你可以通过邮箱或者是QQ把你的文章发给我。</p>
+	<p>你放心。我会在开头标明是你的想法的。</p>
+	<br>
+	<p>邮箱发给我:yaorizhuangzhu@163.com</p>
+	<p>QQ发给我:3060515359/3127723014</p>
+	<br>
+	<p>赶快发表你的文章吧~</p>
+        </div>
+    </div>
+</div>
+
 <!DOCTYPE html>
-<!--
-Author: SunbossRS
-* Create "TouGao" button.
-* Thanks Ray-Eldath for the button section.
-* Thanks Tea9 for the post comment section.
--->
-
 <html>
-<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 {% include post-head.html %}
 
 <body>
   <!--[if lt IE 10]>
-<div class="alert-danger" role="alert">你的浏览器实在太旧了，快点升级完浏览器吧！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
 <![endif]-->
   <input id="nm-switch" type="hidden" value="{{ site.nightMode }}"> {% include header.html %}
 
@@ -54,7 +69,6 @@ Author: SunbossRS
     {% endif %}
   </div>
 
-  
   <section class="author-detail">
     <section class="post-footer-item author-card">
       <div class="avatar">
@@ -75,68 +89,6 @@ Author: SunbossRS
         {% endfor %}
       </ul>
       {% endif %}
-	  	  
-      <style media="screen">
-    .post {
-        padding: 5px 0;
-        margin: 20px auto;
-        width: 90%;
-        text-align: center;
-    }
-    .postButton {
-        background-color: #f44236;
-        -moz-border-radius: 8px;
-        -webkit-border-radius: 8px;
-        border-radius: 8px;
-        display: inline-block;
-        cursor: pointer;
-        color: #ffffff;
-        font-family: '微软雅黑';
-        font-size: 18px;
-        padding: 5px 25px;
-        text-decoration: none;
-    }
-    .postButton:hover {
-        background-color: #F7877F;
-    }
-    .postidea {
-        padding-top: 20px;
-    }
-    .postidea a {
-        border: 0;
-    }
-    .postidea img {
-        width: 180px;
-        max-width: 100%;
-        display: inline-block;
-        margin: 0.8em 2em 0 2em;
-    }
-</style>
-
-<div class="postidea">
-    <a class="postidea" title="请{{ site.author }}听取你的文章想法？">投稿文章</a>
-
-    <div class="postidea" style="display: none;">
-	<p>想让耀日庄主收取你的意见发表文章吗？想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
-	<p>看到这里，你是不是有欲望了呢？你可以通过邮箱或者是QQ把你的文章发给我。</p>
-	<p>你放心。我会在开头标明是你的想法的。</p>
-	<br>
-	<p>邮箱发给我:yaorizhuangzhu@163.com</p>
-	<p>QQ发给我:3060515359/3127723014</p>
-	<br>
-	<p>赶快发表你的文章吧~</p>
-        </div>
-    </div>
-</div>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("a.rewardButton").click(function() {
-            $("div.QR").slideToggle()
-        });
-    });
-</script>
-      <br>
     </section>
     <section class="post-footer-item read-next">
       {% if page.next.url %}
@@ -166,16 +118,17 @@ Author: SunbossRS
           {% endif %}
       </div>
       {% endif %}
+    </section>
+    <section class="post-footer-item comment">
+      <div id="disqus_thread"></div>
+      <div id="gitalk_container"></div>
+    </section>
   </section>
-  
+
   {% include footer.html %}
-  
-  {% include comment.html %}
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  
-  <script src="/assets/js/social-share";
+
+  <script src="/assets/js/social-share.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   <script>
     socialShare('.social-share', {
       sites: [
@@ -189,27 +142,45 @@ Author: SunbossRS
       wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
     });
   </script>
-  
-  <script>
-        {% if site.comments.gitalk %}
-    var gitalk = new Gitalk({
-		  clientID: '{{ site.comments.gitalk_clientID }}',
-		  clientSecret: '{{ site.comments.gitalk_Secret }}',
-		  repo: '{{ site.comments.gitalk_repo }}',
-		  owner: '{{ site.comments.gitalk_owner }}',
-		  admin: '{{ site.comments.gitalk_admin }}',
-		  id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-		  distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
-		})
-		gitalk.render('gitalk_container')
-    {% endif %}
-  </script>
 
-   /* Javascript load area *\
-  
+  {% if site.comments.disqus %}
+  <script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document,
+        s = d.createElement('script');
+      s.src = '{{ site.comments.disqus_url }}';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  {% endif %}
+
+  {% if site.comments.gitalk %}
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '{{ site.comments.gitalk_clientID }}',
+      clientSecret: '{{ site.comments.gitalk_Secret }}',
+      repo: '{{ site.comments.gitalk_repo }}',
+      owner: '{{ site.comments.gitalk_owner }}',
+      admin: '{{ site.comments.gitalk_admin }}',
+      id: location.pathname,     
+      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
+    })
+    gitalk.render('gitalk_container')
+  </script>
+    {% endif %}
+
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
-  
 </body>
 
 </html>
