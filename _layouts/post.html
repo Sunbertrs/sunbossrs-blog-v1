@@ -191,18 +191,13 @@
     <section class="post-footer-item comment">
       <div id="disqus_thread"></div>
       <div id="gitalk_container"></div>
-      <div class="valine_comment"></div>
     </section>
-    <section class="post-footer-item comment">
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。
-    </section> 
   </section>
 
   {% include footer.html %}
 
-  {% include comment.html %}
-
   <script src="/assets/js/social-share.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   <script>
     socialShare('.social-share', {
       sites: [
@@ -217,8 +212,8 @@
     });
   </script>
 
+  {% if site.comments.disqus %}
   <script>
-    {% if site.comments.disqus %}
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -235,38 +230,26 @@
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
-    {% endif %}
-    
-    {% if site.comments.gitalk %}
-    var gitalk = new Gitalk({
-		  clientID: '{{ site.comments.gitalk_clientID }}',
-		  clientSecret: '{{ site.comments.gitalk_Secret }}',
-		  repo: '{{ site.comments.gitalk_repo }}',
-		  owner: '{{ site.comments.gitalk_owner }}',
-		  admin: '{{ site.comments.gitalk_admin }}',
-		  id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-		  distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
-		})
-		gitalk.render('gitalk_container')
-    {% endif %}
-  {% if site.comments.valine %}
-    new Valine({
-        av: AV,
-        el: '.valine_comment' ,
-        notify:false, 
-        verify:false, 
-        app_id: '{{ site.comments.valine_app_id }}',
-        app_key: '{{ site.comments.valine_app_key }}',
-        placeholder: '{{ site.comments.valine_placeholder }}',
-        path:window.location.pathname, 
-        avatar:'{{ site.comments.valine_avatar }}' 
-    });
-  {% endif %}
   </script>
+  {% endif %}
+
+  {% if site.comments.gitalk %}
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '{{ site.comments.gitalk_clientID }}',
+      clientSecret: '{{ site.comments.gitalk_Secret }}',
+      repo: '{{ site.comments.gitalk_repo }}',
+      owner: '{{ site.comments.gitalk_owner }}',
+      admin: '{{ site.comments.gitalk_admin }}',
+      id: location.pathname,     
+      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
+    })
+    gitalk.render('gitalk_container')
+  </script>
+    {% endif %}
 
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
-  
 </body>
 
 </html>
