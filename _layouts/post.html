@@ -221,9 +221,8 @@
       (d.head || d.body).appendChild(s);
     })();
     {% endif %}
-	</script>
-	
-    {% if site.comments.gitalk %}
+    
+    {if site.comments.gitalk %}
 	<script>
     var gitalk = new Gitalk({
 		  clientID: '{{ site.comments.gitalk_clientID }}',
@@ -236,10 +235,12 @@
 		})
 		gitalk.render('gitalk_container')
     {% endif %}
-  </script>
+    
 		{% if site.comments = 0 %}
               <p>本页面已采用GiTalk评论系统。如果不能用请更换浏览器/更换显示屏/更新浏览器插件</p>	
-  <script src="/assets/js/prism.js"></script>
+		 {% endif %}
+	</script>
+	
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
 </body>
