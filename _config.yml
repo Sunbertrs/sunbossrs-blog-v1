@@ -61,7 +61,8 @@ social-share: true
 theme-color: 'default'  # pink or default
 
 # post content 投稿文章 reward -> postcontent
-reward: true
+reward: 
+  enable: true
 
 # Post header background patterns 选择背景样板
 postPatterns: 'circuitBoard'
