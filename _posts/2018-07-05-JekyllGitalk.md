@@ -35,7 +35,7 @@ Authorization callback URL:回掉地址
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/02.png)
 
 ### 02.配置_config.yml
-```yaml	
+```yaml
 gitalk: true
 gitalk_clientID: 'clientID'
 gitalk_Secret: 'Secret'
