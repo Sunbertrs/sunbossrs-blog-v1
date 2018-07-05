@@ -36,8 +36,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/gitalk/gitalk.s
 
 ### 02.配置_config.yml
   
-```object
-
+```yaml
  gitalk: true
  gitalk_clientID: 'clientID'
  gitalk_Secret: 'Secret'
