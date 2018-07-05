@@ -22,7 +22,7 @@ footer:
 author: '耀日庄主'
 nickname: 'A5耀日庄主'
 bio: '我的世界万岁!!'
-avatar: '/assets/img/profile.png'
+avatar: 'https://gitee.com/srsyrzz/repository/raw/master/yrzzavatar.png'
 
 # Search 搜索
 search: true
