@@ -31,8 +31,7 @@ search: true
 nightMode: true
 
 # Back to top 回到顶部by ray-eldath
-b2t:
-  enable: true
+b2t: true
 
 # Comments 评论功能
 comments:
