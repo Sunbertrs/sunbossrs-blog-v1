@@ -4,7 +4,7 @@
  * Create "TouGao" button.
  * Thanks Ray-Eldath for the button section.
  * Thanks Tea9 for the post comment section.
- --->
+ -->
 <html>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 {% include post-head.html %}
@@ -13,6 +13,7 @@
   <!--[if lt IE 10]>
 <div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
 <![endif]-->
+	
   <input id="nm-switch" type="hidden" value="{{ site.nightMode }}"> {% include header.html %}
 
   <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}" data-theme="{{ site.theme-color }}">
@@ -24,7 +25,7 @@
           {% endfor %}
         {% endif %}
       </div>
-      <h1>{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1> //文章标题
       <div class="post-meta">
         <span class="post-meta-item"><i class="iconfont icon-author"></i><a href="{{ site.url }}" target="_blank" rel="author">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a></></span>
         <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
@@ -52,7 +53,7 @@
     {% endif %}
   </div>
 
-  <section class="author-detail">
+  <section class="author-detail"> //结尾，作者信息
     <section class="post-footer-item author-card">
       <div class="avatar">
         <img src="{{ site.avatar | absolute_url }}" alt="">
@@ -62,7 +63,7 @@
         <p>{{ site.bio }}</p>
       </div>
       {% if site.sns.size > 0 %}
-      <ul class="sns-links">
+      <ul class="sns-links"> //结尾，作者的联系方式
         {% for s in site.sns %}
         <li>
           <a href="{{ s[1] }}" target="_blank">
@@ -73,7 +74,9 @@
       </ul>
       {% endif %}
 	  </section>
-<!Start 'TouGao' plugin.>
+	  
+<!Start 'TouGao' plugin.> //reward button:投稿文章 按钮
+	  
       <style media="screen">
     .reward {
         padding: 5px 0;
@@ -121,12 +124,13 @@
     }
 </style>
 
-<div class="reward">
+<div class="reward"> //设置div及其文本内容
     <a class="rewardButton" title="请{{ site.author }}发表你的文章主意？">投稿文章</a>
 
     <div class="QR" style="display: none;">
 
-        <p>想让耀日庄主收取你的意见发表文章吗？想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
+	<p>想让耀日庄主收取你的意见发表文章吗？</p>
+	<p>想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
         <p>看到这里，你是不是有欲望了呢？你可以通过邮箱或者是QQ把你的文章发给我。</p>
         <p>你放心。我会在开头标明是你的想法的。</p>
         <br>
@@ -144,6 +148,7 @@
         });
     });
 </script>
+<!--投稿按钮设置结束-->
 	
     <section class="post-footer-item read-next">
       {% if page.next.url %}
@@ -219,6 +224,7 @@
   {% endif %}
 
   {% if site.comments.gitalk %}
+	<!--Thanks Tea9 help me to add 'gitalk'section!-->
   <script>
     var gitalk = new Gitalk({
       clientID: '{{ site.comments.gitalk_clientID }}',
