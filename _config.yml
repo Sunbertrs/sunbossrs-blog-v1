@@ -30,8 +30,8 @@ search: true
 # Night mode 夜间模式
 nightMode: true
 
-# Back to top 回到顶部by SunbossRS
-BacktoTop:
+# Back to top 回到顶部by ray-eldath
+b2t:
   enable: true
 
 # Comments 评论功能
