@@ -25,7 +25,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/gitalk/gitalk.s
 注册GitHub Application
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)
-```json
+```github
  Application name:项目名称  
  Homepage URL:域名地址  
  Application description:项目描述  
