@@ -31,7 +31,8 @@ search: true
 nightMode: true
 
 # Back to top 回到顶部by SunbossRS
-BacktoTop: true
+BacktoTop:
+  enable: true
 
 # Comments 评论功能
 comments:
