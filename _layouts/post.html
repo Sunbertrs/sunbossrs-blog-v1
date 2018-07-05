@@ -74,79 +74,7 @@
       </ul>
       {% endif %}
     </section>
-<!--Start 'TouGao' plugin.reward button->投稿文章 按钮-->
-      <style media="screen">
-    .reward {
-        padding: 5px 0;
-        margin: 20px auto;
-        width: 90%;
-        text-align: center;
-    }
-    .rewardButton {
-        background-color: #f44236;
-        -moz-border-radius: 8px;
-        -webkit-border-radius: 8px;
-        border-radius: 8px;
-        display: inline-block;
-        cursor: pointer;
-        color: #ffffff;
-        font-family: '微软雅黑';
-        font-size: 18px;
-        padding: 5px 25px;
-        text-decoration: none;
-    }
-    .rewardButton:hover {
-        background-color: #F7877F;
-    }
-    .wechat:hover p {
-        animation: roll 0.1s infinite linear;
-        -webkit-animation: roll 0.1s infinite linear;
-        -moz-animation: roll 0.1s infinite linear;
-    }
-    .alipay:hover p {
-        animation: roll 0.1s infinite linear;
-        -webkit-animation: roll 0.1s infinite linear;
-        -moz-animation: roll 0.1s infinite linear;
-    }
-    .QR {
-        padding-top: 20px;
-    }
-    .QR a {
-        border: 0;
-    }
-    .QR img {
-        width: 180px;
-        max-width: 100%;
-        display: inline-block;
-        margin: 0.8em 2em 0 2em;
-    }
-</style>
 
-<div class="reward"> 
-    <a class="rewardButton" title="请{{ site.author }}发表你的文章主意？">投稿文章</a>
-
-    <div class="QR" style="display: none">
-
-	<p>想让耀日庄主收取你的意见发表文章吗？</p>
-	<p>想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
-        <p>看到这里，你是不是有欲望了呢？你可以通过邮箱或者是QQ把你的文章发给我。</p>
-        <p>你放心。我会在开头标明是你的想法的。</p>
-        <br>
-        <p>邮箱发给我:yaorizhuangzhu@163.com</p>
-        <p>QQ发给我:3060515359/3127723014</p>
-        <br>
-        <p>赶快发表你的文章吧~</p>
-        </div>
-    </div>
-</div>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("a.rewardButton").click(function() {
-            $("div.QR").slideToggle()
-        });
-    });
-</script>
-<!--投稿按钮设置结束-->
     <section class="post-footer-item read-next">
       {% if page.next.url %}
       <div class="read-next-item">
