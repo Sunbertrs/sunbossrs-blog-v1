@@ -36,7 +36,7 @@ Authorization callback URL:回掉地址
 
 ### 02.配置_config.yml
   
-```.yaml
+```YAML Ain't Markup Language
 gitalk: true
 gitalk_clientID: 'clientID'
 gitalk_Secret: 'Secret'
