@@ -1,6 +1,9 @@
 <!--
-Thanks Ray-Eldath.
-The file is will work when the page is look down
+Author: Ray-Eldath
+refer to:
+ - https://github.com/theme-next/hexo-theme-next/blob/master/source/js/src/utils.js
+ - https://jingyan.baidu.com/article/b2c186c83ec846c46ef6ff80.html
+ - http://www.bkjia.com/jQuery/449205.html
 -->
 <style media="screen">
   .scroll {
@@ -27,8 +30,8 @@ The file is will work when the page is look down
 <script src="/assets/js/util.js"></script>
 <script type="text/javascript">
   $(document).ready(function() {
-    if (utils.isMobile()) {  //检测是不是手机模式
-      $('.scroll').hide();   //如果是就隐藏bakt to top
+    if (utils.isMobile()) {
+      $('.scroll').show();
       return;
     }
     $(window).scroll(function() {
