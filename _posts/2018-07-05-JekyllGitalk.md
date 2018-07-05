@@ -25,24 +25,28 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/gitalk/gitalk.s
 注册GitHub Application
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)
-```default
-Application name:项目名称  
-Homepage URL:域名地址  
-Application description:项目描述  
-Authorization callback URL:回掉地址  
-```
+<pre>
+ <code>
+ Application name:项目名称  
+ Homepage URL:域名地址  
+ Application description:项目描述  
+ Authorization callback URL:回掉地址  
+ </code>
+</pre>
 注册成功后会获得Client ID和Client Secret
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/02.png)
 
 ### 02.配置_config.yml
   
-```YAML Ain't Markup Language
-gitalk: true
-gitalk_clientID: 'clientID'
-gitalk_Secret: 'Secret'
-gitalk_repo: '用户名.github.io'
-gitalk_owner: 'github用户名'
-gitalk_admin: 'github用户名'
-distractionFreeMode: true
-```
+<pre>
+ <code>
+ gitalk: true
+ gitalk_clientID: 'clientID'
+ gitalk_Secret: 'Secret'
+ gitalk_repo: '用户名.github.io'
+ gitalk_owner: 'github用户名'
+ gitalk_admin: 'github用户名'
+ distractionFreeMode: true
+ </code>
+</pre>
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/03.png)
