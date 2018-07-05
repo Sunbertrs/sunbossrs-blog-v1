@@ -151,7 +151,7 @@
 <div class="reward"> 
     <a class="rewardButton" title="请{{ site.author }}发表你的文章主意？">投稿文章</a>
 
-    <div class="QR" style="display: none;">
+    <div class="QR" style="display: none";>
 
 	<p>想让耀日庄主收取你的意见发表文章吗？</p>
 	<p>想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
@@ -223,7 +223,6 @@
     {% endif %}
     
     {% if site.comments.gitalk %}
-  <script src="/assets/js/prism.js"></script>
     var gitalk = new Gitalk({
 		  clientID: '{{ site.comments.gitalk_clientID }}',
 		  clientSecret: '{{ site.comments.gitalk_Secret }}',
@@ -237,9 +236,10 @@
     {% endif %}
   </script>
 	<script>
-		{% if no site.comments.gitalk %}
+		{% if site.comments = 0 %}
               <p>本页面已采用GiTalk评论系统。如果不能用请更换浏览器/更换显示屏/更新浏览器插件</p>	
         </script>
+  <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
 </body>
