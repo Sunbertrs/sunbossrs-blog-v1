@@ -6,14 +6,17 @@
  * Thanks Tea9 for the post comment section.
  -->
 <html>
+	
 <link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+	
 {% include post-head.html %}
 <body>
   <!--[if lt IE 10]>
 <div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
 <![endif]-->
-  <input id="nm-switch" type="hidden" value="{{ site.nightMode }}"> {% include header.html %}
-
+	
+  <input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
+     {% include header.html %}
   <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}" data-theme="{{ site.theme-color }}">
     <div class="post-wrapper">
       <div class="post-tags">
@@ -122,7 +125,7 @@
 <div class="reward"> 
     <a class="rewardButton" title="请{{ site.author }}发表你的文章主意？">投稿文章</a>
 
-    <div class="QR" style="display: none";>
+    <div class="QR" style="display: none">
 
 	<p>想让耀日庄主收取你的意见发表文章吗？</p>
 	<p>想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
