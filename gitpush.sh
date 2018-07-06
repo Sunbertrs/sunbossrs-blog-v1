@@ -1,5 +1,5 @@
-git config --global user.email "740291272@qq.com"
-git config --global user.name "740291272"
+git config --global user.email "yaorizhuangzhu@163.com"
+git config --global user.name "SunbossRS"
 git status
 
 echo ""
@@ -28,4 +28,4 @@ echo "commit finished"
 git gc
 git push origin master
 
-echo "hia hia I have finished"
+echo "hia hia I have finished"S
