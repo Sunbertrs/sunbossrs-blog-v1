@@ -9,7 +9,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/2018-06-27
 ---
 打开你的网站目录，打开你的`footer.html`网站结尾文件。  
 然后把这行代码插在`/section`的下面。
-```css
+```html
     <p>
     <div class="busuanzi-count">
       <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -39,7 +39,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/2018-06-27
   
 保存，再上传，看看你的网站页尾发生了什么？  
 ![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/2018-06-27%2018-21-37%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-```css
+```default
 小人是总点击人数
 眼睛是总点击量
 文本图标是本页面点击人数

@@ -9,7 +9,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/2018-06-27
 ---
 打开你的网站目录，打开你的`footer`网站结尾文件。  
 然后把这行代码插在`</footer>`的上面。
-```css
+```html
     <script>
 
         /**

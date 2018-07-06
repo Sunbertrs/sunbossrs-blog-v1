@@ -10,13 +10,10 @@ cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 1. 打开`https://github.com`  
   
 2. 注册一个账号  
-![avatar](https://img-blog.csdn.net/20160727002237540)  
   
 3. 点开右上角的加号 ， `add a repository`  
-![avatar](https://img-blog.csdn.net/20160727005408944)  
   
-4. 填写以下信息：  
-![avatar](https://img-blog.csdn.net/20160727005138554)  
+4. 填写信息
   
 5. 安装git程式  
 进入[gitforwindows官网](https://gitforwindows.org)下载一个git
@@ -25,7 +22,7 @@ cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
   
 
 7. 使用git命令把你的仓库clone下来  
-```css
+```git
 git clone https://github.com/*你的github用户名*/*你的github用户名*.github.io.git
 ```
   
@@ -34,7 +31,7 @@ git clone https://github.com/*你的github用户名*/*你的github用户名*.git
 9. 这时，去jekyll主题下载一个，修改一下，然后把里面的内容放到那个空文件夹里。  
  
 10. 执行命令
-```css
+```git
 cd *github名字*.github.io/
 git add .
 git commit -a -m "修改说明，这个命令必须输入。"

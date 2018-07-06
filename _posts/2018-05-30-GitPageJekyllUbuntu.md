@@ -20,12 +20,12 @@ cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
   
 5. 安装git程式  
 *这里我用了ubuntu，下次开windows的讲解*  
-```css
+```bash
 sudo apt-get install git
 ```
   
 6. 使用git命令把你的仓库clone下来  
-```css
+```bash
 git clone https://github.com/*你的github用户名*/*你的github用户名*.github.io.git
 ```
   
@@ -34,7 +34,7 @@ git clone https://github.com/*你的github用户名*/*你的github用户名*.git
 8. 这时，去jekyll主题下载一个，修改一下，然后把里面的内容放到那个空文件夹里。  
   
 9. 执行命令
-```css
+```bash
 cd *github名字*.github.io/
 git add .
 git commit -a -m "修改说明，这个命令必须输入。"
@@ -55,12 +55,12 @@ git push
   
 12. 享受新生活！
   
-************************ 说明 *************************
-*  以后，改好/写好 一篇博文，只需要使用               *
-* `cd Desktop/`                                       *
-* `cd *你的github名.github.io/`                       *
-* `git add .`                                         *
-* `git commit -a -m "修改说明"`                       *
-* `git push`                                          *
-*  就可以了。                                         *
+************************ 说明 *************************  
+*  以后，改好/写好 一篇博文，只需要使用               *  
+* `cd Desktop/`                                       *  
+* `cd *你的github名.github.io/`                       *  
+* `git add .`                                         *  
+* `git commit -a -m "修改说明"`                       *  
+* `git push`                                          *  
+*  就可以了。                                         *  
 *******************************************************

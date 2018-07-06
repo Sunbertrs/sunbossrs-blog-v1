@@ -9,7 +9,7 @@ cover:
 ---
 打开你的网站目录，打开你的`footer.html`网站结尾文件。  
 然后把这行代码插在`/section`的下面。
-```css
+```html
     <p>
       <script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script><div id="lwlhitokoto"><script>lwlhitokoto()</script></div>
     </p>

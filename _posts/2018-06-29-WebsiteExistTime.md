@@ -15,8 +15,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_201806
   
 这次，你可以在页尾，也可以在一个html文件，或者其他。总之是一个html的文件。 
 看看代码:
-```css
-
+```html
   <SPAN id="span_dt_dt"></SPAN>
     <SCRIPT language=javascript>
     function show_date_time(){

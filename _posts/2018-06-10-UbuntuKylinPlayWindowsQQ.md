@@ -14,7 +14,7 @@ MATE可以运行wine,不过有点麻烦.
   
 ### 1.下载wine
 首先,我们运行命令:
-```css
+```bash
 sudo dpkg --add-architecture i386
 sudo apt install wine1.6
 wine --version
@@ -25,11 +25,11 @@ wine --version
 到[im.qq.com](https://www.qq.com)下载一个tim或者qq
 ### 3.在wine里添加一定的函数库
 在终端里输入:(不要用root)
-```css
+```bash
 winecfg
 ```
 然后点击`函数库`,添加以下函数:
-```css
+```bash
 *ntoskrnl.exe
 *riched20
 *txplatform.exe
@@ -37,7 +37,7 @@ winecfg
 *dwrite.dll
 ```
 然后把这三个函数弄成这样:  
-```css
+```default
 *ntoskrnl.exe          -->  停用
 *riched20              -->  原装(windows)
 *txplatform.exe        -->  停用
@@ -52,7 +52,7 @@ winecfg
 ![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ukqq/2018-06-11%2018-12-09shotscreen.png)
 ### 4. 设置字体(修复中文乱码的bug)
 在桌面（或者哪里都行）创建一个名字叫做`zh.reg`的文件，该文件里输入以下内容：
-```css
+```regedit-windows
 REGEDIT4
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
 "Arial"="WenQuanYi Zenhei"
@@ -86,7 +86,7 @@ REGEDIT4
 保存.  
 随后，你就可以删除这个`zh.reg`文件了。
 ### 5.安装
-```css
+```basg
 wine ~/下载/*文件名*.exe
 ```
 然后进入安装页面.
@@ -94,7 +94,7 @@ wine ~/下载/*文件名*.exe
 这时安装好了,你的QQ应处于`~/.wine/drive_c/Program Files (x86)/Tencent/QQ/Bin`目录下.  
   
 使用
-```css
+```bash
 wine .wine/drive_c/Program\ Files\ \(x86\)/Tencent/QQ/Bin/QQ.exe
 ```
 来运行QQ.  

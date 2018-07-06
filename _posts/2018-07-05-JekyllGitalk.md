@@ -1,12 +1,11 @@
 ---
 layout: post
 title: '在jekyll博客里设置gitalk评论系统'
-subtitle: '<copyright tea9>'
+subtitle: '{copyright tea9}'
 tags: jekyll 反馈
 category: tech
-cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/gitalk/gitalk.svg'
 ---
-**转自：https://tea9.xyz/2018/06/24/gitali_config.html**
+**转自：https://tea9.xyz/2018/06/24/gitali_config.html**  
 **文章内容略有修改，请知悉!**
 
 大家好。今天来给大家介绍一款评论软件，它叫做[gitalk](https://gitalk.github.io)。  
@@ -23,8 +22,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/gitalk/gitalk.s
 ---
 ### 01.注册GitHub Application
 注册GitHub Application
-![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)
-![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)
+![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)  
 ```github
  Application name:项目名称  
  Homepage URL:域名地址  

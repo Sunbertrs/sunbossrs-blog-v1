@@ -9,7 +9,7 @@ cover: 'http://p1.so.qhimgs1.com/t01199d95a4f61247c1.png'
 ---
 
 1. 打开终端，使用`apt-get`命令下载了以下内容：
-```css
+```software
 ruby
 rubygems-intergration
 ruby-bundler
