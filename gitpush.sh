@@ -1,30 +1,31 @@
-git config --global user.email "yaorizhuangzhu@163.com"
-git config --global user.name "SunbossRS"
+git config --global user.email "740291272@qq.com"
+git config --global user.name "740291272"
+git status
 
-clear
+echo ""
+echo "pulling..."
 
-echo 'Now I will add the no exist files ...'
-git add .
-echo 'Add successful!'
+git pull origin master
 
-clear
+git status
 
 echo ""
 read -p "Enter commit message:"
 
+rm *~
+rm **/*~
+rm **/**/*~
 
-echo Now I will push the files to Github ...
-git commit -a -m "$REPLY"
+git add *
+git stage *
+git commit -a -m "${REPLY}"
 
-echo Push successful!
-
-cls
-
-echo Let's see the status.
 git status
 
-echo Now you can browse your blog website:sunbossrs.github.io
+echo ""
+echo "commit finished"
 
-echo You are finish the upload files.Goodbye~
+git gc
+git push origin master
 
-exit
+echo "hia hia I have finished"
