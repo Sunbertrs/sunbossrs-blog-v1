@@ -5,18 +5,14 @@ git status
 echo ""
 echo "pulling..."
 
-git pull origin master
+git push origin master 
 
 git status
 
 echo ""
 read -p "Enter commit message:"
 
-rm *~
-rm **/*~
-rm **/**/*~
-
-git add *
+git add .
 git stage *
 git commit -a -m "${REPLY}"
 
@@ -28,4 +24,4 @@ echo "commit finished"
 git gc
 git push origin master
 
-echo "hia hia I have finished"S
+echo "hia hia I have finished"

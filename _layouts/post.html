@@ -6,14 +6,17 @@
  * Thanks Tea9 for the post comment section.
  -->
 <html>
-<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+	<!--代码框Prism的css和js-->
+	<script data-rocketsrc="/assets/js/prism.js" type="text/rocketscript"></script>
+    <link rel="stylesheet" href="/assets/css/prism.css">
+	<link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
 
 {% include post-head.html %}
 
-
 <body>
   <!--[if lt IE 10]>
-<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<div class="alert-danger" role="alert">你的浏览器实在太旧了，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
 <![endif]-->
   <input id="nm-switch" type="hidden" value="{{ site.nightMode }}"> {% include header.html %}
 
@@ -47,7 +50,7 @@
     </article>
 
     {% if site.reward.enable %}
-   <!--Start 'TouGao' plugin.reward button->投稿文章 按钮-->
+   <!--Start reward button - 投稿文章 按钮 -->
       <style media="screen">
     .reward {
         padding: 5px 0;
@@ -120,13 +123,6 @@
 </script>
 <!--投稿按钮设置结束-->
     {% endif %}
-
-    {% if site.reward_m %}
-      <div style="width: 250px;height: 250px; margin: 0 auto; margin-bottom: 30px;">
-      	<img width="250px" height="250px" src="{{site.appreciate}}" alt="赞赏">
-      </div>
-    {% endif %}
-
 
     {% if site.social-share %}
     <div class="social-share-wrapper">
@@ -246,19 +242,6 @@
 		})
 		gitalk.render('gitalk_container')
     {% endif %}
-  {% if site.comments.valine %}
-    new Valine({
-        av: AV,
-        el: '.valine_comment' ,
-        notify:false, 
-        verify:false, 
-        app_id: '{{ site.comments.valine_app_id }}',
-        app_key: '{{ site.comments.valine_app_key }}',
-        placeholder: '{{ site.comments.valine_placeholder }}',
-        path:window.location.pathname, 
-        avatar:'{{ site.comments.valine_avatar }}' 
-    });
-  {% endif %}
   </script>
 
   <script src="/assets/js/prism.js"></script>
