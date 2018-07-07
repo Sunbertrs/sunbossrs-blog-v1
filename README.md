@@ -5,8 +5,8 @@ Hello everyone.This is my blog.
 The blog is create in `Github Page`.  
   
 -------------------Logs-------------------  
->Thanks @Tea9 for 'blog comment':Gitalk.
-[pic](https://github.com/tea9/tea9.github.io/raw/master/readme_img/comment.png)  
+>Thanks @Tea9 for 'blog comment':Gitalk.  
+![pic](https://github.com/tea9/tea9.github.io/raw/master/readme_img/comment.png)  
   
 >Use a shell script to update repository.  
   
