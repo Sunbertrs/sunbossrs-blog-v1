@@ -6,10 +6,12 @@
  * Thanks Tea9 for the post comment section.
  -->
 <html>
+         /**
+		 Script Load Before
+		 */
         <link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-
+        <link rel="stylesheet" href="/assets/css/dark.css">
+		<script src="/assets/js/highlight.pack.js"></script>
 {% include post-head.html %}
 
 <body>
@@ -244,6 +246,9 @@
     {% endif %}
   </script>
 
+      /**
+	  Script Load
+	  */
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/css/prism.css"</script>
   <script src="/assets/js/index.min.js"></script>
