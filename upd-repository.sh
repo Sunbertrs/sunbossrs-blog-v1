@@ -7,11 +7,11 @@ echo "Update the repository ... (We won't clear the edit you do it.)"
 
 git pull origin master
 
+clear
+
 git status
 echo "---------------------------"
 echo "This is the information."
-
-clear
 
 echo "Your edit is success to read.We will update it in repository."
 echo ""
@@ -47,6 +47,7 @@ echo "Success to push!"
 
 clear 
 
+echo ""
+git gc
+echo "---------------------------"
 echo "Go exit~"
-
-exit
