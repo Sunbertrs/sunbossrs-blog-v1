@@ -1,5 +1,5 @@
 git config --global user.email "yaorizhuangzhu@163.com"
-git config --global user.name "740291272"
+git config --global user.name "SunbossRS"
 
 git status
 
