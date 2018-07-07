@@ -4,22 +4,22 @@
 Hello everyone.This is my blog.  
 The blog is create in `Github Page`.  
   
-```
-*-------------------Logs-------------------*  
-|Thanks @Tea9 for 'blog comment':Gitalk.   |  
-|                                          |  
-|Use a shell script to update repository.  |  
-|                                          |  
-|Fix a little bit of `prism.js`.           |  
-|                                          |  
+-------------------Logs-------------------  
+Thanks @Tea9 for 'blog comment':Gitalk.
+[pic](https://github.com/tea9/tea9.github.io/raw/master/readme_img/comment.png?raw=true)  
+  
+Use a shell script to update repository.  
+
+|Fix a little bit of `prism.js`.  
+ 
 |Thanks @sctop to fix some wrong.          |  
-|                                          |  
+
 |Thanks @kaeyleo make this blog theme.     |  
-|                                          |  
+ 
 |Thanks @ray-eldath to make reward button. |
-|                                          |  
+
 |I make the `reward` to `give a idea` .    |  
-|                                          |  
+
 |Use blog header to make a page.           |  
 |(Like `about me` , `links` ....)          |  
 |                                          |  
