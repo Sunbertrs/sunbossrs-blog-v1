@@ -1,22 +1,14 @@
 <!DOCTYPE html>
-<!--
- Author: SunbossRS/tea9
- * Create "TouGao" button.
- * Thanks Ray-Eldath for the button section.
- * Thanks Tea9 for the post comment section.
- -->
 <html>
-         /**
-		 Script Load Before
-		 */
-        <link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
-        <link rel="stylesheet" href="/assets/css/dark.css">
-		<script src="/assets/js/highlight.pack.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+
 {% include post-head.html %}
+
 
 <body>
   <!--[if lt IE 10]>
-<div class="alert-danger" role="alert">你的浏览器实在太旧了，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
 <![endif]-->
   <input id="nm-switch" type="hidden" value="{{ site.nightMode }}"> {% include header.html %}
 
@@ -50,78 +42,7 @@
     </article>
 
     {% if site.reward.enable %}
-   <!--Start reward button - 投稿文章 按钮 -->
-      <style media="screen">
-    .reward {
-        padding: 5px 0;
-        margin: 20px auto;
-        width: 90%;
-        text-align: center;
-    }
-    .rewardButton {
-        background-color: #f44236;
-        -moz-border-radius: 8px;
-        -webkit-border-radius: 8px;
-        border-radius: 8px;
-        display: inline-block;
-        cursor: pointer;
-        color: #ffffff;
-        font-family: '微软雅黑';
-        font-size: 18px;
-        padding: 5px 25px;
-        text-decoration: none;
-    }
-    .rewardButton:hover {
-        background-color: #F7877F;
-    }
-    .wechat:hover p {
-        animation: roll 0.1s infinite linear;
-        -webkit-animation: roll 0.1s infinite linear;
-        -moz-animation: roll 0.1s infinite linear;
-    }
-    .alipay:hover p {
-        animation: roll 0.1s infinite linear;
-        -webkit-animation: roll 0.1s infinite linear;
-        -moz-animation: roll 0.1s infinite linear;
-    }
-    .QR {
-        padding-top: 20px;
-    }
-    .QR a {
-        border: 0;
-    }
-    .QR img {
-        width: 180px;
-        max-width: 100%;
-        display: inline-block;
-        margin: 0.8em 2em 0 2em;
-    }
-</style>
-<div class="reward"> 
-    <a class="rewardButton" title="请{{ site.author }}发表你的文章主意？">投稿文章</a>
-
-    <div class="QR" style="display: none">
-
-	<p>想让耀日庄主收取你的意见发表文章吗？</p>
-	<p>想耀日庄主替你“一展威风”，最终得到一个你的意见的链接吗?</p>
-        <p>看到这里，你是不是有欲望了呢？你可以通过邮箱或者是QQ把你的文章发给我。</p>
-        <p>你放心。我会在开头标明是你的想法的。</p>
-        <br>
-        <p>邮箱发给我:yaorizhuangzhu@163.com</p>
-        <p>QQ发给我:3060515359/3127723014</p>
-        <br>
-        <p>赶快发表你的文章吧~</p>
-        </div>
-    </div>
-</div>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("a.rewardButton").click(function() {
-            $("div.QR").slideToggle()
-        });
-    });
-</script>
-<!--投稿按钮设置结束-->
+      {% include reward.html %}
     {% endif %}
 
     {% if site.social-share %}
@@ -134,7 +55,7 @@
   <section class="author-detail" style="top: -285'px;">
     <section class="post-footer-item author-card">
       <div class="avatar">
-        <img src="https://gitee.com/srsyrzz/repository/raw/master/20151019205650_8AMPZ.thumb.224_0.jpeg" alt="">
+        <img src="{{ site.avatar | absolute_url }}" alt="">
       </div>
       <div class="author-name" rel="author">{{ site.author }}</div>
       <div class="bio">
@@ -152,7 +73,6 @@
       </ul>
       {% endif %}
     </section>
-	
     <section class="post-footer-item read-next">
       {% if page.next.url %}
       <div class="read-next-item">
@@ -182,7 +102,6 @@
       </div>
       {% endif %}
     </section>
-	
     <section class="post-footer-item comment">
       <div id="disqus_thread"></div>
       <div id="gitalk_container"></div>
@@ -228,6 +147,7 @@
         s = d.createElement('script');
       s.src = '{{ site.comments.disqus_url }}';
       s.setAttribute('data-timestamp', +new Date());
+
       (d.head || d.body).appendChild(s);
     })();
     {% endif %}
@@ -242,19 +162,29 @@
 		  id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
 		  distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
 		})
+
 		gitalk.render('gitalk_container')
     {% endif %}
+	
+  {% if site.comments.valine %}
+    new Valine({
+        av: AV,
+        el: '.valine_comment' ,
+        notify:false, 
+        verify:false, 
+        app_id: '{{ site.comments.valine_app_id }}',
+        app_key: '{{ site.comments.valine_app_key }}',
+        placeholder: '{{ site.comments.valine_placeholder }}',
+        path:window.location.pathname, 
+        avatar:'{{ site.comments.valine_avatar }}' 
+    });
+
+  {% endif %}
   </script>
 
-      /**
-	  Script Load
-	  */
   <script src="/assets/js/prism.js"></script>
-  <script src="/assets/css/prism.css"</script>
   <script src="/assets/js/index.min.js"></script>
-  
+
 </body>
 
 </html>
-
-

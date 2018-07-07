@@ -60,7 +60,7 @@ social-share: true
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
 
-# post content 投稿文章 reward -> postcontent
+# post content 投稿文章 reward -> post_content
 reward: 
   enable: true
 
@@ -85,7 +85,7 @@ sns:
 
 # Markdown
 markdown: kramdown
-highlighter: rouge
+highlighter: default # rouge
 kramdown:
   input: GFM
 
