@@ -43,5 +43,6 @@ category: tech
  gitalk_owner: 'github用户名'
  gitalk_admin: 'github用户名'
  distractionFreeMode: true
-```
+  </code>
+</pre>
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/03.png)
