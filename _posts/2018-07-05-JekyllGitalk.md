@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '在jekyll博客里设置gitalk评论系统'
-subtitle: '{copyright tea9}'
+subtitle: '{ copyright tea9 ... }'
 tags: jekyll 反馈
 category: tech
 ---
@@ -34,7 +34,8 @@ category: tech
 
 ### 02.配置_config.yml
   
-```yaml
+ <pre>
+   <code class="language-yaml">
  gitalk: true
  gitalk_clientID: 'clientID'
  gitalk_Secret: 'Secret'
