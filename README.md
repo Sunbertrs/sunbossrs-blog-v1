@@ -13,7 +13,7 @@ The blog is create in `Github Page`.
 ![pic](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/updreposh.png)  
   
 >Fix a little bit of `prism.js`.(In the morning the font will show better.But background color I still cannot fix.)  
-!]pic](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/prismjsfix-20180707.png)  
+![pic](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/prismjsfix-20180707.png)  
   
 >Fix some wrong.  
 ![pic](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/sctophelpme.png)  
@@ -37,7 +37,7 @@ The blog is create in `Github Page`.
 >Add `Website visit total` and `site footer sentences`.  
 ![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/2018-06-27%2018-21-37%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)  
   
-####The contribution people list
+#### The contribution people list
 - @sctop  
 - @ray-eldath  
 - @tea9  
