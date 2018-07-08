@@ -60,8 +60,12 @@ social-share: true
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
 
-# post content 投稿文章 reward -> post_content
+# post idea 投稿文章 reward -> post_content
 reward: 
+  enable: true
+
+# netease music plugin 网易音乐插件
+neteasemusic:
   enable: true
 
 # Post header background patterns 选择背景样板
