@@ -40,6 +40,10 @@
     <article class="markdown-body">
       {{ page.content }}
     </article>
+	  
+	{% if site.neteasemusic.enable %}
+	  {% include neteasemusic.html %}
+	{% endif %}
 
     {% if site.reward.enable %}
       {% include reward.html %}
@@ -51,10 +55,6 @@
     </div>
     {% endif %}
   </div>
-
-	{% if site.neteasemusic.enable %}
-	  {% include neteasemusic.html %}
-	{% endif %}
 	
   <section class="author-detail" style="top: -285'px;">
     <section class="post-footer-item author-card">
