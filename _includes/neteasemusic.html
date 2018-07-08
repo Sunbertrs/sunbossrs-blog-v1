@@ -1,7 +1,17 @@
-<hr/>
 <center>
-<br/>
-   <embed src="//music.163.com/style/swf/widget.swf?sid=878094500&type=0&auto=1&width=310&height=430" width="330" height="450"  allowNetworking="all"></embed>
+   <link rel="stylesheet" href="https://github.com/wangpengfei15975/skPlayer/blob/gh-pages/dist/skPlayer.min.css">
+   <div id="skPlayer"></div>
+   <script src="/assets/js/skPlayer.min.js"></script>
+   
+   var player = new skPlayer({
+    autoplay: false,
+    listshow: true,
+    mode: 'listloop',
+    music: {
+        type: 'cloud',
+        source: 2306384849
+    }
+});
+   
 <br/>
 </center>
-<hr/>
