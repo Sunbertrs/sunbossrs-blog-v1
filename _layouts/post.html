@@ -52,6 +52,10 @@
     {% endif %}
   </div>
 
+	{% if site.neteasemusic.enable %}
+	  {% include neteasemusic.html %}
+	{% endif %}
+	
   <section class="author-detail" style="top: -285'px;">
     <section class="post-footer-item author-card">
       <div class="avatar">
