@@ -1,23 +1,19 @@
-<html>
-  <head>
-    <title>无标题文档</title>
- </head>
- 
- <body>
-   <p><script language="Javascript">
-var d = new Date();
+<html>    
+<head>     
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />     
+<title>js动态显示当前日期，时间和星期代码</title>         
+</head> 
+<body>    
+当前时间：   
+<hr>
+<div id="time"> 
+<input id="date"  type="text" placeholder="选择日期" disabled="true" >    
+<script language="JavaScript"> 
+var today=new Date();
+var submitTime=today.getFullYear()+'年'+(today.getMonth()+1)+'月'+today.getDate()+'日'; 
+$("#date").attr('value',submitTime);
+</script>  
 
-var year = d.getFullYear();  
-
-var month = d.getMonth() + 1; 
-
-month = month < 10 ? '0' + month : month; 
-
-var day = d.getDate(); 
-
-day = day < 10 ? '0' + day : day; 
-
-span_dt_dt.innerHTML=year + '-' + month + '-' + day
-     </script></p>
+</div>
 </body>
 </html>
