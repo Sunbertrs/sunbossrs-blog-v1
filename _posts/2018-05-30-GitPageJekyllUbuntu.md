@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 'ubuntu使用GitPage搭建Jekyll'
 subtitle: '采用git '
