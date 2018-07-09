@@ -9,9 +9,8 @@
     t_div = document.getElementById('showtime');
     var now=new Date()
    
-     e_daysold=timeold/msPerDay
      msPerDay=24*60*60*1000
-     t_div.innerHTML = "现在是"+now.getFullYear()+"年"+(now.getMonth()+1)+"月"+now.getDate()+"日";
+     t_div.innerHTML = "现在是"+now.getFullYear()+"年"+(now.getMonth()+"月"+now.getDate()+"日";
     //等待一秒钟后调用time方法，由于settimeout在time方法内，所以可以无限调用
    setTimeout(time,1000);
   }
