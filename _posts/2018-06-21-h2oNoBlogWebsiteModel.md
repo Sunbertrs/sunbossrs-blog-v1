@@ -2,6 +2,7 @@
 layout: post
 title: 'H2O无博客网站！'
 description: '今天想到的计划。。原本是想给我的pi-imagedownload.github.io弄个比较好的网站模板，但是github pages的主题我觉得太少了，突然间我想到了h2o，我为何不把h2o做成一个网站模板呢？于是就有了大家所看到的一切。话说，廖柯宇看到这样，肯定气死了。。。。'
+subtitle: '普通字体版。'
 tags: 反馈 jekyll
 keywords: h2o 网站 无博客
 subtitle: '廖柯宇，有人把你的jekyll模板做成网站模板啦！！'
@@ -15,9 +16,5 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/jekyll-the
   
 ### 耀日庄主，留下模板给我们吧！！
 Here you are.
-<table>
-  <tr>
-    <td><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">点击来下载.</a></td>
-  </tr>
-<table>
+<button><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">点击来下载.</a></button>
 
