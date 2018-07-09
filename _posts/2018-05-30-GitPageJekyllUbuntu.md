@@ -9,14 +9,11 @@ cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 ---
 1. 打开`github.com`  
   
-2. 注册一个账号  
-![avatar](https://img-blog.csdn.net/20160727002237540)  
+2. 注册一个账号    
   
 3. 点开右上角的加号 ， `add a repository`  
-![avatar](https://img-blog.csdn.net/20160727005408944)  
   
 4. 填写以下信息：  
-![avatar](https://img-blog.csdn.net/20160727005138554)  
   
 5. 安装git程式  
 *这里我用了ubuntu，下次开windows的讲解*  
@@ -43,7 +40,7 @@ git config --global user.name "github用户名"
 git commit -a -m "修改说明，这个命令必须输入。"
 git push
 ```
-弹出一个窗口，输入你的GitHub信息  
+这时，bash让你输入github的信息，如样输入。   
   
 10. 来到你的仓库查看  
 是不是很神奇，所有东西上传上去啦！
@@ -55,12 +52,12 @@ git push
   
 12. 享受新生活！
   
-************************ 说明 *************************  
-*  以后，改好/写好 一篇博文，只需要使用               *  
-* `cd Desktop/`                                       *  
-* `cd *你的github名.github.io/`                       *  
-* `git add .`                                         *  
-* `git commit -a -m "修改说明"`                       *  
-* `git push`                                          *  
-*  就可以了。                                         *  
-*******************************************************
+*  以后，改好/写好 一篇博文，只需要使用以下几个命令  
+* `cd Desktop/`  
+* `cd *你的github名.github.io/`  
+* `git add .`  
+* `git commit -a -m "修改说明"`  
+* `git push`   
+  
+  
+**完。**
