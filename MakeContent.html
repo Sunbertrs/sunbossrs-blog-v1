@@ -1,21 +1,25 @@
-<!DOCTYPE html>
 <html>
-<head>
-<title>无标题文档</title>
+  <head>
+    <title>无标题文档</title>
  </head>
+ 
  <body>
-  <script language="Javascript">
-var newdate = null;
-  function getToDay(){
-   var now = new Date();
-   var nowYear = now.getFullYear();
-   var nowMonth = now.getMonth();
-   var nowDate = now.getDate();
-   newdate = new Date(nowYear,nowMonth,nowDate);
-   nowMonth = doHandleMonth(nowMonth + 1);
-   nowDate = doHandleMonth(nowDate);
-   return nowYear+"-"+nowMonth+"-"+nowDate;
-  }
+   <script language="Javascript">
+function getNowFormatDate() {
+    var date = new Date();
+var seperator = "-";
+var year = date.getFullYear();
+var month = date.getMonth() + 1;
+var strDate = date.getDate();
+if (month >= 1 && month <= 9) {
+    month = "0" + month;
+}
+if (strDate >= 0 && strDate <= 9) {
+    strDate = "0" + strDate;
+}
+var currentdate = year + seperator + month + seperator + strDate;
+return currentdate;
+
   </script>
 </body>
 </html>
