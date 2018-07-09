@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Ubuntu系统安装apache'
 subtitle: '又是下载站，也能网站制作'
 layout: post
@@ -11,75 +11,56 @@ cover: https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/cover
 ---
 
 安装apache。
-<pre>
-  <code class='language-bash'>
+```bash
 sudo apt-get install apache2
-  </code>
-</pre>
+```
 他会叫你是否确认安装，你就选yes。  
 ![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/tnmofapa.jpg)  
   
 ![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/needledld.jpg)  
 安装完成后，你就可以使用以下命令调试apache。
 开启apache
-<pre>
-  <code class='bash'>
+```bash
 sudo apache2ctl -k start
-  </code>
-</pre>
+```
 关闭apache
-<pre>
-  <code class='bash'>
+```bash
 sudo apache2ctl -k stop
-  </code>
-</pre>
+```
 重启apache
-<pre>
-  <code class='bash'>
+```bash
 sudo apache2ctl -k restart
-  </code>
-</pre>
-
+```
 虚拟目录在 httpd.conf 中，看如下:
-<pre>
-  <code class='apache'>
-  
+```apache  
 <VirtualHost *>
 DocumentRoot "/home/你的ubuntu用户名/目录"
 ServerName *自定义域名*
 <Directory "/home/你的ubuntu用户名/目录"> allow from all Options +Indexes </Directory>
 </VirtualHost>
-
-  </code>
-</pre>
+```
 把上面的信息补充好。再看这里。
 在 `/etc/apache2/sites-enabled/000-default`中，里面有这样的一段内容：
-<pre>
-  <code class='apache'>
-  
+```bash
 NameVirtualHost *
 <VirtualHost *>
 ServerAdmin webmaster@localhost
 DocumentRoot /var/www/
-
-  </code>
-</pre>
+```
 这是设置虚拟主机的，对我来说没什么意义。里面的```ServerAdmin```是指管理员邮箱。```DocumentRoot```不用理他。
 
 ### 试验
 
 因为上面我们已经完成了，基本上的配置了。所以，现在我们输入```*你的自定义域名*```或者```http://localhost/```
 **记住!上面用了自定义域名的，必须要重启apache才能生效!**
-<pre>
-  <code class='bash'>
+```bash
 sudo apache2ctl- k restart
-  </code>
-</pre>
+```
 就会看到```it's work!```的字样了。
 
 ### 下载站
 
-如果你不想让这个网站```it's work!```，要不然的话，就会失去他的一个价值:下载站。
+如果你不想让这个网站```it's work!```，要不然的话，就会失去他的一个价值:开源站！！
 如果你要把他变更为下载站的话，就要
 > 将Apache24/htdocs文件夹下面的index.html删除，因为默认显示这个页面。  
 我们刚才看到的 It's works! 页面就是这个文件的内容，然后将我们的文件及文件夹放到Apache24\htdocs下面，就可以成为下载站了。  
