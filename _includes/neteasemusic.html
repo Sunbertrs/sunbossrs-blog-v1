@@ -1,8 +1,13 @@
 <script src="/assets/js/skPlayer.min.js"></script>
 
 <script>
-skPlayer({
-	music:317921676,
-	theme:'red'
+var player = new skPlayer({
+    autoplay: true,
+    listshow: true,
+    mode: 'listloop',
+    music: {
+        type: 'cloud',
+        source: 317921676
+    }
 });
 </script>
