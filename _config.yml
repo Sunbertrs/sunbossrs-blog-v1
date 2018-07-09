@@ -64,10 +64,6 @@ theme-color: 'default'  # pink or default
 reward: 
   enable: true
 
-# netease music plugin 网易音乐插件
-neteasemusic:
-  enable: true
-
 # Post header background patterns 选择背景样板
 postPatterns: 'circuitBoard'
 
