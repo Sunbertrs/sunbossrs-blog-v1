@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 'windows使用GitPage搭建Jekyll'
 subtitle: '采用git bash'
@@ -16,7 +16,7 @@ cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 4. 填写信息
   
 5. 安装git程式  
-进入[gitforwindows官网](https://gitforwindows.org)下载一个git
+进入[gitforwindows官网](https://gitforwindows.org)下载一个git，安装。
 
 6. 打开`开始`，搜索`git`，找到git bash。
   
@@ -52,3 +52,5 @@ git push
   
 13. 享受新生活！
   
+- 以后，你写好一篇博文可以用一个`bash shell`脚本运行。  
+- 下载：[update-repository-chinese-chinese.sh](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/upd-repo-cn.sh)
