@@ -1,13 +1,16 @@
-<script src="https://gitee.com/srsyrzz/repository/raw/master/skPlayer/skPlayer.min.js"></script>
+<link rel="stylesheet" href="//sunbossrs.github.io/assets/css/APlayer.min.css">
+<div id="aplayer"></div>
+<script src="//sunbossrs.github.io/assets/js/APlayer.min.js"></script>
 
 <script>
-var player = new skPlayer({
-    autoplay: true,
-    listshow: true,
-    mode: 'listloop',
-    music: {
-        type: 'cloud',
-        source: 317921676
-    }
+const ap = new APlayer({
+    container: document.getElementById('player'),
+    fixed: true,
+    audio: [{
+        name: 'name',
+        artist: 'artist',
+        url: 'url.mp3',
+        cover: 'cover.jpg',
+    }]
 });
 </script>
