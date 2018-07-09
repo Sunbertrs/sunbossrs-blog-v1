@@ -3,22 +3,26 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
- <script language=Javascript> 
-  function time(){
-
-    t_div = document.getElementById('showtime');
-    var now=new Date()
-   
-     msPerDay=24*60*60*1000
-     t_div.innerHTML = "现在是"+now.getFullYear()+"年"+(now.getMonth()+1)+"月"+now.getDate()+"日";
-    //等待一秒钟后调用time方法，由于settimeout在time方法内，所以可以无限调用
-   setTimeout(time,1000);
-  }
-</script>
-</head>
-
-<body  onload="time()">
-<div id="showtime"></div>
-<p>查找更多代码，请访问：<a href="http://www.lanrentuku.com/" target="_blank">懒人图库</a></p>
+ </head>
+ <body>
+  <script language="javascript">
+  function getNowFormatDate() {
+    var date = new Date();
+    var seperator1 = "-";
+    var seperator2 = ":";
+    var month = date.getMonth() + 1;
+    var strDate = date.getDate();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+            + " " + date.getHours() + seperator2 + date.getMinutes()
+            + seperator2 + date.getSeconds();
+    return currentdate;
+}
+  </script>
 </body>
 </html>
