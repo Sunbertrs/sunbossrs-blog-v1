@@ -105,7 +105,7 @@
       </div>
       {% endif %}
     </section>
-	  <hr/>
+	  
     <section class="post-footer-item comment">
       <div id="disqus_thread"></div>
       <div id="gitalk_container"></div>
@@ -116,6 +116,9 @@
     </section> 
   </section>
 
+<article>
+	
+	<hr>
   {% include comment.html %}
 
   <script src="/assets/js/social-share.min.js"></script>
@@ -168,6 +171,8 @@
 		gitalk.render('gitalk_container')
     {% endif %}
   </script>
+	
+</article>
 	
 	{% include footer.html %}
 
