@@ -69,11 +69,12 @@
         {% endfor %}
       </ul>
       {% endif %}
-    </section>
-	  
-	  {% if site.reward.enable %}
+	    
+	    {% if site.reward.enable %}
 	    {% include reward.html %}
-	  {% enedif %}
+	    {% enedif %}
+	    
+    </section>
 	  
     <section class="post-footer-item read-next">
       {% if page.next.url %}
@@ -166,27 +167,13 @@
 
 		gitalk.render('gitalk_container')
     {% endif %}
-	
-  {% if site.comments.valine %}
-    new Valine({
-        av: AV,
-        el: '.valine_comment' ,
-        notify:false, 
-        verify:false, 
-        app_id: '{{ site.comments.valine_app_id }}',
-        app_key: '{{ site.comments.valine_app_key }}',
-        placeholder: '{{ site.comments.valine_placeholder }}',
-        path:window.location.pathname, 
-        avatar:'{{ site.comments.valine_avatar }}' 
-    });
-
-  {% endif %}
   </script>
 	
 	{% include footer.html %}
 
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
+  <script src="/assets/js/music.js" type="text/javascript"></script>
 
 </body>
 
