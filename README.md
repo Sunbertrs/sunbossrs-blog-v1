@@ -28,7 +28,7 @@ The blog is create in `Github Page`.
 
 >@kaeyleo make this blog theme.  
 >  
-![pic](https://raw.githubusercontent.com/SunbossRS/SunbossRS.github.io/master/assets/img/liaokeyumakeh2o.png)  
+>![pic](https://raw.githubusercontent.com/SunbossRS/SunbossRS.github.io/master/assets/img/liaokeyumakeh2o.png)  
 >  
 
 >Make reward button.I make the `reward` to `give a idea` .  
