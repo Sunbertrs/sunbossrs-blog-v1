@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
-
 {% include post-head.html %}
-
 
 <body>
   <!--[if lt IE 10]>
@@ -32,6 +28,7 @@
       <div class="post-cover" style="background: url('{{ page.cover }}') center no-repeat; background-size: cover;"></div>
     {% endif %}
   </header>
+
   <div class="post-content visible">
     {% if page.subtitle %}
     <h2 class="post-subtitle">{{ page.subtitle }}</h2>
@@ -47,13 +44,12 @@
     </div>
     {% endif %}
   </div>
-	
-  <section class="author-detail" style="top: -285'px;">
+
+  <section class="author-detail">
     <section class="post-footer-item author-card">
       <div class="avatar">
         <img src="{{ site.avatar | absolute_url }}" alt="">
       </div>
-	    
       <div class="author-name" rel="author">{{ site.author }}</div>
       <div class="bio">
         <p>{{ site.bio }}</p>
@@ -69,13 +65,7 @@
         {% endfor %}
       </ul>
       {% endif %}
-	    
-	    {% if site.reward.enable %}
-	    {% include reward.html %}
-	    {% enedif %}
-	    
     </section>
-	  
     <section class="post-footer-item read-next">
       {% if page.next.url %}
       <div class="read-next-item">
@@ -105,21 +95,12 @@
       </div>
       {% endif %}
     </section>
-	  
     <section class="post-footer-item comment">
       <div id="disqus_thread"></div>
-      <div id="gitalk_container"></div>
-      <div class="valine_comment"></div>
     </section>
-    <section class="post-footer-item comment">
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。
-    </section> 
   </section>
 
-<article>
-	
-	<hr>
-  {% include comment.html %}
+  {% include footer.html %}
 
   <script src="/assets/js/social-share.min.js"></script>
   <script>
@@ -136,8 +117,8 @@
     });
   </script>
 
+  {% if site.comments.disqus %}
   <script>
-    {% if site.comments.disqus %}
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -152,34 +133,13 @@
         s = d.createElement('script');
       s.src = '{{ site.comments.disqus_url }}';
       s.setAttribute('data-timestamp', +new Date());
-
       (d.head || d.body).appendChild(s);
     })();
-    {% endif %}
-    
-    {% if site.comments.gitalk %}
-    var gitalk = new Gitalk({
-		  clientID: '{{ site.comments.gitalk_clientID }}',
-		  clientSecret: '{{ site.comments.gitalk_Secret }}',
-		  repo: '{{ site.comments.gitalk_repo }}',
-		  owner: '{{ site.comments.gitalk_owner }}',
-		  admin: '{{ site.comments.gitalk_admin }}',
-		  id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-		  distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
-		})
-
-		gitalk.render('gitalk_container')
-    {% endif %}
   </script>
-	
-</article>
-	
-	{% include footer.html %}
+  {% endif %}
 
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
-  <script src="/assets/js/music.js" type="text/javascript"></script>
-
 </body>
 
 </html>
