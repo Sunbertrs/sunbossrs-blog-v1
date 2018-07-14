@@ -1,4 +1,5 @@
-﻿---
+---
+layout: post
 title: '想着过去的事情'
 subtitle: '那些时光多么好啊.........'
 description: '哎........'
