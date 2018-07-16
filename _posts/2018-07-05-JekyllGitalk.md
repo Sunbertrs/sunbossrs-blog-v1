@@ -46,4 +46,7 @@ category: tech
   </code>
 </pre>
 。。至于我这里的distrationfreemode，你们怎样弄都可以，只要true和false
-![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/03.png)
+![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/03.png)  
+记住，要把disqus开启。  
+### 03.修改post.html
+打开网站根目录的post.html，在html的下面添加以下内容:
