@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: '耀日庄主的博客更新日志'
+title: '耀日庄主的博客更新日志20180707'
 subtitle: 'Hha!'
 tags: 反馈 jekyll
 category: information
