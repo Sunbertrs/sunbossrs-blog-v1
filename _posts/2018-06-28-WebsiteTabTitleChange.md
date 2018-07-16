@@ -1,14 +1,14 @@
 ---
 layout: post
-title: '你的网站tab在切换到其他页面时header-title变....'
+title: '如何在切换网站后改变标题'
 subtitle: '让标题变得funny!!'
 tags: jekyll 反馈
 keywords: 网站  结尾 
 category: tech
 cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/2018-06-27%2018-48-51%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png'
 ---
-打开你的网站目录，打开你的`footer`网站结尾文件。  
-然后把这行代码插在`</footer>`的上面。
+打开你的网站目录，打开你的其中一个网站文件，要是html的，可以是indez.html。  
+记住这行代码要是一个script。
 ```html
     <script>
 
