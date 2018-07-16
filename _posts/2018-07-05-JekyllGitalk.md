@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '在jekyll博客里设置gitalk评论系统'
-subtitle: '{ copyright tea9 ... }'
+subtitle: '转载自tea9.'
 tags: jekyll 反馈
 category: tech
 ---
@@ -21,7 +21,7 @@ category: tech
 *开始教程*
 ---
 ### 01.注册GitHub Application
-注册GitHub Application
+注册GitHub OAuth Application
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)  
 ```github
  Application name:项目名称  
@@ -33,16 +33,17 @@ category: tech
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/02.png)
 
 ### 02.配置_config.yml
-  
+在_config.yml这个文件里添加以下内容:
  <pre>
    <code class="language-yaml">
  gitalk: true
- gitalk_clientID: 'clientID'
- gitalk_Secret: 'Secret'
- gitalk_repo: '用户名.github.io'
+ gitalk_clientID: '你刚刚注册一个oauth application的clientID'
+ gitalk_Secret: 'oauth application的secret'
+ gitalk_repo: '用户名.github.io或者是一个存放评论的仓库'
  gitalk_owner: 'github用户名'
  gitalk_admin: 'github用户名'
  distractionFreeMode: true
   </code>
 </pre>
+。。至于我这里的distrationfreemode，你们怎样弄都可以，只要true和false
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/03.png)
