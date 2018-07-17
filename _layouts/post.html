@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-
-<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 {% include post-head.html %}
+
 <body>
   <!--[if lt IE 10]>
 <div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
@@ -68,11 +67,11 @@
       </ul>
       {% endif %}
     </section>
-	
-	{% if site.reward.enable %}
+	  
+	  {% if site.reward.enable %}
 	  {% include reward.html %}
-	{% endif %}
-	
+	  {% endif %}
+	  
     <section class="post-footer-item read-next">
       {% if page.next.url %}
       <div class="read-next-item">
@@ -102,20 +101,67 @@
       </div>
       {% endif %}
     </section>
+	  <hr />
+    <section class="post-footer-item comment">
+      <div id="disqus_thread"></div>
+      <div id="gitalk_container"></div>
+    </section>
+  </section>
 	
-	<hr/>
-	  
-	
-  <hr/>
-  
-  {% include creativecommons-license.html %}
-  
   {% include footer.html %}
 
- <!--
- Script load area
- -->
- 
+  <script src="/assets/js/social-share.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+  <script>
+    socialShare('.social-share', {
+      sites: [
+        {% for i in site.social-share-items %}
+          '{{ i }}'
+          {% if forloop.last == false %},
+          {% endif %}
+        {% endfor %}
+      ],
+      wechatQrcodeTitle: "分享到微信朋友圈",
+      wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
+    });
+  </script>
+
+  {% if site.comments.disqus %}
+  <script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document,
+        s = d.createElement('script');
+      s.src = '{{ site.comments.disqus_url }}';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  {% endif %}
+
+  {% if site.comments.gitalk %}
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '{{ site.comments.gitalk_clientID }}',
+      clientSecret: '{{ site.comments.gitalk_Secret }}',
+      repo: '{{ site.comments.gitalk_repo }}',
+      owner: '{{ site.comments.gitalk_owner }}',
+      admin: '{{ site.comments.gitalk_admin }}',
+      id: location.pathname,     
+      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
+    })
+    gitalk.render('gitalk_container')
+  </script>
+    {% endif %}
+
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
 </body>
