@@ -15,6 +15,6 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/jekyll-the
 好吧，这次我又乱玩，把内容都给改了！现在他很成功的用在了[pi-imagedownload.github.io](https://pi-imagedownload.github.io)里。
   
 ### 耀日庄主，留下模板给我们吧！！
-Here you are.
-<button><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">点击来下载.</a></button>
+Here you are.  
+<button width=30 height=40><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">点击来下载.</a></button>
 
