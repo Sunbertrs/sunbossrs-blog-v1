@@ -16,5 +16,6 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/jekyll-the
   
 ### 耀日庄主，留下模板给我们吧！！
 Here you are.  
-<button width=30 height=40><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">点击来下载.</a></button>
+
+<button type=button width=30 height=40><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">点击来下载.</a></button>
 
