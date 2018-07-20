@@ -23,7 +23,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
 ### 01.打开apk
 打开你的APK编辑器，然后选择minecraft， `Simple edit` 。 (√)  
 *MT管理器是要你下载一个mc的apk安装包，然后打开那个apk的位置，点击进入apk包的内部。*  
-![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347569224_1080.png)  
+<img width=-30 height=-30 src="https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347569224_1080.png" />  
 点击mc。  
 ![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347564333_1080.jpeg)  
   
