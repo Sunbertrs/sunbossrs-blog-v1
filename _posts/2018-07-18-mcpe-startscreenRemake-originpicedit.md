@@ -33,15 +33,9 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
 
 ### 02.进入图片路径
 打开以下路径。  
-  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347562085_1080.png)  
-  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347560550_1080.jpeg)  
-  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347564155_1080.png)  
-  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347563774_1080.png)  
-  
+```path
+/assets/resource_packs/vanilla_loading_screen/
+```
 保存那个图片，如下图。  
 ![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347565112_1080.png)
 
@@ -49,27 +43,40 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
 先把apk编辑器放到后台，然后看以下内容。  
 直接在原图里修改：打开像素小画家，进入图片里修改。(√)  
 *使用其他图片：使用图片编辑器打开你的图片，然后把图片ps成1920x1080的分辨率，然后保存。*  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708162335197119_1080.png)  
-进入ApkEditor文件。  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708162335202523_1080.png)  
-进入image文件。  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708162335200458_1080.png)  
-找到 `loading_screen_0.png` 
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708162335205105_1080.png)  
+```default
+打开图片
+```
+进入ApkEditor文件夹。  
+  
+进入image文件夹。  
+  
+找到 `loading_screen_0.png`  
+  
 修改。我在上面写了几个字。  
+  
 ![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708171347159364_1080.png)  
 覆盖。  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708171348264276_1080.png)  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708171348266535_1080.png)  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708171348263741_1080.png)
-
+```default
+保存图片
+```
+```default
+储存
+```
+```default
+你确定要覆盖之前的图片？
+>YES<        NO
+```
+  
 ### 04.再提换图片
 把之前放到后台的apk管理器打开，再覆盖之前的 `loading_screen_0.png` 。  
 ![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708202218166688_1080.png)  
 点击了那个按钮，就会进入系统 `/storage/emulated/0/` 的位置。这是系统的主要位置。如果你要看 `/` 你就得root你的手机才能看到。(你不可能把图片放到 / 里。。)  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708202218164013_1080.jpeg)  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708202218165921_1080.png)  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708202218168139_1080.png)
+进入以下文件夹：
+```path
+/storage/emulated/0/ApkEditor/images/loading_screen_0.png
+↓
+进入ApkEditor/images/找到loading_screen_0.png
+```
 保存。搞定！  
 ![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708221413118725_1080.jpeg)
 
