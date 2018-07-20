@@ -25,11 +25,11 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
 *MT管理器是要你下载一个mc的apk安装包，然后打开那个apk的位置，点击进入apk包的内部。*  
 <img width=70 height=100 src="https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347569224_1080.png" />  
 点击mc。  
-![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347564333_1080.jpeg)  
+<img width=70 height=100 src="https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347564333_1080.jpeg" />
   
 点击Simple edit。  
   
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347563355_1080.jpeg)
+<img width=70 height=100 src="https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347563355_1080.jpeg" />
 
 ### 02.进入图片路径
 打开以下路径。  
@@ -54,7 +54,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
   
 修改。我在上面写了几个字。  
   
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708171347159364_1080.png)  
+<img width=70 height=100 src="https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708171347159364_1080.png" />  
 覆盖。  
 ```default
 保存图片
@@ -69,7 +69,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
   
 ### 04.再提换图片
 把之前放到后台的apk管理器打开，再覆盖之前的 `loading_screen_0.png` 。  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708202218166688_1080.png)  
+<img width=70 height=100 src="https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708202218166688_1080.png" />  
 点击了那个按钮，就会进入系统 `/storage/emulated/0/` 的位置。这是系统的主要位置。如果你要看 `/` 你就得root你的手机才能看到。(你不可能把图片放到 / 里。。)  
 进入以下文件夹：
 ```path
@@ -78,7 +78,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
 进入ApkEditor/images/找到loading_screen_0.png
 ```
 保存。搞定！  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708221413118725_1080.jpeg)
+<img width=70 height=100 src="https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708221413118725_1080.jpeg" />
 
 ### 安装
 恭喜你！完成了修改mc的开始图片！现在，你会看到下面有三个按钮，最左边的一个是删除之前装在手机里的mc，中间的那个是安装，右边的那个是退出。  
@@ -86,8 +86,4 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
 如果你的手机使用直接安装的话安装不了，你要点左边的按钮，删除之前再点击安装按钮。千万记住！卸载mc时不要点击 *删除该软件所在的文件目录*！这会删除你的存档之类的东西。  
   
 安装完后，你就可以退出了.
-```default
-*****End*****
-*  Bye bye. *
-*************
-```
+
