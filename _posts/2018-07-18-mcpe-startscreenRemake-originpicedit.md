@@ -37,7 +37,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
 /assets/resource_packs/vanilla_loading_screen/
 ```
 保存那个图片，如下图。  
-![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347565112_1080.png)
+<img width=70 height=100 src="https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708131347565112_1080.png" />
 
 ### 03.编辑图片
 先把apk编辑器放到后台，然后看以下内容。  
