@@ -55,13 +55,16 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZh
 修改。我在上面写了几个字。  
   
 <img width=70 height=100 src="https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/201708171347159364_1080.png" />  
-覆盖。  
+覆盖。
+
 ```default
 保存图片
 ```
+
 ```default
 储存
 ```
+
 ```default
 你确定要覆盖之前的图片？
 >YES<        NO
