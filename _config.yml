@@ -43,7 +43,7 @@ comments:
   gitalk: true
   gitalk_clientID: '800a929ad18c8e90fdbc'
   gitalk_Secret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58'
-  gitalk_repo: 'BlogCommentStore '
+  gitalk_repo: 'BlogCommentStore'
   gitalk_owner: 'SunbossRS'
   gitalk_admin: 'SunbossRS'
   distractionFreeMode: true
