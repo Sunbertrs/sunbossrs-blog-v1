@@ -86,7 +86,7 @@ comments:
 ```
 由于前面我们在`_config.yml`里输入过gitalk注册的消息，这里直接用*大括号表达式*.就是这么懒~  
   
-接下来，在{% include footer.html %}的下面输入以下内容：
+接下来，在<pre><code>{% include footer.html %}</code></pre>的下面输入以下内容：
 ```html
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 ```
