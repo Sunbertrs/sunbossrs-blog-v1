@@ -21,7 +21,8 @@ category: tech
 *开始教程*
 ---
 ### 01.注册GitHub Application
-注册GitHub OAuth Application
+注册GitHub OAuth Application  
+注册方法：在github主页右上角点击你的头像，settings，进入界面后点击developer settings
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)  
 ```github
  Application name:项目名称  
