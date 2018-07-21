@@ -68,20 +68,22 @@ comments:
 <div id="gitalk_container"></div>
 ```
 添加完之后呢，（哎，等等，我看一下[演讲本](//tea9.xyz/2018/06/24/gitali_config.html)先♂）在快要接近结尾的地方，**不要是</body>，也不要是</html>的地方，是在快要接近</body>的地方里**，添加以下字段：
-<code>  {% if site.comments.gitalk %}</code>
-<code>  <script></code>
-<code>    var gitalk = new Gitalk({</code>
-<code>      clientID: '{{ site.comments.gitalk_clientID }}',</code>
-<code>      clientSecret: '{{ site.comments.gitalk_Secret }}',</code>
-<code>      repo: '{{ site.comments.gitalk_repo }}',</code>
-<code>      owner: '{{ site.comments.gitalk_owner }}',</code>
-<code>      admin: '{{ site.comments.gitalk_admin }}',</code>
-<code>      id: location.pathname,     </code>
-<code>      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  </code>
-<code>    })</code>
-<code>    gitalk.render('gitalk_container')</code>
-<code>  </script></code>
-<code>    {% endif %}</code>
+```post.html
+  {% if site.comments.gitalk %}
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '{{ site.comments.gitalk_clientID }}',
+      clientSecret: '{{ site.comments.gitalk_Secret }}',
+      repo: '{{ site.comments.gitalk_repo }}',
+      owner: '{{ site.comments.gitalk_owner }}',
+      admin: '{{ site.comments.gitalk_admin }}',
+      id: location.pathname,     
+      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
+    })
+    gitalk.render('gitalk_container')
+  </script>
+{% endif %}
+```
 
 由于前面我们在 `_config.yml` 里输入过gitalk注册的消息，这里直接用*大括号表达式*.就是这么懒~  
   
