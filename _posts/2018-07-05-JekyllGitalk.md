@@ -68,8 +68,7 @@ comments:
 <div id="gitalk_container"></div>
 ```
 添加完之后呢，（哎，等等，我看一下[演讲本](//tea9.xyz/2018/06/24/gitali_config.html)先♂）在快要接近结尾的地方，**不要是</body>，也不要是</html>的地方，是在快要接近</body>的地方里**，添加以下字段：
-  
-
+<code>
   {% if site.comments.gitalk %}
   <script>
     var gitalk = new Gitalk({
@@ -84,8 +83,7 @@ comments:
     gitalk.render('gitalk_container')
   </script>
     {% endif %}
-  
-
+</code>
 由于前面我们在 `_config.yml` 里输入过gitalk注册的消息，这里直接用*大括号表达式*.就是这么懒~  
   
 接下来，输入以下内容：
