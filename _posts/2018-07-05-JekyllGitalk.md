@@ -54,22 +54,19 @@ comments:
 
 ### 03.修改post.html
 打开网站根目录的`post.html`，这个文件一般在`_layouts`文件夹。在该文件里的`<html>`下面 添加以下内容:
-<pre>
-  <code class="language-html">
+
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-  </code>
-</pre>
+```
 
 严♂后往下翻 或者搜索字段`<section class="post-footer-item comment">`找到他。  
 如果没有找到该字段，请在`{% if page.previous.url %}`的`{% endif %}`下面的`</section>`里换行，然后输入`<section class="post-footer-item comment">`。  
   
 继续。找到`<section class="post-footer-item comment">`后，在该文段下面添加以下字符：
-<pre>
-  <code class="language-html">
+```html
 <div id="disqus_thread"></div> //如果你的主题自带disqus，请省略该行，直接把下面这一行的内容添加进去。
 <div id="gitalk_container"></div>
-  </code>
-</pre>
+```
 添加完之后呢，（哎，等等，我看一下[演讲本](//tea9.xyz/2018/06/24/gitali_config.html)先♂）在快要接近结尾的地方，**不要是</body>，也不要是</html>的地方，是在快要接近</body>的地方里**，添加以下字段：
 <pre>
   <code class="language-html">
