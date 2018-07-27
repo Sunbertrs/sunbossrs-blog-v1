@@ -9,10 +9,10 @@ baseurl: ''
 
 # Navigation links 导航
 nav:
-  home: '/'
-  tags: '/tags.html'
-  links: '/links.html'
-  about me: '/AboutMe.html'
+  主页: '/'
+  标签: '/tags.html'
+  友链: '/links.html'
+  关于我: '/AboutMe.html'
 
 # Footer 底部信息
 footer:
