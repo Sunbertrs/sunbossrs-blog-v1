@@ -1,0 +1,64 @@
+---
+layout: default
+home-title: 耀日庄主的博客
+header-img: https://gitee.com/srsyrzz/repository/raw/master/sunup.jpg
+description: Minecraft is my SOUL!!
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+{% include header.html %}
+
+<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
+    <h2>{{ page.home-title }}</h2>
+    <h3>{{ page.description }}</h3>
+    {% if page.header-img %}
+    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
+    {% endif %}
+</div>
+    </aside>
+<main class="tags-content">
+<ul class="tags-list">
+
+<br>
+    
+<br>
+    
+<br>
+    
+<br>
+    
+<li>
+   <span class="tag-name" id="hmcl"> HMCL我的世界电脑启动器 </span>   
+   <a href='https://hmcl.huangyuhui.net/download'>dl.here</a>
+</li>
+    <br>
+<li>
+    <span class="tag-name" id="chilledwindows"> ChilledWindows </span>
+    <a href="//m.gitee.com/srsyrzz/repository/raw/master/chilledwindows/chilledwindows.exe">dl.here</a>
+</li>
+    <br>   
+<li>
+   <p>反馈</p>
+   <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+   <div id="gitalk_container"></div>     
+   <script>
+    var gitalk = new Gitalk({
+      clientID: '800a929ad18c8e90fdbc',
+      clientSecret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58',
+      repo: 'BlogCommentStore',
+      owner: 'SunbossRS',
+      admin: 'SunbossRS',
+      id: location.pathname,     
+      distractionFreeMode: 'true'  
+    })
+    gitalk.render('gitalk_container')
+   </script>
+
+
+
+</ul>
+
+</main>
+
+{% include footer.html %}
