@@ -1,27 +1,28 @@
 git config --global user.email "yaorizhuangzhu@163.com"
 git config --global user.name "SunbossRS"
 
+clear
+
 git status
+echo "请稍后."
 
-echo "更新仓库 ...(放心，我们不会删除之前的更改。)"
 
+echo "更新仓库..."
+
+clear
 git pull origin master
 
 clear
 
 git status
-echo "---------------------------"
-echo "核实信息。"
 
 echo "你的更改已成功。我们将会上传到仓库。"
 echo ""
 echo "输入更改留言在下方。"
 echo ""
-read -p "更改的留言是:"
-
-rm *~
-rm **/*~
-rm **/**/*~
+echo "更改的留言是"
+echo ""
+read -p "->"
 
 git add .
 git stage .
@@ -49,5 +50,6 @@ clear
 
 echo ""
 git gc
-echo "---------------------------"
-echo "关机~"
+
+clear
+
