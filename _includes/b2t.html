@@ -7,27 +7,24 @@ refer to:
 -->
 <style media="screen">
   .scroll {
-    opacity: 0.8;
     z-index: 10000;
     display: none;
+    height: 24px;
+    background: #222;
     color: #fff;
-    line-height: 22px;
+    line-height: 24px;
     text-align: center;
     position: fixed;
     right: 30px;
     bottom: 30px;
     cursor: pointer;
-    font-size: 13px;
-    padding-bottom: 2px;
-    padding-left: 6px;
-    padding-right: 6px;
+    font-size: 14px;
   }
 </style>
-<div class="scroll {{ site.theme-color | prepend: 'bgcolor-' }}">
-  <i class="fa fa-arrow-up" aria-hidden="true"></i>
-  <span class="scrollpercent">
-      <span class="inner"></span>
-    </span>
+<div class="scroll">
+  <i class="fa fa-arrow-up" style="margin-left: 4px"></i>
+  <span class="scrollpercent" style="margin-left: -2px"></span>
+  <span style="margin-left: -4px; margin-right: 4px">%</span>
 </div>
 
 <script src="/assets/js/util.js"></script>
@@ -39,14 +36,11 @@ refer to:
     }
     $(window).scroll(function() {
       let scrollValue = $(window).scrollTop();
-
       var scrollPercentRounded = Math.round((scrollValue / utils.getContentVisibilityHeight()) * 100);
       var scrollPercentMaxed = (scrollPercentRounded > 100) ? 100 : scrollPercentRounded;
-
-      $('.scrollpercent .inner').html(scrollPercentMaxed);
+      $('.scrollpercent').html(scrollPercentMaxed);
       scrollValue > 100 ? $('.scroll').fadeIn() : $('.scroll').fadeOut();
     });
-
     $('.scroll').click(function() {
       $('html, body').animate({
         scrollTop: 0
