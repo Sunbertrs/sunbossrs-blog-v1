@@ -58,4 +58,7 @@
         }
         document.addEventListener(visibilityChangeEvent, onVisibilityChange);
     </script>
+  {% if site.b2t.enable %}  
+  {% include b2t.html %}  
+  {% endif %}
 </footer>
