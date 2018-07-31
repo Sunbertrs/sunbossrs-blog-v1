@@ -36,7 +36,7 @@ refer to:
     }
     $(window).scroll(function() {
       let scrollValue = $(window).scrollTop();
-      var scrollPercentRounded = Math.round((scrollValue / aaa.getContentVisibilityHeight()) * 100);
+      var scrollPercentRounded = Math.round((scrollValue / utils.getContentVisibilityHeight()) * 100);
       var scrollPercentMaxed = (scrollPercentRounded > 100) ? 100 : scrollPercentRounded;
       $('.scrollpercent').html(scrollPercentMaxed);
       scrollValue > 100 ? $('.scroll').fadeIn() : $('.scroll').fadeOut();
