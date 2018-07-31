@@ -39,25 +39,6 @@
       </script>
     </p>
 
-    <script>
-        /**
-         *Funny Title
-         */
-        var title=document.title;
-        var hiddenProperty = 'hidden' in document ? 'hidden' :
-            'webkitHidden' in document ? 'webkitHidden' :
-                'mozHidden' in document ? 'mozHidden' :
-                    null;
-        var visibilityChangeEvent = hiddenProperty.replace(/hidden/i, 'visibilitychange');
-        var onVisibilityChange = function(){
-            if (!document[hiddenProperty]) {
-                document.title = title;
-            }else{
-                document.title = "mc万岁! - " + title;
-            }
-        }
-        document.addEventListener(visibilityChangeEvent, onVisibilityChange);
-    </script>
   {% if site.b2t.enable %}  
   {% include b2t.html %}  
   {% endif %}
