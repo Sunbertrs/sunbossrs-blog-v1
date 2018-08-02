@@ -63,8 +63,6 @@ git gc
 clear
 
 git push
-git config --global user.email "yaorizhuangzhu@163.com"
-git config --global user.name "SunbossRS"
 
 clear
 
