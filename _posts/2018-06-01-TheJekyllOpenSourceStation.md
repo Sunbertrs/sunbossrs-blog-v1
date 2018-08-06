@@ -3,7 +3,7 @@ layout: post
 title: 'jekyll=开源站？'
 subtitle: '这是出现问题还是不完全？'
 keywords: ubuntu jekyll 开源站
-tags: ubuntu jekyll 反馈
+tags: ubuntu jekyll 反馈 网站
 category: information
 cover: 'http://p1.so.qhimgs1.com/t01199d95a4f61247c1.png'
 ---
