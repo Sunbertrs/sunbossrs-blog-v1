@@ -1,8 +1,8 @@
 # Site settings 配置站点
 title: 'A5耀日庄主的博客'
-description: '耀日庄主的博客!'
+description: '一个虽然不出名，但是好的实况主 的博客'
 keyword: 'minecraft / 科技 / html / 尝试'
-url: 'sunbossrs.mc' # your host
+url: 'srsyrzz.ml' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -17,12 +17,13 @@ nav:
 
 # Footer 底部信息
 footer:
+  since: 2017 
   庄主一出手，就只有没有!
 
 # Author 配置博主信息
 author: '耀日庄主'
 nickname: 'A5耀日庄主'
-bio: '我的世界万岁!!'
+bio: '从minecraft成长，成长于minecraft。今天minecraft以我为荣，明天我以minecraft为荣！争取做一名虽然不出名但是好的实况主。'
 avatar: 'https://avatars0.githubusercontent.com/u/38691765?s=460&v=4'
 
 # Search 搜索
@@ -37,7 +38,7 @@ b2t: true
 # Comments 评论功能
 comments:
   # disqus comments by liaokeyu
-  disqus: true
+  disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
   # gitalk comments by tea9
@@ -53,7 +54,7 @@ comments:
   livere: false
   
 # MathJax 公式支持 by Ray-Eldath
-mathjax: true
+mathjax: false
 
 # Share 分享功能
 social-share: true
@@ -86,7 +87,7 @@ sns:
 
 # Markdown
 markdown: kramdown
-highlighter: default # rouge
+highlighter: rouge
 kramdown:
   input: GFM
 
