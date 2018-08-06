@@ -2,7 +2,7 @@
 layout: post
 title: 'ubuntu使用GitPage搭建Jekyll'
 subtitle: '采用git '
-keywords: github jekyll 教程 ubuntu
+keywords: github jekyll 教程 ubuntu 网站
 tags: 教程 ubuntu github
 category: tech
 cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
