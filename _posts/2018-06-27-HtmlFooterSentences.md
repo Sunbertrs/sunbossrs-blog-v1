@@ -2,7 +2,7 @@
 layout: post
 title: '如何让你的博客/普通的网站结尾显示名言警句'
 description: '源是LWL12的！'
-tags: jekyll 反馈
+tags: jekyll 反馈 网站
 keywords: 网站 名言警句 结尾 
 category: tech
 cover: 
