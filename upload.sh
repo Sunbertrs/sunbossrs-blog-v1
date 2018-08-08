@@ -100,3 +100,7 @@ echo "     T        H       H   A       A   N       N  K    K"
 echo "     T        H       H   A       A   N       N  K        K"
 
 ping -n 5 localhost
+
+git gc
+git stage .
+git pull origin master
