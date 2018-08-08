@@ -21,7 +21,7 @@
 >![pic](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/sctophelpme.png)  
 >  
 
-> ~@kaeyleo 制作了这个主题。~  
+> ~~@kaeyleo 制作了这个主题。~~  
 >  
 ![pic](https://raw.githubusercontent.com/SunbossRS/SunbossRS.github.io/master/assets/img/liaokeyumakeh2o.png)  
 >  
