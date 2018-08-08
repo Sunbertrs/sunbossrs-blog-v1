@@ -91,16 +91,20 @@ git gc
 
 clear
 
-echo "TTTTTTTTTTT   H       H   AAAAAAAAA   NNNNNNNNN  K       K"
-echo "     T        H       H   A       A   N       N  K    K"
-echo "     T        HHHHHHHHH   A       A   N       N  K  K"
-echo "     T        H       H   AAAAAAAAA   N       N  K"
-echo "     T        H       H   A       A   N       N  K  K"
-echo "     T        H       H   A       A   N       N  K    K"
-echo "     T        H       H   A       A   N       N  K        K"
+echo "TTTTTTTTTTT   H       H   AAAAAAAAA   NNNNNNNNN   K      K        U             U"
+echo "     T        H       H   A       A   N       N   K    K          U             U"
+echo "     T        HHHHHHHHH   A       A   N       N   K K             U             U"
+echo "     T        H       H   AAAAAAAAA   N       N   KK               U            U"
+echo "     T        H       H   A       A   N       N   K K               U         U"
+echo "     T        H       H   A       A   N       N   K    K              U     U"
+echo "     T        H       H   A       A   N       N   K      K               UU"
 
-ping -n 5 localhost
+ping -n 3 localhost
 
 git gc
 git stage .
 git pull origin master
+
+clear
+
+echo "Bye."
