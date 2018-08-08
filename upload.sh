@@ -1,5 +1,8 @@
-﻿git config --global user.email "yaorizhuangzhu@163.com"
+git config --global user.email "yaorizhuangzhu@163.com"
 git config --global user.name "SunbossRS"
+git status
+
+clear
 
 echo "----------------------------"
 echo "------git上传仓库脚本-------"
@@ -8,8 +11,6 @@ echo ""
 echo "Made by SunbossRS"
 echo ""
 echo "This product can help you upload the file easier."
- 
-clear
 
 echo "运行内容概括"
 echo "1. 检测修改的内容"
@@ -18,6 +19,18 @@ echo "3. 输入更改留言"
 echo "4. 更新到仓库"
 echo ""
 echo "Thank you to use this product!"
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
 echo ""
 echo ""
 echo ""
@@ -33,12 +46,17 @@ git pull origin master
 
 clear
 
-echo "你的更改已成功。"
-echo "----------------"
+echo "<test the was edited file,do set>"
+echo "<keep.editedfile> <put updatefile to this repo>"
+echo "<do class=cdlivr></> </hyhe> <test></wy7> </ghme>"
+ping -n 1 localhost
+
+clear
+
 echo "请输入更改留言。"
 echo ""
 echo ""
-read -p ">"
+read -p "> "
 
 git add .
 git stage .
