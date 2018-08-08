@@ -91,13 +91,12 @@ git gc
 
 clear
 
-echo "..."
-echo "..."
-echo "..."
-echo "..."
-echo "..."
-echo "..."
-echo "..."
-echo "..."
-echo "close"
+echo "TTTTTTTTTTT   H       H   AAAAAAAAA   NNNNNNNNN  K       K"
+echo "     T        H       H   A       A   N       N  K    K"
+echo "     T        HHHHHHHHH   A       A   N       N  K  K"
+echo "     T        H       H   AAAAAAAAA   N       N  K"
+echo "     T        H       H   A       A   N       N  K  K"
+echo "     T        H       H   A       A   N       N  K    K"
+echo "     T        H       H   A       A   N       N  K        K"
 
+ping -n 5 localhost
