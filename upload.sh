@@ -91,13 +91,11 @@ git gc
 
 clear
 
-echo "TTTTTTTTTTT   H       H   AAAAAAAAA   NNNNNNNNN   K      K        U             U"
-echo "     T        H       H   A       A   N       N   K    K          U             U"
-echo "     T        HHHHHHHHH   A       A   N       N   K K             U             U"
-echo "     T        H       H   AAAAAAAAA   N       N   KK               U            U"
-echo "     T        H       H   A       A   N       N   K K               U         U"
-echo "     T        H       H   A       A   N       N   K    K              U     U"
-echo "     T        H       H   A       A   N       N   K      K               UU"
+echo "TTTTTTTTTTT   H       H   AAAAAAAAA   NNNNNNNNN   K    K     U        U"
+echo "     T        H       H   A       A   N       N   K  K       U        U"
+echo "     T        HHHHHHHHH   AAAAAAAAA   N       N   KK          U      U"
+echo "     T        H       H   A       A   N       N   K  K         U    U"
+echo "     T        H       H   A       A   N       N   K    K         UU"
 
 ping -n 3 localhost
 
