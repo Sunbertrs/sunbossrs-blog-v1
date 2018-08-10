@@ -2,7 +2,6 @@
 layout: post
 title: 注册freenom域名并弄到GithubPage'
 subtitle: '免费一年～'
-description: 用的图片源是https://coderschool.cn/2197.html的。'
 tags: 网站 教程 github
 keywords: freenom 域名 github 注册 page
 cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/IMG_20180807_233511.jpg'
@@ -36,6 +35,32 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/I
 这时候，我们要用到我们的命令行了。  
 ### 2. 知道自己的dns
 在命令行里输入以下内容：
-```bash / cmd
+```bash/cmd
 ping 你的github用户名.github.io
 ```
+![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/cmdfnping.png)
+然后你会看到返回的dns，这个就是你的dns。  
+  
+03. 做域名记录值
+这时，你就要做域名记录。  
+按照以下图片进行做域名记录。  
+![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/Screenshot_2018-10-21-09-13-96.png)  
+
+![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/Screenshot_2018-08-10-21-12-59-39.png)  
+  
+### 04. 绑定域名
+转到你的github网站仓库
+按照以下两种方法导入域名：
+- 1.懒人向
+在你的网站仓库右上边，找到settings点进去，然后往下拉，看见一个标题为`Github pages`，然后在该标题下面找到`costom domain`，在那个框框里输入你的域名，最后点击右边的`save`。
+  
+- 2.技术向
+在网站仓库的根目录里添加一个名字叫做`CNAME`的文件。**记住！不要有后缀！**，然后该文件的内容里面写上你自己的域名，最后保存文件。
+  
+### 05. 查看消息，就可以使用你的域名
+完成以上步骤后，点击网站仓库右上边的settings*(一个懒人向的好不到哪里去的小福利)*，找到`Github page`，下面的小卡片似的东西，会标出一行蓝色的一条，意思是说正在把网站推入到你的域名里去。  
+你可以通过不断刷新页面来看有没有变化。  
+  
+然后，你会看到那一条东西变绿了。还写着你的域名，旁边还有个钩，很高兴，你成功了。  
+  
+如果你看见那个条条不见了，你可能使用了别人的dns，你必须要通过`ping`你自己的github自带的域名网站来获取你自己的dns，然后记住他，看第三部分。
