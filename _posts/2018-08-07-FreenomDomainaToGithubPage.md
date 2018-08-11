@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 注册freenom域名并弄到GithubPage'
+title: 注册freenom域名并弄到GithubPage
 subtitle: '免费一年～'
 tags: 网站 教程 github
 keywords: freenom 域名 github 注册 page
