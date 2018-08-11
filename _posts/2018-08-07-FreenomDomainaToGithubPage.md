@@ -44,7 +44,7 @@ ping 你的github用户名.github.io
 ## 03. 做域名记录值
 这时，你就要做域名记录。  
 按照以下图片进行做域名记录。  
-![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/Screenshot_2018-10-21-09-13-96.png)  
+![pic](https://m.gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/Screenshot_2018-08-10-21-09-13-96.png)  
 
 ![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/Screenshot_2018-08-10-21-12-59-39.png)  
   
