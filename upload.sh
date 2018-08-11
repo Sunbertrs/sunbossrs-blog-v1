@@ -94,11 +94,11 @@ clear
 echo ""
 echo "Thanks for using this upload tool!"
 echo ""
-echo "TTTTTTTTTTT   H       H        A      NN      N    K    K       U        U"
-echo "     T        H       H      A  A     N  N    N    K  K         U        U"
-echo "     T        HHHHHHHHH     AAAAAA    N   N   N    KK            U      U"
-echo "     T        H       H    A      A   N    N  N    K  K           U    U"
-echo "     T        H       H   A        A  N      NN    K    K           UU"
+echo "TTTTTTTTTTT   H       H       AA       NN      N    K    K       U        U"
+echo "     T        H       H      A  A      N  N    N    K  K         U        U"
+echo "     T        HHHHHHHHH     AAAAAA     N   N   N    KK            U      U"
+echo "     T        H       H    A      A    N    N  N    K  K           U    U"
+echo "     T        H       H   A        A   N      NN    K    K           UU"
 
 ping -n 3 localhost
 

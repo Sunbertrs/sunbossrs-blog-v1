@@ -41,7 +41,7 @@ ping 你的github用户名.github.io
 ![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/cmdfnping.png)
 然后你会看到返回的dns，这个就是你的dns。  
   
-03. 做域名记录值
+## 03. 做域名记录值
 这时，你就要做域名记录。  
 按照以下图片进行做域名记录。  
 ![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/freenomdomain/Screenshot_2018-10-21-09-13-96.png)  
@@ -51,7 +51,7 @@ ping 你的github用户名.github.io
 ### 04. 绑定域名
 转到你的github网站仓库
 按照以下两种方法导入域名：
-- 1.懒人向
+- 1.懒人向  
 在你的网站仓库右上边，找到settings点进去，然后往下拉，看见一个标题为`Github pages`，然后在该标题下面找到`costom domain`，在那个框框里输入你的域名，最后点击右边的`save`。
   
 - 2.技术向
