@@ -4,37 +4,15 @@ git status
 
 clear
 
-echo "----------------------------"
-echo "------git上传仓库脚本-------"
-echo "----------------------------"
+echo "---------------------------------"
+echo "---------git上传仓库脚本---------"
+echo "---------------------------------"
+echo ""
+echo ""
 echo ""
 echo "Made by SunbossRS"
-echo ""
+echo "-------------------------------------"
 echo "This product can help you upload the file easier."
-
-echo "运行内容概括"
-echo "1. 检测修改的内容"
-echo "2. 同步仓库＆合并修改"
-echo "3. 输入更改留言"
-echo "4. 更新到仓库"
-echo ""
-echo "Thank you to use this product!"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
 
 clear
 
@@ -46,15 +24,22 @@ git pull origin master
 
 clear
 
-echo "<test the was edited file,do set>"
-echo "<keep.editedfile> <put updatefile to this repo>"
-echo "<do class=cdlivr></> </hyhe> <test></wy7> </ghme>"
+echo "WfasdFsewTWxzdsYYdgK"
+echo "ErySgoWev45VfdreHtfgEtrgA"
+echo "EnGtrhrtFgeg46Df"
+echo "RgeeYdfYdfswfUdfGrgs"
+echo "rtFdfgEkGieREfe"
+echo "dfvEerfvdREefa"
+echo "dvERgwERbgewfeGeWefB"
+echo "fAldDolWnErew"
+echo "r5hErdEGReVDS43"
 ping -n 1 localhost
 
 clear
 
-echo "请输入更改留言。"
-echo ""
+echo "+---------------------------+"
+echo "|      请输入更改留言。     |"
+echo "+---------------------------+"
 echo ""
 read -p "> "
 
@@ -64,13 +49,17 @@ git commit -a -m  "${REPLY}"
 
 clear
 
-echo "更改留言设置成功!"
+echo "+-----------------------------+"
+echo "|      更改留言设置成功!      |"
+echo "+-----------------------------+"
+echo "|     Yes      |      No      |" 
+echo "+-----------------------------+"
 
 clear
 
-echo "已准备就绪。"
+echo " -> 已准备就绪。"
 
-echo "查看状态"
+echo " -> 查看状态."
 
 clear
 
@@ -84,7 +73,11 @@ git push
 
 clear
 
-echo "上传到仓库成功!"
+echo "+-------------------+"
+echo "|  上传到仓库成功!  |"
+echo "+-------------------+"
+echo "| Yes    |     No   |"
+echo "+-------------------+"
 
 echo "...."
 git gc
@@ -93,13 +86,43 @@ clear
 
 echo ""
 echo "Thanks for using this upload tool!"
-echo ""
-echo "TTTTTTTTTTT   H       H       AA       NN      N    K    K       U        U"
-echo "     T        H       H      A  A      N  N    N    K  K         U        U"
-echo "     T        HHHHHHHHH     AAAAAA     N   N   N    KK            U      U"
-echo "     T        H       H    A      A    N    N  N    K  K           U    U"
-echo "     T        H       H   A        A   N      NN    K    K           UU"
+echo "+------------------------------------------------------------------------------+"
+echo "|TTTTTTTTTTT   H       H       AA       NN      N    K    K       U        U   |"
+echo "|     T        H       H      A  A      N  N    N    K  K         U        U   |"
+echo "|     T        HHHHHHHHH     AAAAAA     N   N   N    KK            U      U    |"
+echo "|     T        H       H    A      A    N    N  N    K  K           U    U     |"
+echo "|     T        H       H   A        A   N      NN    K    K           UU       |"
+echo "+------------------------------------------------------------------------------+"
 
+ping -n 3 localhost
+clear
+
+echo "  \      /"
+echo "+----------+"
+echo "|GitServer |"
+echo "+----------+"
+echo "   |"
+echo "   |           +-----------+"
+echo "   | √         |           |"
+echo "   |           | Your host |"
+echo "   +---------- |           |"
+echo "               +-----------+"
+echo "                   |    |"
+echo "                -----------"
+echo ""
+echo ""
+echo ""
+echo ""
+echo "                               *"
+echo "                            *"
+echo "                         *"
+echo "*                     *"
+echo "  *                *"
+echo "    *           *"
+echo "       *     *"
+echo "          *"
+echo ""
+echo ""
 ping -n 3 localhost
 
 git gc

@@ -90,12 +90,19 @@ description: Minecraft is my SOUL!!
 
         {% if site.search %}
         <div class="search-card">
-            <input id="search_input" type="text" placeholder="Search...">
+            <input id="search_input" type="text" placeholder="搜索我的文章...">
             <i class="iconfont icon-search"></i>
             <div class="search_result"></div>
         </div>
         {% endif %}
 
+		{% if site.link %}
+		<div class="link">
+		  <span>友情链接</span>
+		  <a href="/links.html"><i class="fa fa-right-arrow"></i></a>
+		  {% site.links.html#linkarea %}
+		</div>
+		{% endif %}
     </aside>
 
 </main>
