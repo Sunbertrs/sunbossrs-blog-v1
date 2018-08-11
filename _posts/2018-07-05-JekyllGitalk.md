@@ -67,18 +67,28 @@ comments:
 <div id="disqus_thread"></div> //如果你的主题自带disqus，请省略该行，直接把下面这一行的内容添加进去。
 <div id="gitalk_container"></div>
 ```
-添加完之后呢，（哎，等等，我看一下[演讲本](//tea9.xyz/2018/06/24/gitali_config.html)先♂）在快要接近结尾的地方，**不要是</body>，也不要是</html>的地方，是在快要接近</body>的地方里**，添加以下字段：
+添加完之后呢，（哎，等等，我看一下[演讲本](//tea9.xyz/2018/06/24/gitali_config.html)先♂）  
+我们先了解一下几个大括号表达式：
+```html
+{{ site.comment.gitalk_clientID }}      //这是你的gitalk clientid的表达式
+{{ site.comment.gitalk_Secret }}        //这是gitalk secret的表达式
+{{ site.comment.gitalk_repo }}          //这是gitalk repo的表达式
+{{ site.comment.gitalk_owner }}         //这是gitalk owner的表达式
+{{ site.comment.gitalk_anmin }}         //这是gitalk admin的表达式
+{{ site.comment.distractionFreeMode }}  //这是distractionFreeMode的表达式
+```
+在快要接近结尾的地方，**不要是</body>，也不要是</html>的地方，是在快要接近</body>的地方里**，添加以下字段：
 ```post.html
   {% if site.comments.gitalk %}
   <script>
     var gitalk = new Gitalk({
-      clientID: '{{ site.comments.gitalk_clientID }}',
-      clientSecret: '{{ site.comments.gitalk_Secret }}',
-      repo: '{{ site.comments.gitalk_repo }}',
-      owner: '{{ site.comments.gitalk_owner }}',
-      admin: '{{ site.comments.gitalk_admin }}',
+      clientID: '输入clientid表达式',
+      clientSecret: '输入secret表达式',
+      repo: '输入gitalk repo表达式',
+      owner: '输入gitalk owner表达式',
+      admin: '输入gitalk admin表达式',
       id: location.pathname,     
-      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
+      distractionFreeMode: '输入distractionFreeMode表达式'  
     })
     gitalk.render('gitalk_container')
   </script>

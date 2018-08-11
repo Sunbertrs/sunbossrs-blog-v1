@@ -57,4 +57,4 @@
 - [ray-eldath](https://github.com/ray-eldath)  
 - [tea9](https://github.com/tea9)  
 - [kaeyleo](https://github.com/kaeyleo)  
-- [740291272](https://github.com/740291272）
+- [740291272](https://github.com/740291272)
