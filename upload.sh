@@ -94,13 +94,13 @@ echo "|     T        H       H    A      A    N    N  N    K  K           U    U
 echo "|     T        H       H   A        A   N      NN    K    K           UU       |"
 echo "+------------------------------------------------------------------------------+"
 
-ping -n 3 localhost
+ping -n 2 localhost
 clear
 
 
 echo "+----------+                              +------------+"
-echo "|          |                              | GitHub     |"
-echo "|          |  ------   \    /     ------  |   Console  |"
+echo "| Your     |                              | GitHub     |         Go to your open source project"
+echo "|  Computer|  ------   \    /     ------  |   Console  |  -----      Successful to upload"
 echo "+----------+         +--------+           +------------+"
 echo "  |     |            | GitHub |              |      |"
 echo " ----------          +--------+            -----------"
@@ -119,7 +119,7 @@ echo "43tWdswDegRghrgErseFeffdfFDg"
 echo "W3tErereGeRERERFeVrRygtrhFwe"
 echo "ERT4edefdbDFbesfGfb"
 echo "RySfeafW$trefDF"
-ping -n 3 localhost
+ping -n 2 localhost
 
 git gc
 git stage .
