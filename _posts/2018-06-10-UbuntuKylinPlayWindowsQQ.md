@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: '在优麒麟系统里安装Windows QQ'
 description: '没想到吧。。。。'
@@ -13,7 +13,9 @@ cover: 'http://www.ubuntukylin.com/public/images/s_ubuntukylin1804.jpg'
 MATE可以运行wine,不过有点麻烦.
   
 ### 1.下载wine
-首先,我们运行命令:
+首先,我们运行命令:  
+  
+这里为什么我不用添加wine源再下载wine，而要下载
 ```bash
 sudo dpkg --add-architecture i386
 sudo apt install wine1.6

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: '想着过去的事情'
 subtitle: '那些时光多么好啊.........'
@@ -7,7 +7,7 @@ tags: 思想
 category: miss
 date: 2018-05-05
 keyword: 想念-回忆
-cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/imissthepast/cover-thecast.oh.png'
+cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-The-Past/cover.png'
 ---
 
 # 写在前面的话
@@ -33,7 +33,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/imissthepast/co
 现在都被人说成炸妈盒子了，我有点不好意哎。
 
 给你们看看我的帖子吧。挺多的。
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/imissthepast/my-tiezi-duowan-all-now.png)
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-The-Past/01.png)
 
 # 其实....我还有很多事情
 

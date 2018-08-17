@@ -1,4 +1,4 @@
----
+﻿---
 title: '在树莓派3里运行minecraft full version'
 subtitle: '用的是我开源的源'
 layout: post
@@ -9,7 +9,7 @@ tags: 树莓派 minecraft
 
 已经Copyright了，原作者是[GloomyGhost](http://gloomyghost.com)  
   
-[Copyright的图片在这。。。](https://gitee.com/srsyrzz/repository/raw/master/blogfile/mconrpi3/copyright-gloomyghost-mc1.8.9.png)  
+[Copyright的图片在这。。。](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunMinecraftOnRaspberryPi3/01.png)  
 准备:
 1. 配置
   - 树莓派3或者更高版本
@@ -23,10 +23,12 @@ tags: 树莓派 minecraft
   
   
   
-### 1.更新系统  
+### 1.更新系统
+
 我们打开 终端 然后输入
 ```bash
 sudo apt-get update && sudo apt-get upgrade
+
 ```
 ### 2. 隐藏开机界面（用于少占用内存）
 ```bash
@@ -53,9 +55,10 @@ save as : /boot/config.txt
 ```bash
 sudo raspi-config
 ```
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/mconrpi3/IMG_20180513_162215.jpg)  
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/mconrpi3/IMG_20180513_162234.jpg)  
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/mconrpi3/IMG_20180513_162328.jpg)  
+按照下图来操作：
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunMinecraftOnRaspberryPi3/02.jpg)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunMinecraftOnRaspberryPi3/03.jpg)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunMinecraftOnRaspberryPi3/04.jpg)  
 把GPU内存调到64(最后一幅图)  
   
 然后 `enter` 后，会再次出现第一幅图的场景。我们这时候再次移到  
@@ -135,7 +138,7 @@ cd ~/Minecraft && java -jar Minecraft.jar
   
 输入
 ```bash
-cd ~/Minecraft && wget https://m.gitee.com/srsyrzz/mcfullversion-rpi/raw/master/run1.12.1.sh && chmod +x run.sh
+cd ~/Minecraft && wget https://m.gitee.com/srsyrzz/mcfullversion-rpi/raw/master/run1.12.1.sh && chmod +x run1.12.1.sh
 ```
 
 ### 6.配置run.sh
