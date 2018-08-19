@@ -9,27 +9,39 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04/Screen
 ---
 ### 1.下载wine
 首先,我们运行命令:
-```css
+```bash
 sudo dpkg --add-architecture i386
+```
+```bash
 wget -nc https://dl.winehq.org/wine-builds/Release.key
+```
+```bash
 sudo apt-key add Release.key
+```
+```bash
 sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
+```
+```bash
 sudo apt-get update
+```
+```bash
 sudo apt-get install winehq-devel
+```
+```bash
 wine --version
 ```
 当你运行`wine --version`时,如果反馈出`wine *版本号* `的话,代表你的wine就是在xxxx版本.  
   
 ### 2.准备你的.exe包
-到[im.qq.com](https://im.qq.com)下载一个tim或者qq
+到[QQ官网](https://im.qq.com)下载一个tim或者qq
 ### 3.在wine里添加一定的函数库
 在终端里输入:(不要用root)
-```css
+```bash
 winecfg
 ```
 ![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-28-55%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)  
 然后点击`函数库`,添加以下函数:
-```css
+```WindowsRun
 *ntoskrnl.exe
 *riched20
 *txplatform.exe
@@ -37,7 +49,7 @@ winecfg
 *dwrite.dll
 ```
 然后把这三个函数弄成这样:  
-```css
+```default
 *ntoskrnl.exe          -->  停用
 *riched20              -->  原装(windows)
 *txplatform.exe        -->  停用
@@ -45,7 +57,7 @@ winecfg
 *dwrite.dll            -->  原装(windows)
 ```
 ![avatar](https://img.ithome.com/newsuploadfiles/2017/5/20170503_130210_364.jpg)  
-(这是♂简便♂.)  
+(这是简便。。)  
   
 亲测：  
 停用`ntoskrnl.exe`是为了解决无法正常启动QQ的问题，使用原装windows的`riched20`是为了规避无法输入用户名的Bug，停用`txplatform.exe`是为了避免QQ无法完整退出而滞留整个Wine容器的问题，使用原装的`*msls31.dll`和`*dwrite.dll`是因为不要让这两个控件因为不受控制而让QQ突然崩溃。  
@@ -53,7 +65,7 @@ winecfg
 ![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-31-03%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)  
 ### 4. 设置字体(修复中文乱码的bug)
 打开nano或者gedit然后输入以下内容：（我这里用root运行nano）
-```css
+```regedit
 REGEDIT4
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
 "Arial"="WenQuanYi Zenhei"
