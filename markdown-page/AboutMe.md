@@ -1,6 +1,7 @@
 ---
 layout: markdown-page
 title: 关于我
+home-title: 关于我
 ---
 <li>
 
