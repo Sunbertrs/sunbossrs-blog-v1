@@ -50,11 +50,11 @@ header-img: https://gitee.com/srsyrzz/repository/raw/master/sunup.jpg
     <br>
 <li>
     <span class="tag-name" id="igetyourwebhere"> 让{{ site.author }}收录你的友情链接？ </span>
-    如果你真的要那样的话，请确保你的网站有以下条件:  
-    1. 你的博客或网站不能有不良信息。  
-    2. 网站要指向 <code>sunbossrs.github.io</code> 才行哦。  
+    如果你真的要那样的话，请确保你的网站有以下条件:<br>
+    1. 你的博客或网站不能有不良信息。  <br>
+    2. 网站要指向 <code>sunbossrs.github.io</code> 才行哦。<br>  
     **3. 告诉我你要加我友链。在下面的gitalk聊天室里发送如下内容，我就可以加你的友链。**  
-    <address >我叫*你的网名*，我要申请添加友链。</address>
+    <address>我叫*你的网名*，我要申请添加友链。</address>
     <address>我的网站是*你的网站网址*</address>
     <address>我想让你的友链站中把我的网站写成*你想让我在我的友链站里写成的名称*</address>
     *4. 如果你的友链需要图标，可以 <a href='/https://avatars3.githubusercontent.com/u/38691765?s=96&v=4'>点击这里</a> 获得我的icon.*  
