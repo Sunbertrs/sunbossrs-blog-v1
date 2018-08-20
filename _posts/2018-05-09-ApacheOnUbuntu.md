@@ -7,17 +7,19 @@ tags: 教程 linux
 keywords: 教程 linux
 date: 2018-05-09
 description: '这是一个web server'
-cover: https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/cover-apacheonubt.png
+cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/cover.png
 ---
 
+~~你需要一个好的linux系统~~  
+![pic]![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/04.jpg)
 安装apache。
 ```bash
 sudo apt-get install apache2
 ```
 他会叫你是否确认安装，你就选yes。  
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/tnmofapa.jpg)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/01.jpg)  
   
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/needledld.jpg)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/02.jpg)  
 安装完成后，你就可以使用以下命令调试apache。
 开启apache
 ```bash
@@ -56,7 +58,8 @@ DocumentRoot /var/www/
 ```bash
 sudo apache2ctl- k restart
 ```
-就会看到```it's work!```的字样了。
+就会看到```it's work!```的字样了。  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/05.jpg))
 
 ### 下载站
 
@@ -66,4 +69,4 @@ sudo apache2ctl- k restart
 我们刚才看到的 It's works! 页面就是这个文件的内容，然后将我们的文件及文件夹放到Apache24\htdocs下面，就可以成为下载站了。  
 这时候，你看到的标题是```index of *你的文件夹路径*```了。  
   
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/apache-ubt/dldpageofapache.jpg)
+

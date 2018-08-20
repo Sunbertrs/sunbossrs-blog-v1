@@ -9,9 +9,10 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/tviewer-rpi/152
 Hello，大家好，这次我们来讲下怎么在树莓派运行team viewer。  
   
 [点击这里](https://teamviewer.com/zhcn/download/linux)打开team viewer的下载站。  
-![gif](https://gitee.com/srsyrzz/repository/raw/master/blogfile/tviewer-rpi/20180317-163437_orig.gif)  
+![gif](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunTeamViewerOnRaspberryPi/01.gif)  
   
 看到 `*deb package` 的哪里，点击适用于 `ARM v7` 的包。  
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunTeamViewerOnRaspberryPi/02.jpg)
   
 下载完毕，双击安装。  
   

@@ -39,7 +39,7 @@ wine --version
 ```bash
 winecfg
 ```
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-28-55%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/01.png)  
 然后点击`函数库`,添加以下函数:
 ```WindowsRun
 *ntoskrnl.exe
@@ -56,13 +56,13 @@ winecfg
 *msls31.dll            -->  原装(windows)
 *dwrite.dll            -->  原装(windows)
 ```
-![avatar](https://img.ithome.com/newsuploadfiles/2017/5/20170503_130210_364.jpg)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/02.png)  
 (这是简便。。)  
   
 亲测：  
 停用`ntoskrnl.exe`是为了解决无法正常启动QQ的问题，使用原装windows的`riched20`是为了规避无法输入用户名的Bug，停用`txplatform.exe`是为了避免QQ无法完整退出而滞留整个Wine容器的问题，使用原装的`*msls31.dll`和`*dwrite.dll`是因为不要让这两个控件因为不受控制而让QQ突然崩溃。  
 然后保存.  
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-31-03%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/03.png)  
 ### 4. 设置字体(修复中文乱码的bug)
 打开nano或者gedit然后输入以下内容：（我这里用root运行nano）
 ```regedit
@@ -93,14 +93,14 @@ REGEDIT4
 "Times New Roman TUR,162"="WenQuanYi Zenhei"
 "Tms Rmn"="WenQuanYi Zenhei"
 ```
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-31-38%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)  
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-32-47%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/04.png)  
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/05.png)  
 保存．  
 然后在终端输入`wine regedit`  
 `注册表>导入注册表文件>zh.reg`  
 保存.  
 随后，你就可以删除这个`zh.reg`文件了。
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-34-32%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/06.png)
 ### 5.安装
 ```css
 wine ~/下载/*文件名*.exe
@@ -117,11 +117,11 @@ wine .wine/drive_c/Program\ Files\ \(x86\)/Tencent/QQ/Bin/QQ.exe
 以后，运行QQ就是用上面的那个命令。
 --分--割--线--
 效果图：
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-35-12%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-35-21%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-35-36%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-35-47%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-37-00%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/07.png)
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/08.png)
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/09.png)
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/2018-06-19%2000-35-47%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/2018-06-19%2000-37-00%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 有时QQ显示的效果受到'不能运行'，就会出现错误。  
-![avatar](https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04qq/2018-06-19%2000-40-18%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/2018-06-19%2000-40-18%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 --e--n--d--

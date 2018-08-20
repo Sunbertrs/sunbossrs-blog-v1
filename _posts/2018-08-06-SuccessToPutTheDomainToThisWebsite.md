@@ -5,14 +5,19 @@ subtitle: '好开心～'
 tags: 网站 反馈 jekyll
 category: information
 ---
-今天我这个大王成功的把一个免费域名——srsyrzz.ml放到了github上面去！  
+今天2018.08.06是个特殊的日子！  
   
-好开心啊，我今晚睡不着觉了。  
+你猜我怎么着？我把域名`http://srsyrzz.ml`放到了我的博客里!  
   
-还要感谢桐桦的支持。他会做dns。。。  
+从今天开始你们就可以访问srsyrzz.ml这个域名啦！  
   
-以后，大家可以用srsyrzz.ml这个域名来访问我的网站了。  
+不过，你们如果还是访问sunbossrs.github.io这个域名的话，他会自动跳转到srsyrzz.ml~  
   
-今天就到这里了。明天或者后天我会讲解我怎样操作的了。  
+这是因为我在网站根里创建了`CNAME`，只要一访问sunbossrs.github.io就会触发某种元素（我的世界红石元素？）跳转到srsyrzz.ml。  
   
-再见～～
+
+  
+
+  
+
+Bye~

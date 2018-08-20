@@ -29,16 +29,12 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/2018-06-27
 ```
 但是，这次的比较麻烦。。。  
 请点击这个按钮，下载文件（svg文件。）
- <table>
-   <tr>
-     <td><a href='https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/wangzhantongji.svg.zip'>点击这里</a></td>
-   </tr>
- </table>
+<button><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1svg%E5%8C%85.zip'>点击这里</a></button>
 解压后看见assets文件夹。  
 把assets文件夹放到网站的目录下。  
   
 保存，再上传，看看你的网站页尾发生了什么？  
-![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/2018-06-27%2018-21-37%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/WebsiteShow/01.png)
 ```default
 小人是总点击人数
 眼睛是总点击量

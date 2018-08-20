@@ -5,22 +5,23 @@ description: 'Ohhhh。这是第几次写有关网站优化的博文了？'
 category: tech
 keywords: 网站 时间 存在
 tags: jekyll 反馈
-cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_20180628_213338.png'
+cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/WebsiteShow/03.png'
 ---
 
 看看效果图。  
-![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_20180628_213338.png)
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/WebsiteShow/03.png)
 我先来讲解一下。  
-![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_20180628_213559.png)
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/WebsiteShow/04.png)
   
 这次，你可以在页尾，也可以在一个html文件，或者其他。总之是一个html的文件。 
 看看代码:
 ```html
+
   <SPAN id="span_dt_dt"></SPAN>
     <SCRIPT language=javascript>
     function show_date_time(){
     window.setTimeout("show_date_time()", 1000);
-    BirthDay=new Date("5/27/2018 18:27:01"); //注释:月-日-年  时-分-秒
+    BirthDay=new Date("5/27/2018 18:27:01"); //注释:月-日-年  时-分-秒 这里填上网站的创始日期
     today=new Date();
     timeold=(today.getTime()-BirthDay.getTime());
     sectimeold=timeold/1000
@@ -42,6 +43,7 @@ cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/IMG_201806
     }
     show_date_time();
     </SCRIPT>
+
 ```
 把这样代码的创始日期填上，我这里的`"已存在"`可以删除掉。  
 然后看看你的那个网页什么情况。

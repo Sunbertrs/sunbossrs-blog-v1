@@ -7,4 +7,4 @@ keywords: 老赵 玻璃 仿pc 教程
 category: tech
 cover: 'http://img.huyagame.cn/images/mc_tie_image/201706/16/1497616976916/201706162042569167_1080.jpeg'
 ---
-![pic](https://gitee.com/srsyrzz/repository/raw/master/blogfile/copyright.LaoZhao/Screenshot_2018-07-28-11-28-34-66.png)
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/WoHeLaoZhao/mcpe-glasslikepc.png)

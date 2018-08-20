@@ -1,20 +1,10 @@
-git config --global user.email "yaorizhuangzhu@163.com"
-git config --global user.name "SunbossRS"
-git status
-
 clear
 
-echo "---------------------------------"
-echo "---------git上传仓库脚本---------"
-echo "---------------------------------"
+echo "Git工具的上传脚本"
+echo "这个脚本可以让你上传文件变得容易."
 echo ""
 echo ""
 echo ""
-echo "Made by SunbossRS"
-echo "-------------------------------------"
-echo "This product can help you upload the file easier."
-
-clear
 
 git status
 
@@ -24,42 +14,23 @@ git pull origin master
 
 clear
 
-echo "WfasdFsewTWxzdsYYdgK"
-echo "ErySgoWev45VfdreHtfgEtrgA"
-echo "EnGtrhrtFgeg46Df"
-echo "RgeeYdfYdfswfUdfGrgs"
-echo "rtFdfgEkGieREfe"
-echo "dfvEerfvdREefa"
-echo "dvERgwERbgewfeGeWefB"
-echo "fAldDolWnErew"
-echo "r5hErdEGReVDS43"
-ping -n 1 localhost
-
-clear
-
-echo "+---------------------------+"
-echo "|      请输入更改留言。     |"
-echo "+---------------------------+"
+echo "请输入更改留言。"
 echo ""
-read -p "> "
+read -p "--> "
 
 git add .
 git stage .
-git commit -a -m  "${REPLY}"
+git commit -a -m "${REPLY}"
 
 clear
 
-echo "+-----------------------------+"
-echo "|      更改留言设置成功!      |"
-echo "+-----------------------------+"
-echo "|     Yes      |      No      |" 
-echo "+-----------------------------+"
+echo "更改留言设置成功!"
 
 clear
 
 echo " -> 已准备就绪。"
-
-echo " -> 查看状态."
+echo ""
+echo " -> 查看状态..."
 
 clear
 
@@ -67,59 +38,27 @@ git status
 
 git gc
 
-clear
-
 git push
 
 clear
 
-echo "+-------------------+"
-echo "|  上传到仓库成功!  |"
-echo "+-------------------+"
-echo "| Yes    |     No   |"
-echo "+-------------------+"
+echo "上传到仓库成功!"
 
-echo "...."
 git gc
 
 clear
 
 echo ""
 echo "Thanks for using this upload tool!"
-echo "+------------------------------------------------------------------------------+"
-echo "|TTTTTTTTTTT   H       H       AA       NN      N    K    K       U        U   |"
-echo "|     T        H       H      A  A      N  N    N    K  K         U        U   |"
-echo "|     T        HHHHHHHHH     AAAAAA     N   N   N    KK            U      U    |"
-echo "|     T        H       H    A      A    N    N  N    K  K           U    U     |"
-echo "|     T        H       H   A        A   N      NN    K    K           UU       |"
-echo "+------------------------------------------------------------------------------+"
+echo "+-------------------------------------------------------------------------------+"
+echo "| TTTTTTTTTTT   H       H       AA       NN      N    K    K       U        U   |"
+echo "|      T        H       H      A  A      N  N    N    K  K         U        U   |"
+echo "|      T        HHHHHHHHH     AAAAAA     N   N   N    KK            U      U    |"
+echo "|      T        H       H    A      A    N    N  N    K  K           U    U     |"
+echo "|      T        H       H   A        A   N      NN    K    K           UU       |"
+echo "+-------------------------------------------------------------------------------+"
 
-ping -n 2 localhost
 clear
-
-
-echo "+----------+                              +------------+"
-echo "| Your     |                              | GitHub     |         Go to your open source project"
-echo "|  Computer|  ------   \    /     ------  |   Console  |  -----      Successful to upload"
-echo "+----------+         +--------+           +------------+"
-echo "  |     |            | GitHub |              |      |"
-echo " ----------          +--------+            -----------"
-
-echo ""
-echo "LiSDcs"
-echo "ServDGRSCergscs"
-echo "sFDwscEgScsSgwefw"
-echo "WesdcweEwfcwerfXweF"
-echo "WREwsSscWfeecsfDEWr"
-echo "FwccwRYtrfwewerEyrGsdwq"
-echo "5jetWAedwdwad23433$54^5w"
-echo "#4rsdfCDvwfGru6yhgetrergr"
-echo "Qw3rwsdegfe^54tgrdgdfSfeDewfDSfw"
-echo "43tWdswDegRghrgErseFeffdfFDg"
-echo "W3tErereGeRERERFeVrRygtrhFwe"
-echo "ERT4edefdbDFbesfGfb"
-echo "RySfeafW$trefDF"
-ping -n 2 localhost
 
 git gc
 git stage .
