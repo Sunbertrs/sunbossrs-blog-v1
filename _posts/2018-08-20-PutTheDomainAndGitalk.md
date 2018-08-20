@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: 在装上了新域名后Gitalk的表现
 tags: 网站 jekyll 反馈
 keywords: Gitalk 域名 表现
