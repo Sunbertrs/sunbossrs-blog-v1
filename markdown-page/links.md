@@ -1,14 +1,13 @@
 ---
 layout: markdown-page
 title: '友链'
-home-title: 耀日庄主的博客
+home-title: 友情链接
 header-img: https://gitee.com/srsyrzz/repository/raw/master/sunup.jpg
-description: Minecraft is my SOUL!!
 ---
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
 <style type="text/css">
-      address {
+      .address {
         color:#66B3FF;
         font-size:13px;
       }
@@ -28,6 +27,7 @@ description: Minecraft is my SOUL!!
    <p><i class='fa fa-telegram'></i><a href="http://mc.whitegem.net">自定义mc成就</a></p>
 <br>
 </li>
+<br>
 <li>
    <span class='tag-name' id='technologylink'>技术好友的链接</span>
 <br>
@@ -39,6 +39,7 @@ description: Minecraft is my SOUL!!
 <br>
    <p><i class='fa fa-paper-plane'></i><a href='https://townwang.com'>文科中的技术宅</a></p>
 </li>
+<br>
 <li>
    <span class='tag-name' id='other'>其他类型的链接</span>
 <br>
