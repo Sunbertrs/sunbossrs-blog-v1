@@ -23,11 +23,12 @@ description: Minecraft is my SOUL!!
 <br>
    <p><i class='fa fa-telegram'></i><a href="http://minecraft.net">minecraft.net</a></p>
 <br>
-   <p><a href="http://uipack.techplayer.org/">UIpack</a></p>
+   <p><i class='fa fa-telegram'></i><a href="http://uipack.techplayer.org/">UIpack</a></p>
 <br>
-   <p><a href="http://mc.whitegem.net">自定义mc成就</a></p>
+   <p><i class='fa fa-telegram'></i><a href="http://mc.whitegem.net">自定义mc成就</a></p>
 <br>
 </li>
+<li>
    <span class='tag-name' id='technologylink'>技术好友的链接</span>
 <br>
    <p><i class='fa fa-paper-plane'></i><a href="http://gloomyghost.com">GloomyGhost Blog</a></p>
@@ -38,6 +39,7 @@ description: Minecraft is my SOUL!!
 <br>
    <p><i class='fa fa-paper-plane'></i><a href='https://townwang.com'>文科中的技术宅</a></p>
 </li>
+<li>
    <span class='tag-name' id='other'>其他类型的链接</span>
 <br>
    <p><a href="http://tour.ubuntu.com/zn-CN">ubuntu.tour</a></p>
