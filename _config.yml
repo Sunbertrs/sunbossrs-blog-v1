@@ -11,7 +11,7 @@ baseurl: ''
 nav:
   主页: '/'
   标签: '/tags.html'
-  友链: '/markdown-page/links.html'
+  友链: '/links.html'
   关于我: '/markdown-page/AboutMe.html'
   下载站: '/download.html'
 
