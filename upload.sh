@@ -14,35 +14,42 @@ git pull origin master
 
 clear
 
-echo "请输入更改留言。"
-echo ""
+echo "+-----------------------------+"
+echo "|     请输入更改留言。        |"
+echo "+-----------------------------+"
 read -p "--> "
 
+echo "|                             |"
 git add .
+echo "|                             |"
 git stage .
+echo "|                             |"
 git commit -a -m "${REPLY}"
+echo "|                             |"
 
 clear
 
-echo "更改留言设置成功!"
+echo "|    更改留言设置成功!        |"
 
 clear
 
-echo " -> 已准备就绪。"
-echo ""
-echo " -> 查看状态..."
+echo "|         已准备就绪。        |"
+echo "|                             |"
+echo "|        查看状态...          |"
 
 clear
 
+echo "|                             |"
 git status
-
+echo "|                             |"
 git gc
-
+echo "|                             |"
 git push
-
+echo "|                             |"
 clear
 
-echo "上传到仓库成功!"
+echo "|      上传到仓库成功!        |"
+echo "+-----------------------------+"
 
 git gc
 
