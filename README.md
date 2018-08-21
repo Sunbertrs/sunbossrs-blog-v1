@@ -1,6 +1,9 @@
 ### 耀日庄主的博客
 这个博客使用github page提供服务。  
   
+*Last edit is in 2018.08.21*
+>工作地盘和响应式markdown页面存录
+>![pic](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/make-easy.png)
 >博客评论用`Gitalk`
 >  
 >![pic](https://github.com/tea9/tea9.github.io/raw/master/readme_img/comment.png)  
