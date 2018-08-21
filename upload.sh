@@ -1,20 +1,22 @@
-**********************************************************************************
-* This script file is a upload git local repository to github.                   *
-*                                                                                *
-* Make sure this file is in '/' and than you can double-click to use this file.  *
-*                                                                                *
-* Make sure your bash terminal resolution must be large.                         *
-*                                                                                *
-* Because something need a large terminal resolution.                            *
-*                                                                                *
-* This script file is created by SunboossRS.                                     *
-*                                                                                *
-* My GitHub: https://github.com/sunbossrs                                        *
-*                                                                                *
-* My Blog: https://sunbossrs.github.io                                           *
-*                                                                                *
-* This is chinese version.                                                       *
-**********************************************************************************
+clear
+
+echo "+--------------------------------------------------------------------------------+"
+echo "| This script file is a upload git local repository to github.                   |"
+echo "|                                                                                |"
+echo "| Make sure this file is in '/' and than you can double-click to use this file.  |"
+echo "|                                                                                |"
+echo "| Make sure your bash terminal resolution must be large.                         |"
+echo "|                                                                                |"
+echo "| Because something need a large terminal resolution.                            |"
+echo "|                                                                                |"
+echo "| This script file is created by SunboossRS.                                     |"
+echo "|                                                                                |"
+echo "| My GitHub: https://github.com/sunbossrs                                        |"
+echo "|                                                                                |"
+echo "| My Blog: https://sunbossrs.github.io                                           |"
+echo "|                                                                                |"
+echo "| This is chinese version.                                                       |"
+echo "+--------------------------------------------------------------------------------+"
 
 clear
 
