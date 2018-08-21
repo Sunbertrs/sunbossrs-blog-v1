@@ -26,21 +26,9 @@ echo "+-----------------------------------------------------+"
 echo "| 这个脚本可以让你上传文件变得容易.                   |"
 echo "|                                                     |"
 echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
 
-git status
+clear
+
 echo "|                                                     |"
 echo "|                                                     |"
 echo "|                                                     |"
@@ -48,18 +36,16 @@ echo "|                                                     |"
 echo "|                                                     |"
 
 clear
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
+
+git status
 git pull origin master
+echo "|                                                     |"
+echo "|                                                     |"
 
 echo "|                                                     |"
 echo "|                                                     |"
 echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
+
 clear
 
 echo "+-----------------------------------------------------+"
@@ -71,14 +57,11 @@ echo "|                                                     |"
 echo "|                                                     |"
 echo "|                                                     |"
 git add .
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
+git add .
 git stage .
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
 git commit -a -m "${REPLY}"
+echo "|                                                     |"
+echo "|                                                     |"
 echo "|                                                     |"
 echo "|                                                     |"
 echo "|                                                     |"
@@ -90,18 +73,21 @@ echo "|                 更改留言设置成功!                   |"
 
 clear
 
+echo "|                                                     |"
+echo "|                                                     |"
 echo "|                   已准备就绪。                      |"
 echo "|                                                     |"
 echo "|                       查看状态...                   |"
 echo "|                                                     |"
+
 clear
 
 echo "|                                                     |"
 echo "|                                                     |"
 git status
-echo "|                                                     |"
-echo "|                                                     |"
 git gc
+echo "|                                                     |"
+echo "|                                                     |"
 echo "|                                                     |"
 echo "|                                                     |"
 git push
