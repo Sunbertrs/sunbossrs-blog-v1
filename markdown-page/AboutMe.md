@@ -16,7 +16,7 @@ title: 关于我
 <br>
 我在触手和b站做视频。在这里发文章。<br>
 <br>
-欢迎加入我的聊天群：[652262902](https://jq.qq.com/?_wv=1027&k=5ICR1iH)。<br>
+欢迎加入我的聊天群：<a href="https://jq.qq.com/?_wv=1027&k=5ICR1iH">652262902</a>。<br>
 <br>
 我很爱好linux，但是现在我的系统换回windows了，我现在很少玩linux了。<br>
 <br>
@@ -30,5 +30,5 @@ title: 关于我
 </li>
 
 <li>
-<del>一个老是想着变声期快点到的小屁孩，没有什么用的小屁孩</del>
+我是个垃圾
 </li>
