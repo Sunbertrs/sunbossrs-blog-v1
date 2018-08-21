@@ -1,9 +1,4 @@
----
-layout: post
-title: BlogUpdate
-keywords: 博客 更新 blog update 日志
-category: information
----
+
 ### 耀日庄主的博客
 这个博客使用github page提供服务。  
   
