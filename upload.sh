@@ -1,129 +1,180 @@
+# This script file is a upload git local repository to github.
+#
+# Make sure this file is in '/' and than you can double-click to use this file.
+#
+# Make sure your bash terminal resolution must be large.
+#
+# Because something need a large terminal resolution.
+#
+# This script file is created by SunboossRS.
+#
+# My GitHub: https://github.com/sunbossrs
+#
+# My Blog: https://sunbossrs.github.io
+#
+# This is chinese version.
+#
+# Now this upload script file is default to my "workspace"file.If you want to use,plz delete "cd .." and get it into "/" .
+
+cd ..
 clear
 
-echo "+--------------------------------------------------------------------------------+"
-echo "| This script file is a upload git local repository to github.                   |"
-echo "|                                                                                |"
-echo "| Make sure this file is in '/' and than you can double-click to use this file.  |"
-echo "|                                                                                |"
-echo "| Make sure your bash terminal resolution must be large.                         |"
-echo "|                                                                                |"
-echo "| Because something need a large terminal resolution.                            |"
-echo "|                                                                                |"
-echo "| This script file is created by SunboossRS.                                     |"
-echo "|                                                                                |"
-echo "| My GitHub: https://github.com/sunbossrs                                        |"
-echo "|                                                                                |"
-echo "| My Blog: https://sunbossrs.github.io                                           |"
-echo "|                                                                                |"
-echo "| This is chinese version.                                                       |"
-echo "+--------------------------------------------------------------------------------+"
-
+echo "P"
+echo "Pl"
+echo "Plz"
+echo "Plz w"
+echo "Plz wa"
+echo "Plz wai"
+echo "Plz wait"
+echo "Plz wait f"
+echo "Plz wait fo"
+echo "Plz wait for"
+echo "Plz wait for g"
+echo "Plz wait for go"
+echo "Plz wait for go t"
+echo "Plz wait for go to"
+echo "Plz wait for go to t"
+echo "Plz wait for go to te"
+echo "Plz wait for go to ter"
+echo "Plz wait for go to term"
+echo "Plz wait for go to term e"
+echo "Plz wait for go to term em"
+echo "Plz wait for go to term emu"
+echo "Plz wait for go to term emul"
+echo "Plz wait for go to term emula"
+echo "Plz wait for go to term emulat"
+echo "Plz wait for go to term emulato"
+echo "Plz wait for go to term emulator"
+echo "Plz wait for go to term emulator ..."
 clear
-
-echo "+-----------------------------------------------------+"
-echo "|                 Git工具的上传脚本                   |"
-echo "+-----------------------------------------------------+"
-echo "| 这个脚本可以让你上传文件变得容易.                   |"
-echo "|                                                     |"
-echo "|                                                     |"
-
+echo "minecraft@sunbossrs > "
 clear
-
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-
+echo "minecraft@sunbossrs > u"
 clear
-
+echo "minecraft@sunbossrs > up"
+clear
+echo "minecraft@sunbossrs > upl"
+clear
+echo "minecraft@sunbossrs > uplo"
+clear
+echo "minecraft@sunbossrs > uploa"
+clear
+echo "minecraft@sunbossrs > upload"
+clear
+echo "minecraft@sunbossrs > upload."
+clear
+echo "minecraft@sunbossrs > upload.g"
+clear
+echo "minecraft@sunbossrs > upload.gi"
+clear
+echo "minecraft@sunbossrs > upload.git"
+clear
+echo "minecraft@sunbossrs > upload.git{"
+clear
+echo "minecraft@sunbossrs > upload.git{ b"
+clear
+echo "minecraft@sunbossrs > upload.git{ bw"
+clear
+echo "minecraft@sunbossrs > upload.git{ bwt"
+clear
+echo "minecraft@sunbossrs > upload.git{ bwtc"
+clear
+echo "minecraft@sunbossrs > upload.git{ bwtck"
+clear
+echo "minecraft@sunbossrs > upload.git{ bwtck }"
+clear
+echo "minecraft@sunbossrs > upload.git{ bwtck }"
+echo "做起中 ..."
 git status
+echo "推送中 ..."
 git pull origin master
-echo "|                                                     |"
-echo "|                                                     |"
-
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-
-clear
-
-echo "+-----------------------------------------------------+"
-echo "|                   请输入更改留言。                  |"
-echo "+-----------------------------------------------------+"
-read -p "--> "
-
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-git add .
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "推送完毕。"
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "差不多完成啦！我们需要你提供一下更新留言，马上就可以结束。"
+echo "只不过，希望你打出来的字不要有删除修改，否则，在git项目里的更新留言就会有点难看。可能会出现像�[D这样的字符。"
+echo ""
+read -p ">"
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
 git add .
 git stage .
 git commit -a -m "${REPLY}"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-
-clear
-
-echo "|                                                     |"
-echo "|                 更改留言设置成功!                   |"
-
-clear
-
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                   已准备就绪。                      |"
-echo "|                                                     |"
-echo "|                       查看状态...                   |"
-echo "|                                                     |"
-
-clear
-
-echo "|                                                     |"
-echo "|                                                     |"
+echo ""
+echo ""
+echo ""
+echo "正在做成 ..."
+echo ""
+echo ""
+echo ""
+echo ""
 git status
 git gc
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
+echo ""
+echo ""
+echo ""
+echo ""
+echo "上传中 ..."
+echo ""
+echo ""
+echo ""
 git push
-echo "|                                                     |"
-echo "|                                                     |"
-clear
-
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "|                                                     |"
-echo "+-----------------------------------------------------+"
-echo "|                  上传到仓库成功!                    |"
-echo "+-----------------------------------------------------+"
-
-git gc
-
-clear
-
-clear
-
 echo ""
-echo "Thanks for using this upload tool!"
 echo ""
-echo "+-------------------------------------------------------------------------------+"
-echo "| TTTTTTTTTTT   H       H       AA       NN      N    K    K       U        U   |"
-echo "|      T        H       H      A  A      N  N    N    K  K         U        U   |"
-echo "|      T        HHHHHHHHH     AAAAAA     N   N   N    KK            U      U    |"
-echo "|      T        H       H    A      A    N    N  N    K  K           U    U     |"
-echo "|      T        H       H   A        A   N      NN    K    K           UU       |"
-echo "+-------------------------------------------------------------------------------+"
-
-clear
-
-git gc
-git stage .
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "感谢使用我们的上传工具!"
+echo ""
+echo " TTTTTTTTTTT   H       H       AA       NN      N   K    K        U        U   "
+echo "      T        H       H      A  A      N  N    N   K  K          U        U   "
+echo "      T        HHHHHHHHH     AAAAAA     N   N   N   KK             U      U    "
+echo "      T        H       H    A      A    N    N  N   K  K            U    U     "
+echo "      T        H       H   A        A   N      NN   K    K            UU       "
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "请稍等 ...我们正在进行最后一次推送检验..."
 git pull origin master
 
 clear
