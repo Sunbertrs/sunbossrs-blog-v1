@@ -1,0 +1,52 @@
+# This file is a website record data file.
+# Like a "brain" of website.
+
+# minecraft-link
+MCOG:
+  name: MC联机组队群
+  url: http://mcog.s.cn.vc
+  
+MCPXG:
+  name: MC玩家交流群
+  url: sunbossrs.github.io/404.html
+  
+MCNET:
+  name: minecraft.net
+  url: http://minecraft.net
+  
+UiPack:
+  name1: UiPack材质包官网
+  url1: http://uipack.techplayer.org
+  
+  name2: UiPack-Classic材质包
+  url2: http://uipack.techplayer.org/classic
+  
+ACHIVEMENT:
+  name: MC自定义成就生成图站
+  url:http://mc.whitegem.net/
+  
+# Technologyfriend-link
+tea9:
+  name: Tea9的博客
+  url: https://tea9.github.io
+  
+gloomyghost:
+  name: GloomyGhost的博客
+  url: http://gloomyghost.com
+  
+zhangqirun:
+  name: 童年是个风筝的博客
+  url: http://zhangqirun.cn
+  
+townwang:
+  name: 文科中的技术宅
+  url: http://townwang.com
+  
+# OtherType-link
+UbuntuTour:
+  name:UbuntuTour
+  url: http://tour.ubuntu.com/zn-CN
+  
+UbuntuBrowserStartPage:
+  name:Ubuntu浏览器的开始页
+  url: http://start.ubuntu.com/
