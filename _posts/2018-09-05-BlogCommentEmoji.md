@@ -13,5 +13,5 @@ category: information
 ![emoji](//github.com/sunbossrs/blogcommentstore/raw/master/emoji/滑稽.png)
 </code>
 </pre>
-我们来看一看写下来的感觉怎么样![emoji](//github.com/sunbossrs/blogcommentstore/raw/master/emoji/滑稽.png)呵呵呵呵呵  
+我们来看一看写下来的感觉怎么样 ![emoji](//github.com/sunbossrs/blogcommentstore/raw/master/emoji/滑稽.png) 呵呵呵呵呵  
 还有更多好玩的等着你来发现！今天先更到这。
