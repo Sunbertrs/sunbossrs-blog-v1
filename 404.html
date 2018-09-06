@@ -6,16 +6,10 @@ description: "该链接已失效"
 
 {% include header.html %}
 
-<header class="g-banner np-banner {{ site.PostPattern | prepend: 'post-pattern-' }}" data-theme="{{ site.theme-color }}">
+<header class="g-banner np-banner {{ site.PostPatterns | prepend: 'post-pattern-' }}" data-theme="{{ site.theme-color }}">
     <div class="post-wrapper">
         <h1>404</h1>
         <span class="subheading">{{ page.description }}</span>
         <a href="sunbossrs.github.io" class="btn">回到主页</a>
     </div>
 </header>
-
-<body>
-        {% if page.header-img %}
-        <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
-        {% endif %}
-</body>
