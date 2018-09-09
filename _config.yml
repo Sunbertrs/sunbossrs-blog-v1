@@ -8,7 +8,7 @@ url: 'srsyrzz.ml' # your host
 baseurl: ''
 
 # Blog article image link(image bed)
-imgbed: https://git.coding.net/u/SunbossRS/p/GotBlogDowner
+imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
 
 # Navigation links 导航
 nav:
