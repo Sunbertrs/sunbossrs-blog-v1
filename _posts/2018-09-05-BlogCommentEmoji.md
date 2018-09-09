@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 博客评论更新
-description: 庄主大人更新了emoji
+title: 在评论里使用qq的表情!
+description: 庄主大人更新了emoji嗬
 tags: 网站 博客
 category: information
 ---
