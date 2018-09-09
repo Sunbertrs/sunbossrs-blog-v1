@@ -11,9 +11,7 @@ category: tech
 所以，我们可以使用这个“大脑”来给我们的博客添加一个简便的输入图床链接的设置。  
 **我们要看看你的博客支不支持_config.yml的键入和引用。**  
 我们来测试测试。输入
-```html
-{{ site.author }}
-```
+![pic]({{ site.imgbed }}img/EasierImageLinkWrite/01.png)
 看看会不会显示**网站的作者**。看看下面：  
 > {{ site.author }}
 
