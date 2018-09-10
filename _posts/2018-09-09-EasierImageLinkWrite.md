@@ -40,9 +40,9 @@ ImgLnk: http://github.com/SunbossRS/ImageSaver/raw/master
   ├ 其他内容
 ```
 那么，再打博文输入图片时，你可以这样打：
-```markdown
-![pic]({{ site.ImgLnk }}博客图库/简单加入图片/01.png)
-```
+
+![pic]({{ site.imgbed }}img/EasierImageLinkWrite/02.png)
+
 这样一来，我们就可以少敲一会儿键盘（虽然说linux党敲键盘还是很多的
 ![pic](http://github.com/sunbossrs/blogcommentstore/raw/master/emoji/滑稽.png)
 好好笑）  
