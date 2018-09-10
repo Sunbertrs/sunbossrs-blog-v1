@@ -43,6 +43,6 @@ ImgLnk: http://github.com/SunbossRS/ImageSaver/raw/master
 ```markdown
 ![pic]({{ site.ImgLnk }}博客图库/简单加入图片/01.png)
 ```
-这样一来，我们就可以少敲一会儿键盘（虽然说linux党敲键盘还是很多的[pic](http://github.com/sunbossrs/blogcommentstore/raw/master/emoji/滑稽.png)好好笑）  
+这样一来，我们就可以少敲一会儿键盘（虽然说linux党敲键盘还是很多的![pic](http://github.com/sunbossrs/blogcommentstore/raw/master/emoji/滑稽.png)好好笑）  
 但是，也比到图库复制原生链接和拖延时间更好。
 **前提：你的博客支持`_config.yml`的引用！！**
