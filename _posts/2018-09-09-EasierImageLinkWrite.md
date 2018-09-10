@@ -15,5 +15,34 @@ category: tech
 看看会不会显示**网站的作者**。看看下面：  
 > {{ site.author }}
 
+其实如上面看到的，你们可能看到的是“耀日庄主”，但是，其实是site.author。  
 没错，我们很顺利地输入了这个表达式。所以....  
-我们可以利用这个~~特性~~特点来表达。
+我们可以利用这个~~特性~~特点来表达。  
+我们可以试着在`_config.yml`里输入这一段内容：
+```yaml
+# 假设，我这里是使用Github开源的图库。
+# 然而，我的图库是在coding.net的。。
+
+ImgLnk: http://github.com/SunbossRS/ImageSaver/raw/master
+```
+看看上面所说的。我们可以创建一个叫做`ImgLnk`的内容。  
+但是大家注意过没有？这个链接里我们加了一个`raw/master`的目录！  
+  
+老实说，我们所看到的图片，带上的链接，都是需要`raw`(原生的)。如果我们不用原生的图片，在博客里将无法显示出图片的内容。  
+如果你的项目`示范：项目ImageSaver`有多个文件夹，可像这样：
+```list
+ 根
+  |
+  ├ 博客图库
+  |
+  ├ 喜爱的照片
+  |
+  ├ 其他内容
+```
+那么，再打博文输入图片时，你可以这样打：
+```markdown
+![pic]({{ site.ImgLnk }}博客图库/简单加入图片/01.png)
+```
+这样一来，我们就可以少敲一会儿键盘（虽然说linux党敲键盘还是很多的[pic](http://github.com/sunbossrs/blogcommentstore/raw/master/emoji/滑稽.png)好好笑）  
+但是，也比到图库复制原生链接和拖延时间更好。
+**前提：你的博客支持`_config.yml`的引用！！**
