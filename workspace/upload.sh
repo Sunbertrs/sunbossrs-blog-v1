@@ -17,43 +17,12 @@
 # Now this upload script file is default to my "workspace"file.If you want to use,plz delete "cd .." and get it into "/" .
 
 cd ..
-clear
-
-echo ""
-echo ""
-echo ""
-echo "           Ready ?"
-echo "   This script will start."
-echo ""
-echo ""
-clear
-
-echo ""
-echo ""
-echo ""
-echo "           Ready ?"
-echo "   This script will start."
-echo ""
-echo ">"
-clear
-
-echo ""
-echo ""
-echo ""
-echo "           Ready ?"
-echo "   This script will start."
-echo ""
-echo ">>>"
-clear
-
-echo ""
-echo ""
-echo ""
-echo "           Ready ?"
-echo "   This script will start."
-echo ""
-echo ">>>>"
-clear
+echo "=========="
+echo "=        ="
+echo "=         "
+echo "=     ===="
+echo "=        ="
+echo "=========="
 
 echo ""
 echo ""
