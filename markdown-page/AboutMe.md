@@ -1,5 +1,5 @@
 ---
-layout: markdown-page
+layout: page
 home-title: 关于我
 title: 关于我
 ---
