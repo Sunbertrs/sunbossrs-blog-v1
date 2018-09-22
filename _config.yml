@@ -9,7 +9,7 @@ baseurl: ''
 
 # Blog article image link(image bed)
 #imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
-imgbed: http://data.srsyrzz.ml
+imgbed: 'http://data.srsyrzz.ml/'
 
 # Navigation links 导航
 nav:
