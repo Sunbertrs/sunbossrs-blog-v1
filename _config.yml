@@ -8,7 +8,8 @@ url: 'srsyrzz.ml' # your host
 baseurl: ''
 
 # Blog article image link(image bed)
-imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
+#imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
+imgbed: http://data.srsyrzz.ml
 
 # Navigation links 导航
 nav:
@@ -26,7 +27,7 @@ footer:
 # Author 配置博主信息
 author: '耀日庄主'
 nickname: 'A5耀日庄主'
-bio: '争取做一名虽然不出名但是好的mc实况主。虽然说我已经入坑科技...'
+bio: '一名虽然不出名但是好的mc实况主，也是一名技术猿.'
 avatar: 'https://avatars0.githubusercontent.com/u/38691765?s=460&v=4'
 
 # Search 搜索
