@@ -5,7 +5,7 @@
 {% include header.html %}
 
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
-    <h2>{{ site.title }}</h2>
+    <h2>{{ page.title }}</h2>
 </div>
 
 <main class="tags-content">
@@ -16,4 +16,3 @@
     </ul>
 </main>
     
-{% include footer.html %}
