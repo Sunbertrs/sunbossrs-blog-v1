@@ -1,52 +1,20 @@
 # This file is a website record data file.
 # Like a "brain" of website.
 
-# minecraft-link
-MCOG:
-  name: MC联机组队群
-  url: http://mcog.s.cn.vc
+mclink:
+  MC联机组队群: 'http://mcog.s.cn.vc'
+  MC玩家交流群: 'sunbossrs.github.io/404.html'
+  minecraft.net: 'http://minecraft.net'
+  UiPack材质包官网: 'http://uipack.techplayer.org'
+  UiPack-Classic材质包: 'http://uipack.techplayer.org/classic'
+  MC自定义成就生成图站: 'http://mc.whitegem.net/'
   
-MCPXG:
-  name: MC玩家交流群
-  url: sunbossrs.github.io/404.html
+Tech.friend-lnk:
+  Tea9的博客: 'https://tea9.github.io'
+  GloomyGhost的博客: 'http://gloomyghost.com'
+  童年是个风筝的博客: 'http://zhangqirun.cn'
+  文科中的技术宅: 'http://townwang.com'
   
-MCNET:
-  name: minecraft.net
-  url: http://minecraft.net
-  
-UiPack:
-  name1: UiPack材质包官网
-  url1: http://uipack.techplayer.org
-  
-  name2: UiPack-Classic材质包
-  url2: http://uipack.techplayer.org/classic
-  
-ACHIVEMENT:
-  name: MC自定义成就生成图站
-  url: http://mc.whitegem.net/
-  
-# Technologyfriend-link
-tea9:
-  name: Tea9的博客
-  url: https://tea9.github.io
-  
-gloomyghost:
-  name: GloomyGhost的博客
-  url: http://gloomyghost.com
-  
-zhangqirun:
-  name: 童年是个风筝的博客
-  url: http://zhangqirun.cn
-  
-townwang:
-  name: 文科中的技术宅
-  url: http://townwang.com
-  
-# OtherType-link
-UbuntuTour:
-  name: UbuntuTour
-  url: http://tour.ubuntu.com/zn-CN
-  
-UbuntuBrowserStartPage:
-  name: Ubuntu浏览器的开始页
-  url: http://start.ubuntu.com/
+OtherType-lnk:
+  UbuntuTour: 'http://tour.ubuntu.com/zn-CN'
+  Ubuntu浏览器的开始页: 'http://start.ubuntu.com/'
