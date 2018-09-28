@@ -2,14 +2,13 @@
 title: 'A5耀日庄主的博客'
 description: '一个虽然不出名，但是好的实况主 的博客'
 keyword: 'minecraft / 科技 / html / 尝试'
-url: 'srsyrzz.ml' # your host
+url: 'https://sunbossrs.github.io' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
 
 # Blog article image link(image bed)
-#imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
-imgbed: 'http://data.srsyrzz.ml/'
+ImgBed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
 
 # Navigation links 导航
 nav:
