@@ -1,12 +1,10 @@
-<html>
-  <head>
-  <title>info.tech.mc</title>
-  </head>
-<body>
+---
+layout: page
+title: info.tech.mc
+---
   <h3>information.technology.mc</h3>
-  <address>in sunbossRS/</address>
+  <address>这是一个显示网站信息的小文档</address>
   <hr>
-  <p>网站运行的时间: 
   <SPAN id="span_dt_dt"></SPAN>
     <SCRIPT language=javascript>
     function show_date_time(){
@@ -24,7 +22,7 @@
     e_minsold=(e_hrsold-hrsold)*60;
     minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
     seconds=setzero(Math.floor((e_minsold-minsold)*60));
-    span_dt_dt.innerHTML=+daysold+"Day "+hrsold+"Hour "+minsold+"Minute "+seconds+"Second ";
+    span_dt_dt.innerHTML="现在网站已经运行了"+daysold+"天 "+hrsold+"小时 "+minsold+"分钟 "+seconds+"秒 ";
     }
     function setzero(i){
     if (i<10)
@@ -36,7 +34,7 @@
   <br>
   <p>本网站{{ site.title }}在<a href="https://github.com/SunbossRS/SunbossRS.github.io">Github.com</a>开源。</p>
   <br>
-  <p>博客评论系统为<code>SunTalk</code>。原著作为<a href='//gitalk.github.io'>Gitalk</a>。基于issue。</p>
+  <p>博客评论系统为<code>SunTalk</code>。原著作为<a href='https://gitalk.github.io'>Gitalk</a>。基于issue。</p>
   <br>
   <p>博客issue源为<a href='//github.com/sunbossrs/BlogCommentStore'>BlogCommentStore</A></p>
   <br>
@@ -45,5 +43,3 @@
   <br>
   <p><a href="https://gitee.com/srsyrzz/repository/raw/master/blogfile/h2of/h2oNoBlogWebsiteModel.zip">H2O主题无博客(.zip)</a></p>
   
-  </body>
-</html>
