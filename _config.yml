@@ -8,7 +8,7 @@ url: 'https://sunbossrs.github.io' # your host
 baseurl: ''
 
 # Blog article image link(image bed)
-ImgBed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
+imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
 
 # Navigation links 导航
 nav:
