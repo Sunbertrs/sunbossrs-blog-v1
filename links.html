@@ -11,7 +11,8 @@ header-img: '{{ site.imgbed }}/sunup.jpg'
         font-size:13px;
       }
 </style>
-    
+  
+{% if site.data.links.minecraftlink.enable %}
 <li>
    <span class="tag-name" id="minecraftlink">我的世界链接</span>   
       {% for minecraftlink in site.data.links.mclink %}
@@ -19,25 +20,25 @@ header-img: '{{ site.imgbed }}/sunup.jpg'
        <p><i class='fa fa-telegram'></i><a href="{{ minecraftlink[1] }}">{{ minecraftlink[0] }}</a>
       {% endfor %}
 </li>
-
+{% endif %}
 <br>
-
+{% if site.data.links.technologylink.enable %}
 <li>
    <span class='tag-name' id='technologylink'>技术好友的链接</span>
       {% for technologylink in site.data.link.Technologyfriendlnk %}
        <p><i class='fa fa-paper-plane'></i><a href="{{ technologylink[1] }}">{{ technologylink[0] }}</a>
       {% endfor %}
 </li>
-
+{% endif %}
 <br>
-
+{% if site.data.links.other.true %}
 <li>
    <span class='tag-name' id='other'>其他类型的链接</span>
       {% for other in site.data.link.OtherTypelnk %}
        <p><a href="{{ other[0] }}">{{ other[1] }}</a>
       {% endfor %}
 </li>
-
+{% endif %}
 <br>
 
 <li>
