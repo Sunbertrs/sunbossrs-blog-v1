@@ -12,7 +12,6 @@ header-img: '{{ site.imgbed }}/sunup.jpg'
       }
 </style>
   
-{% if site.data.links.minecraftlink.enable %}
 <li>
    <span class="tag-name" id="minecraftlink">我的世界链接</span>   
       {% for minecraftlink in site.data.links.mclink %}
@@ -20,21 +19,19 @@ header-img: '{{ site.imgbed }}/sunup.jpg'
        <p><i class='fa fa-telegram'></i><a href="{{ minecraftlink[1] }}">{{ minecraftlink[0] }}</a>
       {% endfor %}
 </li>
-{% endif %}
 <br>
-{% if site.data.links.technologylink.enable %}
 <li>
-   <span class='tag-name' id='technologylink'>技术好友的链接</span>
+   <span class="tag-name" id="technologylink">技术好友的链接</span>
       {% for technologylink in site.data.link.Technologyfriendlnk %}
+      <br />
        <p><i class='fa fa-paper-plane'></i><a href="{{ technologylink[1] }}">{{ technologylink[0] }}</a>
       {% endfor %}
 </li>
-{% endif %}
 <br>
-{% if site.data.links.other.true %}
 <li>
-   <span class='tag-name' id='other'>其他类型的链接</span>
+   <span class="tag-name" id="other">其他类型的链接</span>
       {% for other in site.data.link.OtherTypelnk %}
+      <br />
        <p><a href="{{ other[0] }}">{{ other[1] }}</a>
       {% endfor %}
 </li>
@@ -46,7 +43,7 @@ header-img: '{{ site.imgbed }}/sunup.jpg'
     如果你真的要那样的话，请确保你的网站有以下条件:<br>
     1. 你的博客或网站不能有不良信息。  <br>
     2. 网站要指向 <code>sunbossrs.github.io</code> 才行哦。<br>  
-    3. 告诉我你要加我友链。在下面的讨论区里发送如下内容，我就可以加你的友链。<br>
+    3. 告诉我你要加我友链。在下面的SunTalk里发送如下内容，我就可以加你的友链。<br>
     <address>我叫xxx，我要申请添加友链。我的网站是https://xxxxx。</address>
     <address>我的网站名字是xxx.</address>
     4. 如果你的友链需要图标，可以 <a href='/https://avatars3.githubusercontent.com/u/38691765?s=96&v=4'>点击这里</a> 获得我的icon.*  
