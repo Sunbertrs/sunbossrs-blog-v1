@@ -12,13 +12,13 @@ mclink:
 #<----->
 
 Technologyfriendlnk:
-  Tea9的博客: 'https://tea9.github.io'
-  GloomyGhost的博客: 'http://gloomyghost.com'
-  童年是个风筝的博客: 'http://zhangqirun.cn'
-  文科中的技术宅: 'http://townwang.com'
+  Tea9的博客: '//tea9.github.io'
+  GloomyGhost的博客: '//gloomyghost.com'
+  童年是个风筝的博客: '//zhangqirun.cn'
+  文科中的技术宅: '//townwang.com'
 
 #<----->
 
 OtherTypelnk:
-  UbuntuTour: 'http://tour.ubuntu.com/zn-CN'
-  Ubuntu浏览器的开始页: 'http://start.ubuntu.com/'
+  UbuntuTour: '//tour.ubuntu.com/zn-CN'
+  Ubuntu浏览器的开始页: '//start.ubuntu.com/'
