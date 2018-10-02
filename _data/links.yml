@@ -1,8 +1,6 @@
 # This file is a website record data file.
 # Like a "brain" of website.
 
-mclink: true
-minecraftlink: true
 mclink:
   MC联机组队群: 'https://mcog.s.cn.vc'
   MC玩家交流群: 'https://sunbossrs.github.io/404'
@@ -14,8 +12,6 @@ mclink:
 #<---分隔线--->
 #这是技术好友链接
 
-technologylink: true
-Technologyfriendlnk: true
 Technologyfriendlnk:
   Tea9的博客: 'https//tea9.github.io'
   GloomyGhost的博客: 'https://gloomyghost.com'
@@ -25,8 +21,6 @@ Technologyfriendlnk:
 #<---分隔线--->
 #这是其它链接
 
-other: true
-OtherTypelnk: true
 OtherTypelnk:
   UbuntuTour: 'https://tour.ubuntu.com/zn-CN'
   Ubuntu浏览器的开始页: 'https://start.ubuntu.com/'
