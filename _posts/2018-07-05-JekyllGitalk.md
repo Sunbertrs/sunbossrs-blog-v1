@@ -73,13 +73,18 @@ comments:
 添加完之后呢，
 我们先了解一下几个大括号表达式：
 意思所指。  
+
+<pre>
+  <code class="language-html">
 {{ site.comment.gitalk_clientID }}        //这是你的gitalk clientid的表达式  
 {{ site.comment.gitalk_Secret }}          //这是gitalk secret的表达式  
 {{ site.comment.gitalk_repo }}            //这是gitalk repo的表达式  
 {{ site.comment.gitalk_owner }}          //这是gitalk owner的表达式  
 {{ site.comment.gitalk_anmin }}          //这是gitalk admin的表达式  
 {{ site.comment.distractionFreeMode }}   //这是distractionFreeMode的表达式  
-  
+  </code>
+</pre>
+
 site代表_config.yml  
 comment代表在列comment里的项(在'comment:'后面按了两个空格后输入的内容为comment的项,之后隔一行后不再按两个空格'对齐一起'可退出该项)  
 至于这些gitalk_xxx的，我刚才写的。  
