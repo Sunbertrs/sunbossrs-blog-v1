@@ -32,7 +32,7 @@ header-img: '{{ site.imgbed }}/sunup.jpg'
    <span class="tag-name" id="other">其他类型的链接</span>
         {% for other in site.data.links.OtherTypelnk %}    
          <br />
-         <a href="{{ other[0] }}" type="tag">{{ other[1] }}</a>
+         <i class="other"></i><a href="{{ other[0] }}">{{ other[1] }}</a>
         {% endfor %}
 </li>
 {% endif %}
