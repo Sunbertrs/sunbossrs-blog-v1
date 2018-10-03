@@ -27,7 +27,7 @@ category: tech
 注册方法：在github主页右上角点击你的头像，settings，进入界面后点击developer settings,添加OAuth Application。  
 ![pic](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)  
 ```github
- Application name:项目名称  
+ Application name:取一个霸气的名称 
  Homepage URL:你的博客网址
  Application description:项目描述  
  Authorization callback URL:你的博容网址
