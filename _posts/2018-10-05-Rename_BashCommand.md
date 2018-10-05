@@ -28,16 +28,14 @@ cd /bin/
 我们可以看到，这里面差不多背全了我们使用过的命令。  
 我们便可以使用`cp`命令来复制这些命令题并重新命名。  
 这里庄主要把`cp`这个命令弄成`copy`.
-![pic]({{ site.imgbed }}imgDefineTerminalCommand/04.png)
+![pic]({{ site.imgbed }}img/DefineTerminalCommand/04.png)
 结果，权限不够。我们需要在我们的·复制·的这个命令前加个`sudo`.  
 <pre>
   <code class="language-bash">
-  
   修改前：
   cp <strong>cp copy</strong>
   修改后：
-  <address>sudo</address>  cp <strong>cp copy</strong>
-  
+  sudo cp <strong>cp copy</strong>
   </code>
 </pre>
-![pic]({{ site.imgbed }}DefineTerminalCommand/05.png)
+![pic]({{ site.imgbed }}img/DefineTerminalCommand/05.png)
