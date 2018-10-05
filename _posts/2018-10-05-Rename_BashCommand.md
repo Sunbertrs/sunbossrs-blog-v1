@@ -14,20 +14,21 @@ cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Define
 所以我拿bash来搞事情了....  
   
 ### 1.打开终端
-做修改命令的，我们还是要打开终端.
-![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCommand/02.png)
+做修改命令的，我们还是要打开终端.  
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCommand/01.png)
 ### 2. 开始正题
 我们输入命令
 ```bash
 cd /bin/
 ```
 来把终端定位到根目录里`bin`的这个文件夹。  
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCommand/02.png)  
   
-之后我们来`ls`一下看看里面有什么内容。
+之后我们来`ls`一下看看里面有什么内容。  
 ![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCommand/03.png)
 我们可以看到，这里面差不多背全了我们使用过的命令。  
 我们便可以使用`cp`命令来复制这些命令题并重新命名。  
-这里庄主要把`cp`这个命令弄成`copy`.
+这里庄主要把`cp`这个命令弄成`copy`.  
 ![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCommand/04.png)
 结果，权限不够。我们需要在我们的·复制·的这个命令前加个`sudo`.  
 <pre>
