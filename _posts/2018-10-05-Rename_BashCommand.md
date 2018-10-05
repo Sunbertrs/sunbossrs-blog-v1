@@ -4,7 +4,7 @@ title: '重新自定义命令'
 description: '一下修改命令，不需要多废话...'
 tags: 电脑 技术 linux
 category: tech
-cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/blob/master/img/DefineTerminalCoommand/05.png?raw=true'
+cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/cover.png'
 ---
 喜欢玩GNU的人都知道，linux的bash可出名了。  
 ~~我们可以拿kali linux的bash来搞别人的wifi~~  
@@ -30,10 +30,14 @@ cd /bin/
 这里庄主要把`cp`这个命令弄成`copy`.
 ![pic]({{ site.imgbed }}/DefineTerminalCommand/04.png)
 结果，权限不够。我们需要在我们的·复制·的这个命令前加个`sudo`.  
-```bash
-修改前：
-cp cp copy
-修改后：
-sudo cp cp copy
-```
+<pre>
+  <code class="language-bash">
+  
+  修改前：
+  cp <strong>cp copy</strong>
+  修改后：
+  <address>sudo</address> cp <strong>cp copy</strong>
+  
+  </code>
+</pre>
 ![pic]({{ site.imgbed }}DefineTerminalCommand/05.png)
