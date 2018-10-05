@@ -15,7 +15,7 @@ cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/blob/master/img/Defin
   
 ### 1.打开终端
 做修改命令的，我们还是要打开终端.
-![pic]({{ site.imgbed }}/DefineTerminalCommand/02.png)
+![pic]({{ site.imgbed }}DefineTerminalCommand/02.png)
 ### 2. 开始正题
 我们输入命令
 ```bash
@@ -32,8 +32,8 @@ cd /bin/
 结果，权限不够。我们需要在我们的·复制·的这个命令前加个`sudo`.  
 ```bash
 修改前：
-cp <strong>cp copy</strong>
+cp cp copy
 修改后：
-<address>sudo</address> cp <strong>cp copy</strong>
+sudo cp cp copy
 ```
-![pic]({{ site.imgbed }}/DefineTerminalCommand/05.png)
+![pic]({{ site.imgbed }}DefineTerminalCommand/05.png)
