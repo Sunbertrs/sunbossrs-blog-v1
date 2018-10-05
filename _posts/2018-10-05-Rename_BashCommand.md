@@ -36,7 +36,7 @@ cd /bin/
   修改前：
   cp <strong>cp copy</strong>
   修改后：
-  <address>sudo</address> cp <strong>cp copy</strong>
+  <address>sudo</address>  cp <strong>cp copy</strong>
   
   </code>
 </pre>
