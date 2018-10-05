@@ -4,7 +4,7 @@ title: '重新自定义命令'
 description: '一下修改命令，不需要多废话...'
 tags: 电脑 技术 linux
 category: tech
-cover: '{{ site.imgbed }}/img/DefineTerminalCommand/cover.png'
+cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/blob/master/img/DefineTerminalCoommand/05.png?raw=true'
 ---
 喜欢玩GNU的人都知道，linux的bash可出名了。  
 ~~我们可以拿kali linux的bash来搞别人的wifi~~  
