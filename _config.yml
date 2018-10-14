@@ -11,7 +11,7 @@ baseurl: ''
 WrapperBg: /assets/img/NoCover-Background.jpg
 
 # Blog article image link(image bed)
-imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/
+imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master
 
 # Navigation links 导航
 nav:
