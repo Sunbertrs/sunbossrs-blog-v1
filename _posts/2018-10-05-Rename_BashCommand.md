@@ -40,3 +40,9 @@ cd /bin/
   </code>
 </pre>
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/05.png)
+现在你们会看到，命令成功的运行。
+![pic]({{ site.imgbed }}/img/Defineterminalcoomand/06.png)
+![pic]({{ site.imgbed }}/img/Defineterminalcoomand/07.png)
+![pic]({{ site.imgbed }}/img/Defineterminalcoomand/08.png)
+![pic]({{ site.imgbed }}/img/Defineterminalcoomand/09.png)
+![pic]({{ site.imgbed }}/img/Defineterminalcoomand/10.png)
