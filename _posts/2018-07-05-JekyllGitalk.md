@@ -1,5 +1,5 @@
 ---
-layout: dakuohao-no-post
+layout: post
 title: '在jekyll博客里设置gitalk评论系统'
 subtitle: '转载自tea9.'
 tags: jekyll 反馈
