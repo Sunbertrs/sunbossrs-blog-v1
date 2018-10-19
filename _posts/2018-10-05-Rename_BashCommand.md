@@ -58,4 +58,4 @@ copy在列出来的第一竖。
 正在清除之前的两个文档中...  
 rm君已死亡[滑稽]
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/12.png)
-![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/13.png)
+*修改于2018年10月19日--我已经把电脑改回htfs格式了，等着在bash on windows见吧*
