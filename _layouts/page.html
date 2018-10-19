@@ -5,16 +5,19 @@ layout: default
 {% include head.html %}
 
 {% include header.html %}
-
+<!--
   <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}" data-theme="{{ site.theme-color }}">
     <div class="filter"></div>
       <div class="post-cover" style="background: url('{{ site.WrapperBg }}') center no-repeat; background-size: cover;"></div>
 	  <br /><br /><br /><br /><br /><br /><br /><br /><br />
 	  <h1 style="text-align: center;">{{ page.title }}</h2>
   </header>
+-->
+<div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
+	<h2>{{ page.title }}</h2>
+</div>
 
 <main class="tags-content">
-	<br /> <br /> <br />
     <ul class="tags-list">
 	
 	  {{ content }}
