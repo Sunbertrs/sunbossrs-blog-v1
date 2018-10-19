@@ -40,9 +40,17 @@ cd /bin/
   </code>
 </pre>
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/05.png)
-现在你们会看到，命令成功的运行。
+现在你们会看到，命令成功的运行。  
+我们再列出一下，这里多出了copy！对！  
+copy在列出来的第一竖。  
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/06.png)  
+其实不需要重启，立刻可以使用！  
+还能用，哈哈！  
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/07.png)  
+还真有document.txt这个内容，亲测能行！
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/08.png)  
+正在尝试搞坏mkdir君...成功
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/09.png)  
+这不是我手动创建的
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/10.png)  
+![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/11.png)
