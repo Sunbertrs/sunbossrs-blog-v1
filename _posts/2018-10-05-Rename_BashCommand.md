@@ -55,4 +55,7 @@ copy在列出来的第一竖。
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/10.png)  
 搞坏mv君...成功
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/11.png)
+正在清除之前的两个文档中...  
+rm君已死亡[滑稽]
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/12.png)
+![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/13.png)
