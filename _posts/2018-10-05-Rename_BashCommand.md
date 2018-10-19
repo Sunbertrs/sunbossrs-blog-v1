@@ -53,4 +53,6 @@ copy在列出来的第一竖。
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/09.png)  
 这不是我手动创建的
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/10.png)  
+搞坏mv君...成功
 ![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/11.png)
+![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/12.png)
