@@ -1,51 +1,17 @@
 ---
-layout: default
-title: '下载页'
-home-title: 耀日庄主的博客
-header-img: https://gitee.com/srsyrzz/repository/raw/master/DiamondSwordPlay.jpg
-description: Minecraft is my SOUL!!
+layout: page
+title: '博主自建下载站'
+description: '该网站是博主自建的资源站！'
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-    
- {% include header.html %}
 
-<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
-    <h2>{{ page.home-title }}</h2>
-    <h3>{{ page.description }}</h3>
-    {% if page.header-img %}
-    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
-    {% endif %}
-</div>
-    </aside>
-<main class="tags-content">
-<ul class="tags-list">
-
-<br>
-    
-<br>
-    
-<br>
-    
-<br>
-    
 <li>
-    <span class='tag-name' id='getlocation'>快速定位模块</span>
-    <a class="tag" href="#hmcl">下载HMCL</a>
-    <br>
-    <a class='tag' href='#chilledwindows'>ChilledWindows</a>
-    <br>
-    <a class='tag' href='#memz'>MEMZ病毒</a>
-    <br>
-    <a class="tag" href="#gitdownload">下载git</a>
-    <br>
-	<a class="tag" href="#vmwarehome">vmware全家桶</a>
-	<br>
-	<a class="tag" href="#amtemudl">Adobe产品破解器</a>
-	<br>
-    <a class='tag' href='#win-explorer'>Windows Explorer下载</a>
-    <br>
-    <a class='tag' href='#report'>反馈模块</a>
+    <span class='tag-name' id='location'>快速定位模块</span>
+    {% for locaion in site.data.downloadp.tags %}
+	<br />
+	<a class="tag" href="#hmcl">下载HMCL</a>
+    {% endfor %}
 </li>
     <br>
 <li>
