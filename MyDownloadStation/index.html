@@ -13,11 +13,15 @@ description: '该网站是博主自建的资源站！'
 	<a class="tag" href="{{ location[1] }}">{{ location[0] }}</a>
     {% endfor %}
 </li>
-    <br>
+
+ {% for x in site.data.downloadp.content %}
+    <br />
 <li>
-   <span class="tag-name" id="hmcl"> HMCL我的世界电脑启动器 </span>   
-    <i class="fa fa-download"></i><a href='https://hmcl.huangyuhui.net/download'>下载</a>
+   <span class="tag-name" id="{{ site.data.downloadp.tags }}"> {{ x[0] }} </span>   
+   <p>{{ x[1] }}</p>
 </li>
+ {% endfor %}
+<!--
     <br>
 <li>
     <span class="tag-name" id="chilledwindows"> ChilledWindows </span>
@@ -65,6 +69,7 @@ description: '该网站是博主自建的资源站！'
     <span class="tag-name" id="amtemudl"> Adobe产品破解器:AMTemu.exe </span>
 	<i class="fa fa-download"></i><a href="https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/AMTemu.exe">下载</a>
 </li>
+-->
     <br>
 <li>
    <span class="tag-name" id="report"> 反馈 </span>
@@ -84,8 +89,3 @@ description: '该网站是博主自建的资源站！'
     gitalk.render('gitalk_container')
    </script>
 
-</ul>
-
-</main>
-
-{% include footer.html %}
