@@ -8,18 +8,20 @@ description: '该网站是博主自建的资源站！'
 
 <li>
     <span class="tag-name" id="location">快速定位模块</span>
-    {% for locaion in site.data.downloadp.tags %}
+    {% for dw in site.data.downloadp.tags %}
 	<br />
-	<a class="tag" href="{{ location[1] }}">{{ location[0] }}</a>
+	<a class="tag" href="{{ dw[1] }}">{{ dw[0] }}</a>
     {% endfor %}
 </li>
 
  {% for x in site.data.downloadp.content %}
+ {% for conts in site.data.downloadp.tags %}
     <br />
 <li>
    <span class="tag-name" id="#{{ site.data.downloadp.tags }}"> {{ x[0] }} </span>   
    <p>{{ x[1] }}</p>
 </li>
+ {% endfor %}
  {% endfor %}
 <!--
     <br>
