@@ -9,8 +9,8 @@ tags:
   '反馈': '#report'
 
 content:
-  'HMCL我的世界启动器': 'HMCL是一款强大的老牌mc启动器。 <br /> 现在他支持正版登录、离线登录和服务器登录呢！ <br /> <a class="colour: #4a86e8" href="https://hmcl.huangyuhui.net/download">下载</a>'
+  'HMCL我的世界启动器': 'HMCL是一款强大的老牌mc启动器。 <br /> 现在他支持正版登录、离线登录和服务器登录呢！ <br /> <a href="https://hmcl.huangyuhui.net/download">下载</a>'
   'Git for Windows': 'Git fir Windows 是一个轻量级的bash(不是很轻量化，因为他要下载很久)，他可以支持更新你的仓库，可以用git xxx什么什么的命令在这里。 <br /> <a class="colour: #4a86e8" href="https://gitforwindows.org">下载</a>'
-  '病毒下载': '病毒是一个非常危险的东西。我们不能轻易打开。如果轻易打开了，那么电脑文件损失我不负责任。 <br /> <a class="colour: #4a86e8" href="/MyDownloadStation/virus.html">下载</a>'
-  'vmware系列产品下载': '众所周知，vmware是一个对于虚拟机非常好的一个项目。他的旗下产品有vmware player啊，vmware workstation pro啊，等等等等。<br /> <a class="colour: #4a86e8" href="https://www.vmware.com/go/getworkstation-win">Workstation Pro</a>'
+  '病毒下载': '病毒是一个非常危险的东西。我们不能轻易打开。如果轻易打开了，那么电脑文件损失我不负责任。 <br /> <a href="/MyDownloadStation/virus.html">下载</a>'
+  'vmware系列产品下载': '众所周知，vmware是一个对于虚拟机非常好的一个项目。他的旗下产品有vmware player啊，vmware workstation pro啊，等等等等。<br /> <a href="https://www.vmware.com/go/getworkstation-win">Workstation Pro</a>'
 
