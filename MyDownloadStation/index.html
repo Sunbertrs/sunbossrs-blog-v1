@@ -22,7 +22,7 @@ description: '该网站是博主自建的资源站！'
  {% for conts in site.data.downloadp.tags %}
     <br />
 <li>
-   <span class="tag-name" id="#{{ site.data.downloadp.tags }}"> {{ x[0] }} </span>   
+   <span class="tag-name" id="{{ conts[1] }}"> {{ x[0] }} </span>   
    <p>{{ x[1] }}</p>
 </li>
  {% endfor %}
@@ -33,14 +33,14 @@ description: '该网站是博主自建的资源站！'
     <span class="tag-name" id="chilledwindows"> ChilledWindows </span>
     <i class="fa fa-download"></i><a href="https://https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/ChilledWindows.exe">下载</a>
 </li>
-    <br>  
+    <br>
 <li>
-   <span class="tag-name" id="memz"> MEMZ Trojan </span>  
+   <span class="tag-name" id="memz"> MEMZ Trojan </span>
    <strong>这是一个病毒，电脑损坏我不负责任。但是如果你还想要尝试，你可以尝试第二个选项。不过里面的某些选项会让杀毒软件报告。</strong>
    <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/MEMZ-%E5%AF%86%E7%A0%81yaoriSunboss.zip'>普通版本</a>
    <br>
    <i class="fa fa-download"></i><a href="https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/MEMZ-Clean.exe">无毒 干净版</a>
-</li>	
+</li>
     <br>
 <li>
    <span class="tag-name" id="gitdownload"> Git工具下载 </span>
@@ -50,7 +50,7 @@ description: '该网站是博主自建的资源站！'
 </li>
     <br>
 <li>
-   <span class="tag-name" id="win-explorer"> Windows Explorer.exe下载 </span>   
+   <span class="tag-name" id="win-explorer"> Windows Explorer.exe下载 </span>
    <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/explorerXP.exe'>xp</a>
     <br>
    <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/explorerWIN7.exe'>windows7</a>
@@ -81,7 +81,7 @@ description: '该网站是博主自建的资源站！'
    <span class="tag-name" id="report"> 反馈 </span>
    <script src="/assets/js/SunTalk.min.js"></script>
 
-   <div id="gitalk_container"></div>     
+   <div id="gitalk_container"></div>
    <script>
     var gitalk = new Gitalk({
       clientID: '800a929ad18c8e90fdbc',
@@ -89,9 +89,8 @@ description: '该网站是博主自建的资源站！'
       repo: 'BlogCommentStore',
       owner: 'SunbossRS',
       admin: 'SunbossRS',
-      id: location.pathname,     
-      distractionFreeMode: 'true'  
+      id: location.pathname,
+      distractionFreeMode: 'true'
     })
     gitalk.render('gitalk_container')
    </script>
-
