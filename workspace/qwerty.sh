@@ -1,0 +1,2 @@
+read -p "sdvs"
+exit
