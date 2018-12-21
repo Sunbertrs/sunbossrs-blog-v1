@@ -3,21 +3,28 @@ layout: page
 title: '博主自建下载站'
 description: '该网站是博主自建的资源站！'
 ---
-<style>
-	a{
-		colour: #4a86e8
-	}
-</style>
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <!---------------------->
 <li>
     <span class="tag-name" id="location">快速定位模块</span>
-    {% for dw in site.data.downloadp.tags %}
-	<br />
-	<a class="tag" href="{{ dw[1] }}">{{ dw[0] }}</a>
-    {% endfor %}
-</li>
+         <li>
+        {% if site.data.downloadp.tags and site.data.downloadp.tags.size>0 %}
+            {% for tag in site.data.downloadp.tags %}
+            <a href="{{ tag[1] }}" class="tag">{{ tag[0]}}</a>
+            {% endfor %}
+        {% endif %}
+        </li>
 
+        {% for tag in site.data.downloadp.tags %}
+        <li>
+            <span class="tag-name" id="{{ tag[0] }}">「{{ tag[0] }}」</span>
+            {% for content in csk[1] %}
+            <p>{{ csk[1] }}</p>
+            {% endfor %}
+        </li>
+        {% endfor%}
+<!--
  {% for x in site.data.downloadp.content %}
  {% for conts in site.data.downloadp.location %}
     <br />
@@ -27,54 +34,6 @@ description: '该网站是博主自建的资源站！'
 </li>
  {% endfor %}
  {% endfor %}
-<!--
-    <br>
-<li>
-    <span class="tag-name" id="chilledwindows"> ChilledWindows </span>
-    <i class="fa fa-download"></i><a href="https://https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/ChilledWindows.exe">下载</a>
-</li>
-    <br>
-<li>
-   <span class="tag-name" id="memz"> MEMZ Trojan </span>
-   <strong>这是一个病毒，电脑损坏我不负责任。但是如果你还想要尝试，你可以尝试第二个选项。不过里面的某些选项会让杀毒软件报告。</strong>
-   <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/MEMZ-%E5%AF%86%E7%A0%81yaoriSunboss.zip'>普通版本</a>
-   <br>
-   <i class="fa fa-download"></i><a href="https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/MEMZ-Clean.exe">无毒 干净版</a>
-</li>
-    <br>
-<li>
-   <span class="tag-name" id="gitdownload"> Git工具下载 </span>
-   <p><i class="fa fa-download"></i><a href="//gitforwindows.org">Windows</a></p>
-   <br>
-   <p><i class="fa fa-download"></i><a href="https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/DownloadGitForLinux.txt">Linux</a></p>
-</li>
-    <br>
-<li>
-   <span class="tag-name" id="win-explorer"> Windows Explorer.exe下载 </span>
-   <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/explorerXP.exe'>xp</a>
-    <br>
-   <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/explorerWIN7.exe'>windows7</a>
-    <br>
-   <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/explorerVISTA.exe'>vista</a>
-    <br>
-   <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/explorerWIN8.1.exe'>windows8.1</a>
-    <br>
-   <i class="fa fa-download"></i><a href='https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/explorerWIN10.exe'>windows10</a>
-</li>
-    <br>
-<li>
-    <span class="tag-name" id="vmwarehome"> VMWare虚拟机全家桶 </span>
-    <i class="fa fa-download"></i><a href="https://www.vmware.com/go/getworkstation-win">VMWare Workstation Pro (windows)</a>
-    <br>
-    <i class="fa fa-download"></i><a href="https://www.vmware.com/go/getfusion">VMWare fusion (mac)</a>
-    <br>
-    <i class="fa fa-download"></i><a href="https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/14_0">VMWare Player (windows) (linux)</a>
-</li>
-    <br>
-<li>
-    <span class="tag-name" id="amtemudl"> Adobe产品破解器:AMTemu.exe </span>
-	<i class="fa fa-download"></i><a href="https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/filedown/AMTemu.exe">下载</a>
-</li>
 -->
     <br>
 <li>
