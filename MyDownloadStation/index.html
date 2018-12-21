@@ -17,10 +17,12 @@ description: '该网站是博主自建的资源站！'
 
           {% for tags in site.data.downloadp.location %}
         <li>
-            <span class="tag-name" id="{{ tagsloc[1] }}">「{{ tagsloc[0] }}」</span>
+            <span class="tag-name" id="{{ tags[1] }}">「{{ tags[0] }}」</span>
+         {% if site.data.downloadp.content and site.data.downloadl.content.size>0 %}
             {% for csk in site.data.downloadp.content %}
             <p>{{ csk[1] }}</p>
             {% endfor %}
+         {% endif %}
         </li>
         {% endfor%}
 
