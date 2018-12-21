@@ -6,35 +6,24 @@ description: '该网站是博主自建的资源站！'
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <!---------------------->
-<li>
-    <span class="tag-name" id="location">快速定位模块</span>
          <li>
         {% if site.data.downloadp.tags and site.data.downloadp.tags.size>0 %}
             {% for tag in site.data.downloadp.tags %}
+            <span class="tag-name" id="location">快速定位模块</span>
             <a href="{{ tag[1] }}" class="tag">{{ tag[0]}}</a>
             {% endfor %}
         {% endif %}
         </li>
 
-        {% for tag in site.data.downloadp.tags %}
+        {% for tagsloc in site.data.downloadp.tags %}
         <li>
-            <span class="tag-name" id="{{ tag[0] }}">「{{ tag[0] }}」</span>
+            <span class="tag-name" id="{{ tagsloc[1] }}">「{{ tag[0] }}」</span>
             {% for content in csk[1] %}
             <p>{{ csk[1] }}</p>
             {% endfor %}
         </li>
         {% endfor%}
-<!--
- {% for x in site.data.downloadp.content %}
- {% for conts in site.data.downloadp.location %}
-    <br />
-<li>
-   <span class="tag-name" id="{{ conts[1] }}"> {{ x[0] }} </span>   
-   <p>{{ x[1] }}</p>
-</li>
- {% endfor %}
- {% endfor %}
--->
+
     <br>
 <li>
    <span class="tag-name" id="report"> 反馈 </span>
