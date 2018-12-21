@@ -15,7 +15,7 @@ description: '该网站是博主自建的资源站！'
         {% endif %}
         </li>
 
-        {% for tagsloc in site.data.downloadp.tags %}
+          {% for tags in site.data.downloadp.location %}
         <li>
             <span class="tag-name" id="{{ tagsloc[1] }}">「{{ tag[0] }}」</span>
             {% for csk in site.data.downloadp.content %}
