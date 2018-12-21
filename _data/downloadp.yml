@@ -16,7 +16,7 @@ content:
   '小工具': '这里有我经常用的一些小工具。你们可以拿去玩[滑稽]。'
 
 location:
-  'hmcl': 'hmcl'
-  'gitwin': 'git-win'
-  'virustrojan': 'virus'
-  'tools': 'tools'
+  '我的世界HMCL启动器': 'hmcl'
+  'Git for Windows': 'git-win'
+  'virus_trojan': 'virus'
+  '小工具': 'tools'
