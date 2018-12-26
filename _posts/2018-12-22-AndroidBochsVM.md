@@ -5,7 +5,7 @@ subtitle: '虚拟机是在电脑上运行电脑的机器。虚拟机可运行的
 tags: Windows Android 教程
 keywords: Android Bochs 虚拟机 教程 手机 运行
 category: tech
-cover: https://coding.net/u/sunbossrs/p/gotblogdowner/git/raw/img/bochs/cover.jpg
+cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/cover.jpg
 ---
 使用Bochs比Limbo好很多。我们用Bochs。  
 
@@ -18,8 +18,8 @@ cover: https://coding.net/u/sunbossrs/p/gotblogdowner/git/raw/img/bochs/cover.jp
 下载`安卓Bochs`文件夹中的文件。（建议下载`Bochs配置包.zip`，因为操作方便。   但是使用`BochsCore`更方便，但操作鼠标不大行，不过可以控制硬件。）  
   
 之后下载`即用的img镜像`文件夹中的*其中一个内容*。如果使用`Windows系统`，可以下载`AndowsXP.img`的文件。因为该镜像*轻量化*。下载`WindowsXP.img`或者是`Windows10.img`可能会花费你*2+天*的时间。但要看你网速快不快。  
-![]({{ site.imgbed }}/bochs/01.png)
-![]({{ site.imgbed }}/bochs/02.png)
+![]({{ site.imgbed }}/Bochs/01.png)
+![]({{ site.imgbed }}/Bochs/02.png)
 ### 02.制作启动
 如果你不想继续看此教程  你可以打开在下载好的bochs配置压缩包里面的教程文档，并关掉此页面。  
       
