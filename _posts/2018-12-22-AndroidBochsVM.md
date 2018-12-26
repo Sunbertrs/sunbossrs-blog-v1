@@ -5,7 +5,7 @@ subtitle: '虚拟机是在电脑上运行电脑的机器。虚拟机可运行的
 tags: Windows Android 教程
 keywords: Android Bochs 虚拟机 教程 手机 运行
 category: tech
-cover: https://coding.net/u/sunbossrs/p/gotblogdowner/git/raw/img/bochs/cover.png
+cover: https://coding.net/u/sunbossrs/p/gotblogdowner/git/raw/img/bochs/cover.jpg
 ---
 使用Bochs比Limbo好很多。我们用Bochs。  
 
