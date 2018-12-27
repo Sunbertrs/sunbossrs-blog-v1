@@ -1,12 +1,14 @@
 ---
 layout: post
 title: '在安卓手机运行Bochs虚拟机'
-subtitle: '虚拟机是在电脑上运行电脑的机器。虚拟机可运行的系统分很多种。比如说linux或者是WINDOWS。但你们可能没有听说过在手机上运行虚拟机。不过我们一搜的话啊，其实手机上可运行的虚拟机支持的软件也只有limbo或者是bochs。这篇教程进来教你们如何在手机上运行Bochs虚拟机。'
+subtitle: '虚拟机是在电脑上运行电脑的机器。虚拟机可运行的系统分很多种。'
 tags: Windows Android 教程
 keywords: Android Bochs 虚拟机 教程 手机 运行
 category: tech
 cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/cover.jpg
 ---
+### 前言
+众所周知，虚拟机其实就是运行在电脑里的机器。因为感觉太梦幻[滑稽]所以被称呼为虚拟机器(Virtual_Machine)简称VM。
 使用Bochs比Limbo好很多。我们用Bochs。  
 
 我们先从[这个链接](https://pan.baidu.com/s/1LdY6jq8AUrWjqGrQjPdQEw)里下载Bochs或Limbo。（建议不要用Limbo，因为不稳定。）  
