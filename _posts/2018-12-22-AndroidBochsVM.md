@@ -30,11 +30,11 @@ cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/c
   
 之后解压`Bochs配置包.zip`，把名字为`SDL`的文件夹移到*内部储存*目录，之后，安装 *包* 内的`InstallBochs.apk`。  
 
-![pic]({{ site.imgbed }}/img/bochs/03.png)  
+![pic]({{ site.imgbed }}/img/Bochs/03.png)  
 
-![pic]({{ site.imgbed }}/img/bochs/04.png)  
+![pic]({{ site.imgbed }}/img/Bochs/04.png)  
 
-![pi]({{ site.imgbed }}/img/bochs/05.png)  
+![pic]({{ site.imgbed }}/img/Bochs/05.png)  
 
 ![pic]({{ site.imgbed }}/img/bochs/06.png)  
   
