@@ -58,8 +58,12 @@ cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/c
 现在已经完成了！当你装好`Bochs`后，他会显示在手机桌面。点击它并启动。  
   
 使用`BochsCore`的人可以自由设置*内存*和*其他硬件*。  
-  
+       
+
+   
 ### 使用教程
+*请注意，这里我说的是Bochs而不是BochsCore。BochsCore操作鼠标是使用屏幕点击。我不大知道。)*  
+  
 按下`音量+`来对鼠标进行`左键`  
   
 按下`音量-`来对鼠标进行`右键`  
