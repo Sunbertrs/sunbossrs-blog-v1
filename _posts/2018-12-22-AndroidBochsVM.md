@@ -36,7 +36,7 @@ cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/c
 
 ![pic]({{ site.imgbed }}/img/Bochs/05.png)  
 
-![pic]({{ site.imgbed }}/img/bochs/06.png)  
+![pic]({{ site.imgbed }}/img/Bochs/06.png)  
   
 把`go.img`放到 `内部储存/SDL/` 文件夹根目录。
 
