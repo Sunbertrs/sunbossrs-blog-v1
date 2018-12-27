@@ -37,7 +37,7 @@ cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/c
 ![pic]({{ site.imgbed }}/img/Bochs/04.png)  
 
 ![pic]({{ site.imgbed }}/img/Bochs/05.png)  
-
+↓移到*内部储存*
 ![pic]({{ site.imgbed }}/img/Bochs/06.png)  
 
 ![]({{ site.imgbed }}/img/Bochs/07.png)
@@ -48,9 +48,9 @@ cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/c
 ![]({{ site.imgbed }}/img/Bochs/09.png)
 
 ![]({{ site.imgbed }}/img/Bochs/10.png)
-↓移到*内部储存*
-![]({{ site.imgbed }}/img/Bochs/11.png)
 
+![]({{ site.imgbed }}/img/Bochs/11.png)
+↓我这里直接到*内部储存/SDL*目录了
 ![]({{ site.imgbed }}/img/Bochs/12.png)
 
 ![]({{ site.imgbed }}/img/Bochs/13.png)
