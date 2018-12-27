@@ -44,6 +44,16 @@ cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/c
 把`go.img`放到 `内部储存/SDL/` 文件夹根目录。
 
 ![]({{ site.imgbed }}/img/Bochs/08.png)
+
+![]({{ site.imgbed }}/img/Bochs/09.png)
+
+![]({{ site.imgbed }}/img/Bochs/10.png)
+↓移到*内部储存*
+![]({{ site.imgbed }}/img/Bochs/11.png)
+
+![]({{ site.imgbed }}/img/Bochs/12.png)
+
+![]({{ site.imgbed }}/img/Bochs/13.png)
 ### 03.大功告成！
 现在已经完成了！当你装好`Bochs`后，他会显示在手机桌面。点击它并启动。  
   
