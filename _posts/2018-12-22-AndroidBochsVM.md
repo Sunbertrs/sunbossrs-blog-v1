@@ -8,11 +8,19 @@ category: tech
 cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/cover.jpg
 ---
 ### 前言
-众所周知，虚拟机其实就是运行在电脑里的机器。因为感觉太梦幻[滑稽]所以被称呼为虚拟机器(Virtual_Machine)简称VM。
-使用Bochs比Limbo好很多。我们用Bochs。  
+众所周知，虚拟机其实就是运行在电脑里的机器。因为感觉太梦幻[滑稽]所以被称呼为虚拟机器(Virtual Machine)简称VM。  
+  
+● 什么鬼？虚拟机运行在手机里？  
+○ 那肯定了。虚拟机也可以运行在手机里的哦。  
+  
+在这篇文章里，我讲讲解如何使用Bochs来运行虚拟机。  
+因为使用Bochs比Limbo好很多，所以我们用Bochs。使用Limbo来运行虚拟机可以，但可能会很容易闪退。  
+  
+[x] 配置包  
+[x] 系统镜像  
 
-我们先从[这个链接](https://pan.baidu.com/s/1LdY6jq8AUrWjqGrQjPdQEw)里下载Bochs或Limbo。（建议不要用Limbo，因为不稳定。）  
-这链接里说的提取码是jip7。 
+[从这里](https://pan.baidu.com/s/1LdY6jq8AUrWjqGrQjPdQEw)下载Bochs或Limbo。（再次推荐用Bochs，因为Limbo不稳定。）  
+下载链接里要输入提取码。提取码是jip7。 
   
 *Let's get start!*  
   
