@@ -67,6 +67,8 @@ cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/c
   
 使用`BochsCore`的人可以自由设置*内存*和*其他硬件*。  
 
+![]({{ site.imgbed }}/Bochs/14.png)  
+![]({{ site.imgbed }}/Bochs/15.png)
 ### 使用教程
 *请注意，这里我说的是Bochs而不是BochsCore。BochsCore操作鼠标是使用屏幕点击。我不大知道。)*  
   
