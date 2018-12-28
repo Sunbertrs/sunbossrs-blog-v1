@@ -16,10 +16,7 @@ cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Bochs/c
 在这篇文章里，我讲讲解如何使用Bochs来运行虚拟机。  
 因为使用Bochs比Limbo好很多，所以我们用Bochs。使用Limbo来运行虚拟机可以，但可能会很容易闪退。  
   
-[x] 配置包  
-[x] 系统镜像  
-
-[从这里](https://pan.baidu.com/s/1LdY6jq8AUrWjqGrQjPdQEw)下载Bochs或Limbo。（再次推荐用Bochs，因为Limbo不稳定。）  
+[从这里](https://pan.baidu.com/s/1LdY6jq8AUrWjqGrQjPdQEw)下载Bochs和镜像。（再次推荐用Bochs，因为Limbo不稳定。）  
 下载链接里要输入提取码。提取码是jip7。 
   
 *Let's get start!*  
