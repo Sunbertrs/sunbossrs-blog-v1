@@ -1,35 +1,32 @@
 # Site settings 配置站点
 title: 'A5耀日庄主的博客'
-description: '一个虽然不出名，但是好的实况主 的博客'
+description: '珍惜今下的阳光，做回之前做的事。再来看看我的文章，我们都是朋友。'
 keyword: 'minecraft / 科技 / html / 尝试'
 url: 'https://sunbossrs.github.io' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
 
-# The page cover(background) to use Wrapper Background
-WrapperBg: /assets/img/NoCover-Background.jpg
-
-# Blog article image link(image bed)
+# Blog articles' image bed link(image bed)
 imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master
 
 # Navigation links 导航
 nav:
   主页: '/'
-  标签: '/tags.html'
-  友链: '/links.html'
-  关于我: '/markdown-page/AboutMe.html'
+  标签: '/Pages/tags.html'
+  友链: '/Pages/links.html'
+  关于我: '/Pages/AboutMe.html'
   下载站: '/MyDownloadStation/index.html'
 
 # Footer 底部信息
 footer:
-  since: 2017 
-  say: 庄主一出手，就只有没有!
+  since: 2016
+  say: '庄主一出手，就知有没有!'
 
 # Author 配置博主信息
 author: '耀日庄主'
 nickname: 'A5耀日庄主'
-bio: '一名虽然不出名但是好的mc实况主，也是一名技术猿.'
+bio: '一名好的mc实况主，也是一名技术猿.'
 avatar: 'https://avatars0.githubusercontent.com/u/38691765?s=460&v=4'
 
 # Search 搜索
@@ -68,7 +65,7 @@ social-share: true
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
 
-# post idea 投稿文章 reward -> post_content
+# Make power
 reward: 
   enable: true
 
