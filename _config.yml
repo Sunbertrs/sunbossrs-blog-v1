@@ -8,12 +8,13 @@ url: 'https://sunbossrs.github.io' # your host
 baseurl: ''
 
 # Blog articles' image bed link(image bed)
-imgbed: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master
+imgbed: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master'
 
 # Navigation links 导航
 nav:
   主页: '/'
   标签: '/Pages/tags.html'
+  网站信息: '/Pages/Information.html'
   友链: '/Pages/links.html'
   关于我: '/Pages/AboutMe.html'
   下载站: '/MyDownloadStation/index.html'
