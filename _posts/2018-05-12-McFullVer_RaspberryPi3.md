@@ -1,5 +1,5 @@
-﻿---
-title: '在树莓派3里运行minecraft full version'
+---
+title: '在树莓派3里运行我的世界1.12.1'
 subtitle: '用的是我开源的源'
 layout: post
 category: tech
@@ -41,7 +41,7 @@ sudo nano /boot/config.txt
 ```bash
 disable_overscan=1
 ```
-输入完毕后，我们按下**`ctrl` + `o`**来保存文本。
+输入完毕后，我们按下**`ctrl` + `o`** 来保存文本。
 这时候底部会出现
 ```GNU-linux-nano
 save as : /boot/config.txt
@@ -127,7 +127,7 @@ wget https://gitee.com/srsyrzz/mcfullversion-rpi/raw/master/jar/lwjgl-2.9.4-nigh
 ***
 然后在终端输入
 ```bash
-cd ~/Downloads/ && java -jar OptiFine1.9.jar
+cd ~/Downloads/ && java -jar .jar
 ```
 再次运行mcl
 ```bash
@@ -138,7 +138,7 @@ cd ~/Minecraft && java -jar Minecraft.jar
   
 输入
 ```bash
-cd ~/Minecraft && wget https://m.gitee.com/srsyrzz/mcfullversion-rpi/raw/master/run1.12.1.sh && chmod +x run1.12.1.sh
+cd ~/Minecraft && wget https://gitee.com/srsyrzz/mcfullversion-rpi/raw/master/run1.12.1.sh && chmod +x run1.12.1.sh
 ```
 
 ### 6.配置run.sh
