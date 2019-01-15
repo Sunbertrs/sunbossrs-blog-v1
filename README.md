@@ -4,16 +4,16 @@
 *于2019.01.16进行最后一次更新。*  
   
 - 博客评论用`Gitalk`  
-![pic](https://github.com/tea9/tea9.github.io/raw/master/readme_img/comment.png)   
+![UsingGitalk](https://github.com/tea9/tea9.github.io/raw/master/readme_img/comment.png)   
   
-- 修复`prism.js`让他在白天显示的更好。(到prismjs.com来下载源码。)   
-![pic](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/prismjsfix-20180707.png)  
+- 修复`prism.js`让他在白天显示的更好。(到prismjs.com。)   
+![FixPrismJs](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/prismjsfix-20180707.png)  
   
 - 添加`Creative Commons 4.0`.  
-![pic](https://github.com/tea9/tea9.github.io/raw/master/readme_img/cc.png)  
+![AddCreativeCommons](https://github.com/tea9/tea9.github.io/raw/master/readme_img/cc.png)  
   
 - 添加`网站人数统计` and `末尾名言警句`.   
-![pic](https://coding.net/u/SunbossRS/p/GotBloGgDowner/git/raw/master/img/.png)  
+![AddWebsiteSmartFeatures](https://coding.net/u/SunbossRS/p/GotBloGgDowner/git/raw/master/img/.png)  
 
 ### 贡献人员
 - [sctop](https://github.com/sctop)  
