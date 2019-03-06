@@ -6,6 +6,7 @@ keywords: windows linux kali 教程 黑
 categoty:tech
 cover: 'https://www.kali.org/wp-content/uploads/2019/02/kali-release-2019-600x284.png'
 ---
+
 ### 前言
 哈喽大家好。我有好久没更新博客了。  
 在这段时间里，我变得非常黑。因为我在为kali做准备。  
