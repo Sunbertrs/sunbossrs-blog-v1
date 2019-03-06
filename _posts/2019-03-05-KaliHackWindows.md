@@ -24,7 +24,7 @@ Metasploit是一个安全渗透软件。Kali可以在终端*root*里输入:
 msfconsole
 ```
 来打开它。
-![]({{ site.imgbed }/kalihack/01.png)
+![]({{ site.imgbed }}/kalihack/01.png)
 
 ### 02. 搜索Xp漏洞
 也正是msf是一个安全渗透软件，所以我们可以查看漏洞。输入:
