@@ -3,7 +3,7 @@ layout: post
 title: 用kali来黑掉windows
 tags: windows linux 教程
 keywords: windows linux kali 教程 黑
-categoty:tech
+categoty: tech
 cover: 'https://www.kali.org/wp-content/uploads/2019/02/kali-release-2019-600x284.png'
 ---
 ### 前言
