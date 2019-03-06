@@ -14,8 +14,11 @@ cover: 'https://www.kali.org/wp-content/uploads/2019/02/kali-release-2019-600x28
   
 ### 准备材料
 - Kali电脑一部
-- 其他的没装防火墙或防火墙不稳定的电脑一部
+- 没装防火墙和360卫士或防火墙不稳定的电脑一部
   - (可选)摄像头
   - (可选)麦克风
 
-### 01.
+### 01.开启Metasploit
+Metasploit是一个安全渗透软件。Kali可以在终端*root*里输入
+msfconsole
+来打开它。
