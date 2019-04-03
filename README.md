@@ -1,19 +1,22 @@
 ## 耀日庄主的博客
 ![Workflow](https://img.shields.io/badge/Workflow-activating-brightgreen.svg)  
   
-*于2019.01.16进行最后一次更新。*  
+*最後更新於2019.04.03。*  
   
-- 博客评论用`Gitalk`  
-![UsingGitalk](https://github.com/tea9/tea9.github.io/raw/master/readme_img/comment.png)   
-  
-- 修复`prism.js`让他在白天显示的更好。(到prismjs.com。)   
-![FixPrismJs](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img/prismjsfix-20180707.png)  
-  
-- 添加`Creative Commons 4.0`.  
-![AddCreativeCommons](https://github.com/tea9/tea9.github.io/raw/master/readme_img/cc.png)  
-  
-- 添加`网站人数统计` and `末尾名言警句`.   
-![AddWebsiteSmartFeatures](https://coding.net/u/SunbossRS/p/GotBloGgDowner/git/raw/master/img/.png)  
+- 修复`prism.js`让他在白天显示的更好。   
+![FixPrismJs](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/codehl20180707.png)  
+   
+- `Information``Technology``Minecraft`*Contribution*.   
+![itc](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/infotechmc.png)
+
+- 更新快速。  
+![updfast](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/useupd.png)  
+
+- 谢谢赞赏。  
+![reward](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/qrcode-reward.png)
+
+- 谢谢进群。
+![jointk](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/qrcode-tkgroup.png)
 
 ### 贡献人员
 - [sctop](https://github.com/sctop)  
