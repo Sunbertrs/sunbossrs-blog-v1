@@ -15,7 +15,7 @@
 - 谢谢赞赏。  
 ![reward](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/qrcode-reward.jpg)
 
-- 谢谢进群。
+- 谢谢进群。  
 ![jointk](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/qrcode-tkgroup.jpg)
 
 ### 贡献人员
