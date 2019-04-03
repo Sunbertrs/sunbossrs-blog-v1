@@ -6,7 +6,7 @@
 - 修复`prism.js`让他在白天显示的更好。   
 ![FixPrismJs](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/codehl20180707.png)  
    
-- `Information``Technology``Minecraft`*Contribution*.   
+- `Information` `Technology` `Minecraft`*Contribution*.   
 ![itc](https://github.com/sunbossrs/sunbossrs.github.io/raw/master/assets/img_rm/infotechmc.png)
 
 - 更新快速。  
