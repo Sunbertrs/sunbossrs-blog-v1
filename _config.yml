@@ -1,51 +1,51 @@
-# Site settings 配置站点
+# 配置站点
 title: 'A5耀日庄主的博客'
 description: '珍惜今下的阳光，做回之前做的事。再来看看我的文章，我们都是朋友。'
 keyword: 'minecraft / 科技 / html / 尝试'
 url: 'https://sunbossrs.github.io' # your host
 
-# if you don't need baseurl, you should leave this value blank.
+# 基层路径
 baseurl: ''
 
-# Blog articles' image bed link(image bed)
+# 博客图床设置链接
 imgbed: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master'
 
-# Navigation links 导航
+# 导航
 nav:
   主页: '/'
-  标签: '/Pages/tags.html'
+  标签: '/tags.html'
   网站信息: '/Pages/Information.html'
   友链: '/Pages/links.html'
   关于我: '/Pages/AboutMe.html'
   下载站: '/MyDownloadStation/index.html'
 
-# Footer 底部信息
+# 底部信息
 footer:
   since: 2016
   say: '庄主一出手，就知有没有!'
 
-# Author 配置博主信息
+# 配置博主信息
 author: '耀日庄主'
-nickname: 'A5耀日庄主'
-bio: '一名好的mc实况主，也是一名技术猿.'
-avatar: 'https://avatars0.githubusercontent.com/u/38691765?s=460&v=4'
+nickname: 'SunbossRS'
+bio: '一名MC主UP主实况主技术主博客主世界主_'
+avatar: '/assets/ing/profile.jpg'
 
-# Search 搜索
+# 搜索功能
 search: true
 
-# Night mode 夜间模式
+# 夜间模式
 nightMode: true
 
-# Back to top 回到顶部by ray-eldath
+# 回到顶部按钮 by ray-eldath
 b2t: true
 
-# Comments 评论功能
+# 评论功能
 comments:
-  # disqus comments by liaokeyu
+  # 使用disqus评论器 by liaokeyu
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
-  # gitalk comments by tea9
+  # 使用gitalk评论器 by tea9
   gitalk: true
   gitalk_clientID: '800a929ad18c8e90fdbc'
   gitalk_Secret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58'
@@ -54,52 +54,52 @@ comments:
   gitalk_admin: 'SunbossRS'
   distractionFreeMode: true
   
-  # livere by ray-eldath
+  # 使用livere评论器 by ray-eldath
   livere: false
   
-# MathJax 公式支持 by Ray-Eldath
+# MathJax公式支持 by Ray-Eldath
 mathjax: false
 
-# Share 分享功能
+# 分享功能
 social-share: true
 
-# theme color 主题皮肤
-theme-color: 'default'  # pink or default
+# 主题皮肤
+theme-color: 'blue'  # pink or default
 
-# Make power
+# 赞赏
 reward: 
   enable: true
 
-# Post header background patterns 选择背景样板
+# 选择背景样板
 postPatterns: 'circuitBoard'
 
-# Tags 设置标签
-recommend-tags: true # whether or not display recommend-tags on the sidebar
+# 设置标签
+recommend-tags: true  # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
-# Build settings 建站设置
+# 建站设置
 paginate: 7
 paginate_path: 'page:num'
 exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
-# SNS settings 配置社交网站
-#支持这些: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+# 配置社交网站SNS
+#支持 email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/sunbossrs'
   email: '//yaorizhuangzhu@163.com'
   twitter: '//twitter.com/mcsunboss'
 
-# Markdown
+# Markdown编译器设置
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
   enable_codetray:  true
 
-# RSS
+# RSS订阅
 RSS: false
 
-# Permalink 文章网站
+# 文章网站格式
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
 permalink: /:year/:month/:day/:title.html
 
