@@ -4,33 +4,21 @@ title: '友链'
 header-img: '{{ site.imgbed }}/sunup.jpg'
 ---
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-
-<style type="text/css">
-      address {
-        color: #66B3FF;
-        font-size:13px;
-      }
-      space {
-        height: 9px;
-      }
-</style>
   
 <li>
    <span class="tag-name" id="minecraftlink">我的世界链接</span>   
       {% for minecraftlink in site.data.links.mclink %}
       <br />
-       <p><i class='fa fa-telegram'></i><space /><a href="{{ minecraftlink[1] }}">{{ minecraftlink[0] }}</a>
+       <p><i class='fa fa-telegram'></i><a href="{{ minecraftlink[1] }}">{{ minecraftlink[0] }}</a>
       {% endfor %}
 </li>
-<br>
 <li>
    <span class="tag-name" id="technologylink">技术好友的链接</span>
       {% for technologylink in site.data.links.Technologyfriendlnk %}
       <br />
-       <p><i class='fa fa-paper-plane'></i><space /><a href="{{ technologylink[1] }}">{{ technologylink[0] }}</a>
+       <p><i class='fa fa-paper-plane'></i><a href="{{ technologylink[1] }}">{{ technologylink[0] }}</a>
       {% endfor %}
 </li>
-<br>
 <li>
    <span class="tag-name" id="othertype">其他类型的链接</span>
         {% for othertype in site.data.links.Othertype %}
@@ -41,23 +29,18 @@ header-img: '{{ site.imgbed }}/sunup.jpg'
 <br>
 <li>
     <span class="tag-name" id="change-friendlink"> 让{{ site.author }}收录你的友情链接？ </span>
-    如果你真的要那样的话，请确保你的网站有以下条件:<br>
-    1. 你的博客或网站不能有不良信息。  <br>
-    2. 网站要指向 <code>sunbossrs.github.io</code> 才行哦。<br>  
-    3. 告诉我你要加我友链。在下面的SunTalk里发送如下内容，我就可以加你的友链。<br>
-    <address>我叫xxx，我要申请添加友链。我的网站是https://xxxxx。</address>
-    <address>我的网站名字是xxx.</address>
-    4. 如果你的友链需要图标，可以 <a href='/https://avatars3.githubusercontent.com/u/38691765?s=96&v=4'>点击这里</a> 获得我的icon.*  
+    你可以随时随地的来找我添加链接。但要确保你的网站没有不良信息。<br>
+    另外，你还可以通过QQ和我谈加我的链接，或者是在下面的聊天框里面来跟我互换链接。<br>
+    你可以通过每一篇文章都尾部里面赞赏按钮的链接来进入QQ群。如果进聊天框里的话，请你输入以下内容。<br>
+    <address>我要申请添加友链。我叫___，我的网站是https://___。</address>
+    其实你还可以在聊天框里闲聊～ 
 </li>
-    <br>
 <li>
-    <span class="tag-name" id="MyFriendLinkHasBadThings"> 我这里的友链出现了不良内容？ </span>
-    欢迎大家随时监督我的友链，如果你们看到我的友链里出了什么不良信息，大家可以随时反馈给我。  <br>
-    反馈方法：  <br>
-    在下面的SunTalk里输入内容:  <br>
-    <address>我要举报*要举报的友链名称或网址*，因为该网址有不良信息。</address>
-    <address>原因：是因为xxx</address>
-    <address>联系方式：QQ/微信</address>
+    <span class="tag-name" id="MyFriendLinkHasBadThings"> 我的友链出现了意外？ </span>
+    欢迎大家随时监督我的友链，如果你们看到我的友链里出了什么意外，大家可以随时在QQ或聊天框反馈给我。  <br>
+    在聊天框里输入：  <br>
+    <address>___网站出现了意外，请麻烦庄主尽快修复它。</address>
+    <address>原因：___</address>
 </li>
     <br>   
 <li>
