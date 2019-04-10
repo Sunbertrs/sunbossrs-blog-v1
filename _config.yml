@@ -1,6 +1,6 @@
 # 配置站点
-title: 'A5耀日庄主的博客'
-description: '珍惜今下的阳光，做回之前做的事。再来看看我的文章，我们都是朋友。'
+title: '耀庄的博客'
+description: '珍惜今下的阳光，做回之前做的事。<br> 再来看看我的文章，我们都是游戏好友而已！'
 keyword: 'minecraft / 科技 / html / 尝试'
 url: 'https://sunbossrs.github.io' # your host
 
@@ -8,7 +8,7 @@ url: 'https://sunbossrs.github.io' # your host
 baseurl: ''
 
 # 页面背景填充
-Tickbg: '/assets/img-lib/dark-tickbg.jpg
+Tickbg: '/assets/img-lib/dark-tickbg.jpg'
 
 # 博客图床设置链接
 imgbed: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master'
