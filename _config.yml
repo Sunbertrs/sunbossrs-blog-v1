@@ -7,6 +7,9 @@ url: 'https://sunbossrs.github.io' # your host
 # 基层路径
 baseurl: ''
 
+# 页面背景填充
+Tickbg: '/assets/img-lib/dark-tickbg.jpg
+
 # 博客图床设置链接
 imgbed: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master'
 
