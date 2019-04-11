@@ -2,14 +2,16 @@
 layout: default
 ---
 
-
+{% include head.html %}
 
   <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}" data-theme="{{ site.theme-color }}">
-    <div class="filter"></div>
+  <!--
+	  <div class="filter"></div>
+  -->
       <div class="post-cover" style="background: url('{{ site.Tickbg }}') center no-repeat; background-size: cover;"></div>
 	  <br /><br /><br /><br /><br /><br /><br /><br /><br />
 	  <h1 style="text-align: center;">{{ page.title }}</h2>
-</header>
+  </header>
 
 <!--
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
