@@ -30,8 +30,8 @@ footer:
 # 配置博主信息
 author: '耀日庄主'
 nickname: 'SunbossRS'
-bio: '一名MC主UP主实况主技术主博客主世界主_'
-avatar: '/assets/ing/profile.jpg'
+bio: '一名MC主UP主实况主技术主博客主世界主 _'
+avatar: '/assets/img-lib/profile-avatar.jpg'
 
 # 搜索功能
 search: true
@@ -104,7 +104,7 @@ RSS: false
 
 # 文章网站格式
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month-:day/:title.html
 
 # Plugins 
 plugins: [jekyll-paginate]
