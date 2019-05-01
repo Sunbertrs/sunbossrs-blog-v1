@@ -4,7 +4,7 @@ title: 用kali来黑掉windows
 tags: windows linux 教程
 keywords: windows linux kali 教程 黑
 categoty: tech
-cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/cover.png'
+cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/cover.jpg'
 ---
 ### 前言
 哈喽大家好。我有好久没更新博客了。  
