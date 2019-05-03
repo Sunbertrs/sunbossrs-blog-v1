@@ -4,6 +4,7 @@ title: '在Msf黑电脑的专用命令'
 subtitle: 'Metasploit'
 tags: linux 命令 shell
 keywords: Msf Metasploit shell 黑电脑 专用
+cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/MsfCmd/cover.jpg
 ---
 ### 使用vnc查看桌面
 ```msf
