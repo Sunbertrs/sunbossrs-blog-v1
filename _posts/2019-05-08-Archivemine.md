@@ -32,6 +32,8 @@ cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/archiv
 *话说我在干什么你们是心知肚明的哈*  
 ![]({{ site.imgbed }}/img/archivemine/05.jpg)
 输入完并按下绿色键后，你会发现你进入了一个*Prepare*字样的页面，你在这个页面待个两三四秒，就点击页面上的`你的账户名/仓库名`这里。  
+![]({{ site.imgbed }}/img/archivemine/06.jpg)
 
 ### 05. 完成！
 没错，你回到了原来的新建仓库的页面。可是，*已经发生了天翻地覆的改变*。现在，你就相当于*在线clone别人的仓库，然后据为己有了*。
+![]({{ site.imgbed }}/img/archivemine/07.jpg)
