@@ -5,7 +5,7 @@ keyword: 'minecraft / 科技 / html / 尝试'
 url: 'https://sunbertrs.github.io/sunbossrs-blog-v1' # your host
 
 # 基层路径
-baseurl: ''
+baseurl: 'sunbossrs-blog-v1'
 
 # 页面背景填充
 Tickbg: '/assets/img-lib/dark-tickbg.jpg'
